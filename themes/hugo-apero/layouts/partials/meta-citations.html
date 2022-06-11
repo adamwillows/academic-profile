@@ -1,0 +1,79 @@
+{{ $permalink := .Permalink }}
+{{ $page := . }}                           <!--save current page-->
+{{ $section := $page.CurrentSection }}     <!--save branch section-->
+
+
+<!--meta tags-->
+{{ if .Params.author }}
+<meta name="citation_author" content="{{ .Params.author }}">
+<meta name="dc.creator" content="{{ .Params.author }}">{{ end }}
+{{ if .Params.author_institution  }}
+<meta name="citation_author_institution" content="{{ .Params.author_institution }}"> {{ end }}
+{{ if .Params.orcid }}
+<meta name="citation_author_orcid" content="{{ .Params.orcid }}">{{ end }}
+{{ if .Params.second_author }}
+<meta name="citation_author" content="{{ .Params.second_author }}">
+<meta name="dc.creator" content="{{ .Params.second_author }}">{{ end }}
+{{ if .Params.third_author }}
+<meta name="citation_author" content="{{ .Params.third_author }}">
+<meta name="dc.creator" content="{{ .Params.third_author }}">{{ end }}
+{{ if .Params.other_authors }}
+<meta name="citation_author" content="{{ .Params.other_authors }}">
+<meta name="dc.creator" content="{{ .Params.other_authors }}">{{ end }}
+{{ if .Params.title }}
+<meta name="citation_title" content="{{ .Params.title }}">
+<meta name="dc.title" content="{{ .Params.title }}">{{ end }}
+{{ if .Params.date_published }}
+<meta name="citation_publication_date" content="{{ .Params.date_published }}">
+<meta name="dc.date" content="{{ .Params.date_published }}">
+<meta name="prism.publicationDate" content="{{ .Params.date_published }}">{{ end }}
+{{ if .Params.journal_title }}
+<meta name="citation_journal_title" content="{{ .Params.journal_title }}">
+<meta name="dc.source" content="{{ .Params.journal_title }}">
+<meta name="prism.publicationName" content="{{ .Params.journal_title }}">{{ end }}
+{{ if .Params.doi }}
+<meta name="citation_doi" content="{{ .Params.doi }}">
+<meta name="dc.identifier" scheme="DOI" content="{{ .Params.doi }}">
+<meta name="prism.doi" scheme="DOI" content="{{ .Params.doi }}">
+<meta name="DOI" content="{{ .Params.doi }}">{{ end }}
+{{ if .Params.isbn }}
+<meta name="citation_isbn" content="{{ .Params.isbn }}">
+<meta name="dc.identifier" scheme="ISBN" content="{{ .Params.isbn }}">
+<meta name="prism.isbn" content="{{ .Params.isbn }}">{{ end }}
+{{ if .Params.issn }}
+<meta name="citation_issn" content="{{ .Params.issn }}">
+<meta name="dc.identifier" scheme="ISSN" content="{{ .Params.issn }}">
+<meta name="prism.issn" content="{{ .Params.issn }}">{{ end }}
+{{ if .Params.volume }}
+<meta name="citation_volume" content="{{ .Params.volume }}">
+<meta name="prism.volume" content="{{ .Params.volume }}">{{ end }}
+{{ if .Params.issue }}
+<meta name="citation_issue" content="{{ .Params.issue }}">
+<meta name="prism.issue" content="{{ .Params.issue }}">{{ end }}
+{{ if .Params.firstpage }}
+<meta name="citation_firstpage" content="{{ .Params.firstpage }}">
+<meta name="prism.startingPage" content="{{ .Params.firstpage }}">{{ end }}
+{{ if .Params.lastpage }}
+<meta name="citation_lastpage" content="{{ .Params.lastpage }}">
+<meta name="prism.endingPage" content="{{ .Params.lastpage }}">{{ end }}
+{{ if .Params.abstract }}
+<meta name="citation_abstract" content="{{ .Params.abstract }} {{ .Params.abstract_para2 }}">
+<meta name="dc.abstract" content="{{ .Params.abstract }} {{ .Params.abstract_para2 }}">{{ end }}
+{{ if .Params.publisher }}
+<meta name="citation_publisher" content="{{ .Params.publisher }}">
+<meta name="dc.publisher" content="{{ .Params.publisher }}">{{ end }}
+{{ if .Params.pdf }}
+<meta name="citation_pdf_url" content="{{ .Permalink }}{{ .Params.pdf }}">{{ end }}
+{{ if .Params.description }}
+<meta name="dc.description" content="{{ .Params.description }}">{{ end }}
+{{ if .Params.language }}
+<meta name="citation_language" content="{{ .Params.language }}">
+<meta name="dc.language" content="{{ .Params.language }}">{{ end }}
+<meta name="citation_fulltext_html_url" content="{{ .Permalink }}">
+<meta name="prism.url" content="{{ .Permalink }}">
+
+<!--meta citation_reference tags-->
+
+{{ if (fileExists (path.Join .File.Dir "/references.html")) }}
+{{ delimit (slice (readFile (path.Join .File.Dir "/references.html"))) "" }} {{ end }}
+

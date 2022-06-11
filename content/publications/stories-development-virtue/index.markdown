@@ -1,0 +1,469 @@
+---
+# Publication details
+# Comment out and use the author fields as necessary. author, first_author_surname and first_author_names are set by default in /content/_index.md, so only use these fields here if the first author differs from the default.
+# author:
+# first_author_surname:
+# first_author_names:
+author_institution: University of Notre Dame
+# second_author:
+# third_author:
+# other_authors:
+
+pubtype: journal # Enter publication type - journal, chapter, book, presentation, website.
+title: "Stories and the development of virtue"
+date_published: 2017-09-01 # Field for citation details and publication metadata.
+
+date: 2017-09-01 # Posting date of the page
+description: Stories can aid moral development and education by providing moral exemplars and giving content to thick moral concepts.
+subtitle: ''
+excerpt: ''
+date_accessed: # Date online publication was accessed.
+draft: no
+url: ''
+doi: 10.1080/17449642.2017.1356664
+journal_title: Ethics and Education
+volume: '12'
+issue: '3'
+issn: '1744-9650'
+abstract: From folk tales to movies, stories possess features which naturally suit them to contribute to the growth of virtue. In this article I show that the fictional exemplars help the learner to grasp the moral importance of internal states and resolves a tension between existing kinds of exemplars discussed by virtue ethicists. Stories also increase the information conveyed by virtue terms and aid the growth of prudence. Stories can provide virtuous exemplars, inform learners as to the nature of the virtues and offer practice in developing situational judgement. As such they are a significant resource for virtue ethics and moral education.
+firstpage: '337'
+lastpage: '350'
+book_title: ''
+editor: ''
+address: ''
+publisher: ''
+translator: ''
+isbn: ''
+event: ''
+website_title: ''
+bibliography: 2017-stories-development-virtue.bib # .bib file in page folder
+pdf: willows-2017-stories-development-virtue.pdf #.pdf file in page folder
+language: 'en'
+
+# Page details
+sidebar: 
+  description:
+  author: 
+  text_link_label:
+  text_link_url:
+  show_sidebar_adunit: false # show ad container
+  image_alt_text: 'fantasy girl in book watering trees'
+citation_panel: true # Displays citation panel in sidebar; true or false
+link-citations: true
+include_citation_metadata: true
+tags:
+  - Exemplars
+  - Fiction
+  - Stories
+  - Learning
+  - Virtue
+  - Character
+  - Moral Development
+categories:
+  - Science-engaged Theology
+  - Moral Character
+layout: single-sidebar
+links: # These links will appear on this page
+- icon: doi
+  icon_pack: ai
+  color: null
+  name: version of record
+  url: https://doi.org/10.1080/17449642.2017.1356664 # Complete link to doi
+- icon: file-pdf
+  color: red
+  icon_pack: fas
+  name: download
+  url: /publications/stories-development-virtue/willows-2017-stories-development-virtue.pdf #Complete link to pdf in page folder
+list_links: #These links will appear under the title of this page on the main publications section page
+- icon: doi
+  icon_pack: ai
+  color: null
+  name: version of record
+  url: https://doi.org/10.1080/17449642.2017.1356664 # Complete link to doi
+- icon: file-pdf
+  color: red
+  icon_pack: fas
+  name: download
+  url: /publications/stories-development-virtue/willows-2017-stories-development-virtue.pdf #Complete link to pdf in page folder
+- icon: book
+  icon_pack: fas
+  name: read online
+  url: /publications/stories-development-virtue/ # Complete link to page folder
+
+---
+
+## 1. Introduction
+
+In this article, I argue that stories – of all kinds – are an excellent and resource for virtue ethics and the development of virtue. I begin with a brief look at the importance of symbol use and imagination in evolutionary accounts of human development. These accounts suggest that the imagination and stories are an important part of the good life. I then focus on two features of stories which make them especially useful for work on virtue development. The first is the presence of unique kinds of moral exemplars. These exemplars offer access to the internal states of virtuous agents and bridge a gap between the hypothetical and actual exemplars used elsewhere in virtue ethics. The second important feature of stories is the presence of extremely ‘thick’ moral concepts. These aid language acquisition but more importantly help the learner to develop prudence, which is a necessary component of virtuous action.
+
+## 2. Human nature and imagination
+
+In the following sections, I argue that theoretical treatments of virtue ethics can benefit from stories by using them in accounts of virtue development. I want to begin, however, by making a stronger claim: that work on virtue *ought* to be using stories, and it is poorer without them. Why should this be the case? It has to do with the foundational question of virtue ethics: ‘What is the good life?’ Aristotle ([Aristotle 2004, 1097b 30](#ref-aristotle2004)) is clear that in asking this question, he is ‘looking for man’s *proper* function.’ To understand how humans can excel *qua* human, it is not enough to understand those necessary requirements for success which are shared with other things. Life is shared with plants; sentient life, with ‘horses and cattle and animals of all kinds’ ([Aristotle 2004, 1098a 5](#ref-aristotle2004)). To succeed as a sentient life form, then, is not sufficient to succeed as a human (although it is necessary). In order to understand what the good life consists of, the virtue ethicist must not just understand what it is to be human. They must understand what it is to be *distinctively* human. If stories are a necessary part of the distinctively human life they will therefore necessarily feature in any complete account of the good life.
+
+In fact, it appears that there is good evidence that stories are indeed a unique feature of human activity. One of the tasks of evolutionary anthropology is precisely to identify those traits that made and make humans distinctive. And within this field stories, as features of the imagination, are connected to a vital component of human development. This is symbolic thought.
+
+The capacity for humans to think symbolically is one of the crucial developments in our evolutionary history. Genetic information is not the only thing transmitted between generations; nor is it the only thing which impacts on an organism’s fitness. For example, parents may pass on behavioural traits to their offspring which affect the success of that offspring ([Laland et al. 2015](#ref-laland2015)). Behavioural patterns, beliefs and perceptions may be drivers and not just products of evolutionary processes. In particular, our ability to give symbolic meaning to things means that imagination becomes an important part of our development:
+
+> Existing in a semiotic landscape where the material and social elements have symbolic properties, and where communication and action can potentially involve, and be influenced by, representation of both past and future behaviour, and perception, implies the possession of an imagination… it is part of the human toolkit.’ ([Fuentes 2014, 10](#ref-fuentes2014)).
+
+On an evolutionary account, stories can be expected to form part of our nature and our development. Stories as art and as a product of the imagination will affect the thoughts, attitudes and behaviour of individuals and communities. Brian Boyd suggests some ways in which this might occur:
+
+> ‘Fiction allows us to extend and refine our capacity for social interaction, especially the key information of character and event – individuals and associates, allies and enemies, goals, obstacles, actions and outcomes – and to metarepresent, to see social information from the perspective of other individuals or other times, places or conditions’ ([Boyd 2009, 192](#ref-boyd2009)).
+
+Stories, for humans, are not an optional extra. The capacity for storytelling was central to our communication from the beginning: ‘our ancestors were developing the capacity to share what was in their minds, to imagine and to share their imaginings. They were developing the capacity for a central facet of all human lives: the ability to tell stories’ ([Fuentes 2017, 205](#ref-fuentes2017)).
+
+Charles Taylor echoes this point in his recent book *The Language Animal*. Stories are indeed a useful way of understanding ourselves, others and the world; but they are also an irreducible and foundational feature of language. Stories provide such a breadth of context and detail that they allow deeper understanding of a situation than simple or abstracted descriptions. Moreover, any attempt to expand those descriptions to do away with the role of the story will be self-defeating. For once we have included all the necessary detail – the histories of the people involved, the environment, the event and its consequences – we will find that we are, after all, telling a story.
+
+> ‘My plea here is to see the telling of stories in fact or fiction as a creative or constitutive feature of language… This constitutive power is of the greatest importance, because it is through story that we make sense of our lives’ ([Taylor 2016, 317](#ref-taylor2016)).
+
+In what follows I focus on fictional stories; but with Taylor, I take the advantages discussed here to apply to non-fictional stories as well. Our imaginative skills are deployed in the recounting of real events as well as fictional ones. It is through this use of imagination and narrative that we are able to concieve of our life as a coherent whole, review our behaviour and imagine possible futures.
+
+In short, symbolic and imaginary thought is one of the key components of human distinctiveness. Stories matter because they are an important expression of human imagination. If the imagination and stories have a fundamental connection to human nature, then on the virtue ethical account they are worthy of attention as components of a successful human life. This is not to say that natural norms constitute moral obligations, but rather that natural norms form the space in which those obligations are determined. Whatever the good life looks like, it must be within the realm of things that humans do ([McDowell 1995](#ref-mcdowell1995)).
+
+## 3. Learning the virtues
+
+I now turn to how stories can contribute to the learning of virtue. It is a standard virtue ethical point that answers to moral problems should highlight not how we should act, but *who we should be* ([Athanassoulis 2013](#ref-athanassoulis2013)). Since our actions flow from our character, the virtuous person should have (among other things) the wisdom to perceive the correct course of action and the will to carry it out. So, for example, Hursthouse’s response to questions about how I should act is that I should become virtuous; *then* I will see how to act ([Hursthouse 1995](#ref-hursthouse1995)). Unlike consequentialist or Kantian concerns, the key virtue ethical question regarding moral guidance is not ‘how should I act?’ but ‘how do I become virtuous?’ This does not, of course, prevent the giving of direct guidance or reference to moral rules; but these things will always be in service to the development of the virtues ([Hursthouse 1996](#ref-hursthouse1996)).
+
+This means that one of the most pressing topics for virtue ethics is that of moral education. It is no coincidence that there is an increasing amount of research in this area, both in accounts of the growth of the virtues and in engagement with work in educational theory ([Athanassoulis 2014](#ref-athanassoulis2014); [Lapsley and Power 2005](#ref-lapsley2005)). However, there is another feature of virtue ethics that makes learning the virtues a potentially tricky prospect. This is that only the virtuous understand what virtue is. Hursthouse explores this in her discussion of moral motivation:
+
+> ‘To the vicious, the virtuous will seem reckless, foolishly self-denying, unrealistically obsessive about promise-keeping and truth. But this is just what we should expect. One’s detailed grasp of what is involved in acting virtuously, in acting for the right reasons, is not separable from one’s grasp of what each of the virtues involves, and one’s grasp of that is not separable from possession of the virtues themselves, at least to some degree’ ([Hursthouse 1999, 130](#ref-hursthouse1999))
+
+Hursthouse is saying that possession of the virtues is a necessary condition for understanding the virtues. Skill in moral discernment and reasoning is connected to the moral status of the agent’s character, and so the instincts of the learner cannot be relied upon to guide moral development. Precisely *because* someone is not yet virtuous, they will lack a complete understanding of what virtue is and how to develop it. Guidance must therefore come from outside the moral agent. If I am not virtuous, I need a more reliable source than myself to show me what virtue is.
+
+There are two main ways in which the non-virtuous are expected to discover virtue. One is through exemplars – those wiser and better than oneself who are able to show the way. The other is through the language of the virtues itself. I think that stories have something significant to contribute to both of these methods of learning the virtues. In the sections which follow I will explore how. Although I fully intend what follows to be an argument for the use of stories in moral education, I do not intend it to be an exclusive argument. That is, other forms of moral education are vital for the learning of the virtues, and stories alone will not suffice. Indeed, without guidance in virtue from elsewhere, stories may mislead ([Narvaez 2002](#ref-narvaez2002)). This does not prevent them from having significant potential for virtuous education within a virtuous community – as I shall now show.
+
+## 4. Exemplars
+
+‘The man of good character,’ says Aristotle, ‘sees the truth in every kind of situation: he is a sort of standard and yardstick of what is fine and pleasant’ ([Aristotle 2004, 1113a 30](#ref-aristotle2004)). For the beginner in virtue, it is this accurate vision of the truth which is so badly needed. Exemplars offer the non-virtuous a way to identify virtue, and so play a significant role in modern thought on the virtues. As well as being important for virtuous practice, they have proved useful in the development of theory. Hursthouse’s account of right action depends on the virtuous exemplar: ‘An action is right iff it is what a virtuous agent would characteristically (i.e. acting in character) do in the circumstances’ ([Hursthouse 1999, 28](#ref-hursthouse1999)). Going even further, Linda Zagzebski constructs an entire virtue ethics based upon communally mediated exemplars, in which the virtues simply are those character traits which exemplars possess ([Zagzebski 2010](#ref-zagzebski2010)).
+
+Stories very often contain exemplars. Sometimes the reader is explicitly directed to a particular example – this often happens in fables or morality tales. This need not be the case, however. A character in a story may be an exemplar simply by modelling the virtues: by living well, and enabling us to see how a virtuous person responds to particular situations.
+
+There are two main reasons that the exemplars found in stories are worth paying attention to. The first is that they offer access to internal states. In a story, very often we do not simply hear what is done. We also have a unique perspective on *why* it is done. The reader, listener or observer is told what the agent in question was thinking and feeling at the time they acted, or else given a unique perspective that allows them to discern these things in a way they otherwise could not. Consider this extract from *Little Women*, in which Jo (one of the titular little women) comforts a lonely boy: ‘Laurie was sick and lonely; and, feeling how rich she was in home-love and happiness, she gladly tried to share it with him’ ([Alcott 1994, 49–50](#ref-alcott1994)). Here the reader is privy to Jo’s feelings and motives, not just her actions. They can therefore understand Jo and the virtuous elements of her character which guide her actions in a way they could not through simple observation. In the same way, stories often make clear that apparently virtuous acts may hide deceit and bad intentions. The listener sees the trickster Spider in Hausa folk tales for what he is, even if the other animals do not ([Tremearne 1910](#ref-tremearne1910)). The telling of the story allows us to understand him in a way that would not be possible outside a story.
+
+For the learner in virtue, this is not only a matter of avoiding deception. Learning to discern internal states and understanding how they contribute to the moral features of a situation is an important step toward developing their own virtuous expertise. This is because the point of following an exemplar is not simply to copy them, but to exhibit the same virtues they do. Learning the virtues is like learning a technical skill, in which the student may begin by copying the master, but ultimately develops their own ‘style’ – in virtue terms, they will begin to think and act in a way tailored to their own history and circumstances. Julia Annas expresses this well:
+
+> ‘The learner starts by doing what he is taught is the right thing to do, copying the actions which in his society are conventionally marked off as the kinds of thing that, for example, a brave person does. As he progresses in virtue, he does these things as a virtuous person does them, with understanding… and does the right thing as the truly brave person would do it - from the right reasons, as a result of having the right disposition, and so on’ ([Annas 2004, 71](#ref-annas2004)).
+
+Mimicking the actions of the exemplar is an important early stage in learning to be virtuous, but the learner is expected to move beyond this. This means that there must be recognition on the part of the learner that actions and events are not the only morally relevant features of a situation (important though they are). The benefit of stories, then, is that they can highlight this fact by revealing to the learner the internal states of agents and showing that similar actions may spring from both virtuous or non-virtuous motives and characters. In other words, stories help in making a distinction made by both Aristotle and later virtue ethicists between a virtuous act and an act *from virtue*:
+
+> ‘Acts, to be sure, are called just and temperate when they are such as a just or temperate man would do; but what makes the agent just or temperate is not merely the fact that he does such things, but the fact that he does them in the way that just and temperate men do’ ([Aristotle 2004, 1105b 5–10](#ref-aristotle2004)).
+
+Aristotle would find an ally in Mrs. Beaver from *The Lion, The Witch and the Wardrobe*: ‘If there’s anyone who can appear before Aslan without their knees knocking, they’re either braver than most, or else just silly’ ([Lewis 1950, 146](#ref-lewis1950)). A virtuous act may be done by anyone; it is the appropriate act for the circumstances. An act from virtue is not only the right act, but one which is an expression of the relevant virtues. Both the brave person and the fool may encounter Aslan without trembling; only the brave person is thereby admirable. Making this distinction, Christine Swanton says: ‘We have seen how it is possible to draw a distinction between virtuous act and action from virtue. We have also seen that the drawing of this distinction in particular cases is by no means easy’ ([Swanton 2001, 45](#ref-swanton2001)). For the learner, the telling of stories may constitute a useful part of the puzzle by bringing into focus the moral importance of internal states.
+
+So one advantage of exemplars in stories is that they offer us unusual access to the motives of others. The second advantage has to do with the fact that virtue ethicists wanting to use an exemplar for moral guidance face a dilemma. They must choose between an actual and a hypothetical exemplar. By an actual exemplar, I mean a real person – someone who embodies the virtues and who can directly instruct me in them. By a hypothetical exemplar, I mean an imagined but perfect model. The advantage of the actual exemplar is that they are easily accessible. If I am not sure what virtue might require of me ‘the obvious thing to do is to go and ask’ ([Hursthouse 1996, 24](#ref-hursthouse1996)). The disadvantage is that they are not entirely reliable. Even the most virtuous of people may go wrong. Worse, they are most likely to mislead when they are needed most – when faced with an extremely testing or confusing moral challenge. Nor will the learner in virtue necessarily discern this, for as I said above, a lack of virtue goes hand-in-hand with an inability to recognize it. This is why MacIntyre says that the learner must exhibit ‘obedient trust’ as they are required to pursue ends they do not yet recognize as virtuous ([MacIntyre 1990, 82](#ref-macintyre1990))
+
+By contrast, the hypothetical exemplar is ‘someone who embodies ethical requirements, and who ‘gets it right’ on every occasion: someone who is able to identify the correct course of action in any situation, and invariably pursues it’ ([Eylon 2014, 141](#ref-eylon2014)). Here the problem for the learner is reversed. The exemplar is now fully reliable, but no longer easily accessible. I cannot ask the hypothetical exemplar anything, or watch them in everyday situations. In fact, since what the exemplar would do must be imagined by people who are not themselves fully virtuous, it may sometimes be impossible to work it out at all.
+
+So both kinds of exemplar pose problems for the virtue ethicist. It is here that I think exemplars from stories can be helpful. They inhabit a kind of middle ground between hypothetical and actual exemplars. I cannot follow a character in a story around in the same way I might follow a real person; but the story may offer an account of certain things they did, the situations they found themselves in and the ways they responded. I cannot entirely trust a fictional character; but the input of the author, social commentary, the insight into internal states mentioned above and – crucially – the possibility of reviewing their actions by hearing the story again, give me a better chance of being able to discern when they do well and when they go wrong.
+
+There is a potential objection here. What makes the fictional exemplar any different from the hypothetical one? Both are products of the imagination. I have complained that the hypothetical exemplar discussed by Hursthouse and others cannot be easily observed or understood and therefore faces hurdles to practical implementation. But couldn’t we simply ‘flesh out’ our concept of the hypothetical exemplar in such a way as to resolve this problem (by giving them imagined histories and personalities and so on)? And if I object to this it seems I will be guilty of a double standard. For this ‘fleshing out’ sounds a lot like the process of creating a story. What makes it acceptable in the case of fictional exemplars, but not hypothetical ones?
+
+I think that this complaint has a point; but it need not cause a problem for my position. It seems to me that expanding the concept of a hypothetical exemplar in this fashion would precisely be the creation of a story. As they are given histories and placed in imagined situations, the hypothetical exemplar becomes a character in a story. I suggest that the various exemplars I am discussing be viewed as points on a spectrum. At one end, the hypothetical exemplar, reliable but difficult to follow. At the other, the actual exemplar – easier to understand but not as trustworthy. As I have suggested, story-based exemplars will fall somewhere in between. Depending on the story, though, they may fall closer toward one end of the spectrum. The ‘fleshed-out’ hypothetical exemplar I have been discussing will be a fictional exemplar closer to the truly hypothetical. In the other direction, we might place the accounts of real people we find in texts like biographies or historical studies – not the person themselves, but still a representation of an actual character or series of experiences.
+
+Further, I would suggest that neither the hypothetical nor actual exemplar can ever be entirely removed from the influence of stories. In order for them to guide action, we imagine even the most abstracted exemplar to be acting in a particular situation; and our understanding of actual exemplars is formed by the stories we, and they, tell about their lives.
+
+So my answer to the critic who complains that there is no clear distinction between the fictional and hypothetical exemplar is to say that they are quite right; but that this fact does not prevent each type from exhibiting particular characteristics which can be useful to the student of virtue. Characters in stories sit somewhere between two extremes. Neither fully real nor completely hypothetical, they can exhibit virtues which those around us rarely express and still show us how those virtues might look in practice.
+
+I do not recommend that actual and hypothetical exemplars be dropped in favour of story-based exemplars. What they are is another string to the virtue ethicists’ bow. Just as learners are encouraged to follow a person wiser than themselves or think on the true nature of the virtues, they also ought to be encouraged to find guidance and example in stories.
+
+## 5. Stories and the language of the virtues
+
+I said above that virtue ethics offers two main ways for learners to discover virtue. One, as I have argued, is through exemplars. The other is through the language of the virtues itself. The words we use to describe virtues contribute to our discovery of what virtue is. They do this because they are ‘thick’ concepts. A ‘thick’ concept is a concept which is both evaluative and descriptive. As Bernard Williams puts it, they are ‘world-guided and action-guiding’ ([Williams 1985, 141](#ref-williams1985)). They are world-guided because they give us some kind of information about the relevant subject; they are action-guiding because they include a moral evaluation of that subject, which may therefore recommend a course of action.
+
+Thick concepts are contrasted with thin concepts, which may be either descriptive or evaluative, but not both. So terms like ‘blue’ or ‘short’ are all thin and descriptive, whereas ‘good’ or ‘wrong’ are thin and evaluative. By contrast, thick terms like ‘generous’ or ‘stingy’ communicate something about their subject and whether or not we should approve of it. This is important for learners of virtue, as it means that exhortations to virtue do not simply amount to a vague instruction to ‘be good.’ They contain some information as to how, exactly, one might go about being good or avoiding being bad. Consider, for example, this description of Ebenezer Scrooge:
+
+> ‘Oh! But he was a tight-fisted hand at the grindstone, Scrooge! a squeezing, wrenching, grasping, scraping, clutching, covetous, old sinner! Hard and sharp as flint, from which no steel had ever struck out generous fire; secret, and self-contained, and solitary as an oyster’ ([Dickens 2001, 6](#ref-dickens2001)).
+
+Contrast that with this account of Mr. Hyde: ‘\[Hyde\] was a being inherently malign and villainous; his every act and thought centred on self; drinking pleasure with bestial avidity from any degree of torture to another; relentless like a man of stone’ ([Stevenson and Luckhurst 2006, 57](#ref-stevenson2006)). The reader knows from these descriptions that both Hyde and Scrooge are bad men; but she also knows what *kind* of badness they exhibit. Scrooge is selfish and austere. Hyde is cruel and hedonistic. We know from the terms involved that although neither is good, they are very different men. To warn someone against being like Scrooge is very different to warning them against being like Hyde. If a learner understands the terms involved, they know that quite different actions are required to correct the flaws in each of these characters.
+
+There is a fair amount of debate over the importance (or not) of thick concepts ([Väyrynen 2013](#ref-vayrynen2013); [Gibbard and Blackburn 1992](#ref-gibbard1992)). It is not my contention that these debates are generally unimportant, but I do think that they are unimportant for my point here, which is that virtue language guides virtue development. Whether thick concepts are a spectrum, whether they can be parsed into separable thin concepts, whether they are/are not universally applicable – none of these things seem to me to in principle deny thick concepts (i.e. virtue language) a role in telling us how to act. None of the main positions regarding thick concepts need deny their action-guiding role.
+
+There is one criticism of thick concepts which is worth a further look. Critics point out that some thick terms seem ‘objectionable’ – that is, they provide an evaluation with which we would not agree ([Eklund 2011](#ref-eklund2011)). For example, some might use the word ‘chaste’ with approval while others may find it restrictive and prudish ([Väyrynen 2013, 56](#ref-vayrynen2013)). The suggestion is that the evaluative component cannot therefore be a necessary part of the concept, since it varies with usage. As with the other problems mentioned above, this need not change the guiding role of virtue language. But where it does matter for my argument is that it seems to make clear that not all thick concepts are *right*. Terms used with positive evaluative intent may in fact lead the learner away from virtue – for example, the loyalty and patriotism of the Hitler Youth or Mao’s Red Guard. So I cannot claim that thick concepts lead reliably to virtue.
+
+However, this is not the point I am making. My claim is that thick concepts (and exemplars) contribute to the development of our character – good or bad. We need to be careful which stories we tell, just as we need to be careful who we associate with. ‘Like activities produce like dispositions’ ([Aristotle 2004, 1103b 20–25](#ref-aristotle2004)). I show here that stories are a part of the way we develop virtue; but the corollary of this point is that they may also contribute to the development of vice. So the claim that some thick concepts are objectionable in fact highlights the significance of stories for virtue development.
+
+So understanding the language of the virtues is an important part in the learner’s journey. The more comprehensive their understanding of virtue terms, the better they will understand what is meant when they are encouraged to be gentle, or brave, or modest. It is in the learning of virtue terms that I think stories may be a very useful resource. On one level this is simply the point that stories can be effective in extending our vocabulary. There is certainly evidence that language acquisition in children and adults can be improved by listening to, reading, watching or even singing stories ([Cho and Krashen 1994](#ref-cho1994); [Linebarger and Walker 2005](#ref-linebarger2005); [Elley 1989](#ref-elley1989); [Medina 1990](#ref-medina1990)). The efficacy of these methods varies depending on different factors, including the medium of the story, how well it holds the learner’s attention and whether or not there is someone there to explain the new content ([Brett, Rothlein, and Hurley 1996](#ref-brett1996)). This latter point emphasizes that stories are not to be used in a vacuum, but as effective supplement to other forms of virtue learning.
+
+Of course it is important to get a working grasp of the meaning of virtue terms; but the main benefit I have in mind here goes beyond this. Since thick concepts fall on a spectrum, the thicker a term is, the more content it will have and the more informative will be the guidance it provides. For the learner, then, the thicker the better. The more meaning a term is given, the thicker it will become. I think that stories can provide an almost unparalleled ‘thickening’ of virtue terms by showing all kinds of applications in different contexts and to various behaviours and agents. This is not entirely divorced from the section on exemplars above, since I expect that much of this ‘thickening’ will appear through characters in the story.
+
+Here a critic might protest: What makes reading stories special in a way that reading a dictionary of the virtues is not? I am claiming that thick concepts develop the virtues in a way that goes beyond mere language acquisition, but my example above does not extend the concept beyond the original definition above. In brief, my response is that there is something gained through the process of ‘thickening’ a concept that is not gained from an understanding of any particular virtue. This something is practical wisdom, or prudence.
+
+Prudence is the intellectual virtue which guides the application of the moral virtues. Aristotle says that ‘it is the mark of a prudent person to have deliberated well’ ([Aristotle 2004, 1142b 30–35](#ref-aristotle2004)) . The virtues are dispositions towards the human good in a particular sphere. So to say that someone has the virtue of kindness is to say that they have a stable disposition care for and think of the wellbeing of others. This alone, though, is not enough. Sometimes it might be obvious what caring for someone else might involve; other times it is very difficult to see clearly. Which of toleration or tough love is in a misbehaving child’s best interests? Perhaps the answer is somewhere between the two; but where? Much will depend on the individual child and their circumstances. This situational sensitivity of virtue is the reason for Aristotle’s claim that ‘agents are compelled at every step to think out for themselves what the circumstances demand’([Aristotle 2004, 1104a 5–10](#ref-aristotle2004)). This ‘thinking out’ is the job of prudence. In brief, the moral virtues make us want to act rightly; prudence shows us how. In order to put any of the virtues into practice, prudence is necessary ([Aristotle 2004, 1144b](#ref-aristotle2004)).
+
+Like any skill, in order to learn prudence practice is required. Thus Aristotle’s pronouncement that ‘prudence also involves knowledge of particular facts \[here contrasted with universal facts\], which become known from experience… experience takes some time to acquire.’ ([Aristotle 2004, 1142a 10–20](#ref-aristotle2004)). Universal facts, such as truths of logic and mathematics, do not require experience to grasp. Prudence on the other hand is concerned with correctly judging specific situations, and so the practice needed to develop it must be gained from experience.
+
+There are two key points here for my purposes. Firstly, prudence involves correct judgement of context. Secondly, it requires experience to develop. I suggest that the ‘thickening’ of concepts that I have identified in stories make them an excellent way to gain some of this experience. The depth of descriptive content provides the context or ‘particular facts’ that prudence is required to judge. The evaluative content guides the learner in how best to judge. This is fundamentally different from a study of virtue in the abstract. *Harry Potter* is different from a dictionary of the virtues because the reader of *Harry Potter* is presented with a series of complex novel situations in a way which the reader of the dictionary is not; and this is one way in which they may develop prudence.
+
+Some thinkers, like Martha Nussbaum, recognize the potential for stories and literature to offer important moral experience: ‘Our experience is, without fiction, too confined and too parochial. Literature extends it, making us reflect and feel about what might otherwise be too distant for feeling’ ([Nussbaum 1990, 47](#ref-nussbaum1990)). This point is echoed by Eleonore Stump:
+
+> ‘A story takes a real or imagined set of second-person experiences of one sort or another and makes it available to a wider audience to share. It does so by making it possible, by one degree or another, for a person to experience some of what she would have experienced if she had been an onlooker in the second person-experience represented in the story’ ([Stump 2010, 78](#ref-stump2010)).
+
+Both note that experience in stories is not the same as real experience; but this does not make it worthless. On the contrary, there may be some distinct advantages. For one thing, stories may bring a kind of clarity to a situation in a way that is rarely encountered elsewhere:
+
+> ‘literature is an extension of life not only horizontally, bringing the reader into contact with events or locations or persons or problems he or she has not otherwise met, but also… vertically, giving the reader experience that is deeper, sharper and more precise than much of what takes place in life’ ([Nussbaum 1990, 48](#ref-nussbaum1990)).
+
+Addressing the same topic in a short essay ‘The Truth of Fiction,’ Chinua Achebe says that ‘imagination can narrow the existential gap by giving us in a wide range of human situations the closest approximation to experience we are ever likely to get, and sometimes the safest too’ ([Achebe 1988, 99](#ref-achebe1988)). These two points – that stories may offer clarity and safety when gaining moral experience – ideally suit them to learners, who can begin to understand the challenges of moral action without facing some of the potentially costly consequences of an error. In the same way that they bridge the gap between the actual and hypothetical exemplars, stories’ familiar-yet-different representation of moral experience turns out to be an important asset.
+
+Finally, a short practical note: It is the case that any effort to encourage moral development through the use of stories will depend on successfully engaging learners with stories^\[The virtue ethicist also faces the wider challenge of demonstrating that experience is formative of character and that character has a significant influence on action – a subject extensively discussed in the existing literature. Examples include ([Alfano 2013](#ref-alfano2013)) and ([Sabini and Silver 2005](#ref-sabini2005)). Although most of the examples I have given here are from literature, there is a large range of ways the modern learner can encounter story – song, art, television, theatre, oral storytelling etc.. One new medium of storytelling I take to be particularly interesting is video games, which require the player to interact with the story, often altering the narrative through their actions. The video gaming industry has a strong and increasing focus on creative storytelling, particularly among ‘indie’ games, and the British Academy of Film and Television Arts (BAFTA) includes awards for narrative and innovation.
+
+Despite the prevelance of new forms of media, those like Nussbaum and Stump who (for good reason) champion the distinctive contribution of literature need not despair. Indeed, there is reason to be optimistic. Engagement with literature for pleasure among young people in the United States is not noticeably different to that of other generations; and young people are significantly more likely to be active participants in the arts than their parents or grandparents ([Arts, Census, and Statistics 2016](#ref-nationalendowmentforthearts2016)). Likewise, children’s enjoyment of reading is on the rise in the UK ([Trust 2016](#ref-thenationalliteracytrust2016)). While new media may offer new forms of story, it is not at all clear that older forms of storytelling have thereby suffered.
+
+I suggest, than, that the medium of the story – while important - is of less moral or educational significance than its content. I claimed above that storytelling is an essential part of human distinctiveness. Insofar as this claim is correct, the challenge of ‘successful engagement’ with stories cannot merely mean engaging learners with story *per se*, for it is inevitable that every learner will encounter a myriad of stories and storytelling forms. Stories are, always, part of human life. Rather, the task is to ensure that the stories that they engage with are *good* stories; ones that contain helpful exemplars, informative language, and that encourage the learner to develop prudence.
+
+## 6. Conclusion
+
+I began this article by arguing that stories, as part of our imaginative faculties, are an important and ineliminable part of human nature and that virtue ethics ought therefore to pay attention to them as features of the good life. I then showed that stories can prove particularly useful in a pressing area of concern for virtue ethics: moral education. They provide exemplars which offer access to internal states, helping the learner to distinguish between ‘virtuous acts’ and ‘acts from virtue.’ These exemplars also occupy a helpful middle ground between hypothetical and actual exemplars, offsetting some of the problems with each. Aside from exemplars, the language of stories provides an excellent ‘thickening’ of virtue language. This helps in the identification of the virtues, but most importantly in the development of prudence. Stories provide us with examples to follow, teach us the language of virtue and help us to develop prudence; any account of the development of virtue would be therefore be well served by paying attention to stories.
+
+<!--The references section can be set anywhere in the document with this heading and div tag. If it is not set the references list will be located at the very bottom of the page. -->
+
+## References
+
+<div id="refs" class="references csl-bib-body hanging-indent" style="line-height:150%">
+
+<div id="ref-achebe1988" class="csl-entry">
+
+Achebe, Chinua. 1988. *Hopes and Impediments: Selected Essays, 1965-1987*. Oxford: Heinemann. <https://www.worldcat.org/oclc/801961967>.
+
+</div>
+
+<div id="ref-alcott1994" class="csl-entry">
+
+Alcott, Louisa May. 1994. *Little Women*. Edited by Valerie Alderson. The World’s Classics. Oxford ; New York: Oxford University Press. <https://www.worldcat.org/oclc/1140457103>.
+
+</div>
+
+<div id="ref-alfano2013" class="csl-entry">
+
+Alfano, Mark. 2013. *Character as Moral Fiction*. Cambridge: Cambridge University Press. <https://doi.org/10.1017/CBO9781139208536>.
+
+</div>
+
+<div id="ref-annas2004" class="csl-entry">
+
+Annas, Julia. 2004. “Being Virtuous and Doing the Right Thing.” *Proceedings and Addresses of the American Philosophical Association* 78 (2): 61–75. <https://doi.org/10.2307/3219725>.
+
+</div>
+
+<div id="ref-aristotle2004" class="csl-entry">
+
+Aristotle. 2004. *The Nicomachean Ethics*. Translated by J. A. K. Thomson and Hugh Tredennick. 3rd ed. Penguin Classics. London: Penguin. <https://www.worldcat.org/oclc/819940486>.
+
+</div>
+
+<div id="ref-nationalendowmentforthearts2016" class="csl-entry">
+
+Arts, National Endowment For The, United States Department Of Commerce. Bureau Of Census, and United States Department Of Labor. Bureau Of Labor Statistics. 2016. “Annual Arts Basic Survey, 2015 \[United States\]: Version 1.” ICPSR - Interuniversity Consortium for Political and Social Research. <https://doi.org/10.3886/ICPSR36424.V1>.
+
+</div>
+
+<div id="ref-athanassoulis2013" class="csl-entry">
+
+Athanassoulis, Nafsika. 2013. *Virtue Ethics*. Bloomsbury Ethics. London ; New York: Bloomsbury. <https://www.worldcat.org/oclc/900430171>.
+
+</div>
+
+<div id="ref-athanassoulis2014" class="csl-entry">
+
+———. 2014. “Educating for Virtue.” In *The Handbook of Virtue Ethics*, edited by Stan van Hooft, 1st ed., 440–50. Durham: Acumen. <https://doi.org/10.4324/9781315729053>.
+
+</div>
+
+<div id="ref-boyd2009" class="csl-entry">
+
+Boyd, Brian. 2009. *On the Origin of Stories: Evolution, Cognition, and Fiction*. Cambridge: Harvard University Press. <https://doi.org/10.2307/j.ctvjf9xvk>.
+
+</div>
+
+<div id="ref-brett1996" class="csl-entry">
+
+Brett, Arlene, Liz Rothlein, and Michael Hurley. 1996. “Vocabulary Acquisition from Listening to Stories and Explanations of Target Words.” *The Elementary School Journal* 96 (4): 415–22. <https://doi.org/10.1086/461836>.
+
+</div>
+
+<div id="ref-cho1994" class="csl-entry">
+
+Cho, Kyung-Sook, and Stephen D. Krashen. 1994. “Acquisition of Vocabulary from the Sweet Valley Kids Series: Adult ESL Acquisition.” *Journal of Reading* 37 (8): 662–67. <https://www.jstor.org/stable/20172388>.
+
+</div>
+
+<div id="ref-dickens2001" class="csl-entry">
+
+Dickens, Charles. 2001. *A Christmas Carol and Other Stories*. 2001 Modern Library pbk. ed. The Modern Library Classics. New York: Modern Library. <https://www.worldcat.org/oclc/47141922>.
+
+</div>
+
+<div id="ref-eklund2011" class="csl-entry">
+
+Eklund, Matti. 2011. “What Are Thick Concepts?” *Canadian Journal of Philosophy* 41 (1): 25–49. <https://doi.org/10.1353/cjp.2011.0007>.
+
+</div>
+
+<div id="ref-elley1989" class="csl-entry">
+
+Elley, Warwick B. 1989. “Vocabulary Acquisition from Listening to Stories.” *Reading Research Quarterly* 24 (2): 174. <https://doi.org/10.2307/747863>.
+
+</div>
+
+<div id="ref-eylon2014" class="csl-entry">
+
+Eylon, Yuval. 2014. “The Virtuous Person and Normativity.” In *The Handbook of Virtue Ethics*, edited by Stan van Hooft, 1st ed., 141–52. Durham: Acumen. <https://doi.org/10.4324/9781315729053>.
+
+</div>
+
+<div id="ref-fuentes2014" class="csl-entry">
+
+Fuentes, Agustín. 2014. “Human Evolution, Niche Complexity, and the Emergence of a Distinctively Human Imagination.” *Time and Mind: The Journal of Archaeology, Consciousness and Culture* 7 (3): 1–17. <https://doi.org/10.1080/1751696X.2014.945720>.
+
+</div>
+
+<div id="ref-fuentes2017" class="csl-entry">
+
+———. 2017. *The Creative Spark: How Imagination Made Humans Exceptional*. New York: Dutton. <https://www.worldcat.org/oclc/982171515>.
+
+</div>
+
+<div id="ref-gibbard1992" class="csl-entry">
+
+Gibbard, Allan, and Simon Blackburn. 1992. “Morality and Thick Concepts.” *Proceedings of the Aristotelian Society, Supplementary Volumes* 66: 267–83, 285–99. <https://doi.org/10.1093/aristoteliansupp/66.1.267>.
+
+</div>
+
+<div id="ref-hursthouse1995" class="csl-entry">
+
+Hursthouse, Rosalind. 1995. “Applying Virtue Ethics.” In *Virtues and Reasons: Philippa Foot and Moral Theory ; Essays in Honour of Philippa Foot*, edited by Rosalind Hursthouse, Gavin Lawrence, and Warren Quinn, 57–75. Oxford: Clarendon Press. <https://www.worldcat.org/oclc/31708896>.
+
+</div>
+
+<div id="ref-hursthouse1996" class="csl-entry">
+
+———. 1996. “Normative Virtue Ethics.” In *How Should One Live? Essays on the Virtues*, edited by Roger Crisp, 19–36. Oxford: Clarendon Press. <https://doi.org/10.1093/0198752342.003.0002>.
+
+</div>
+
+<div id="ref-hursthouse1999" class="csl-entry">
+
+———. 1999. *On Virtue Ethics*. Oxford: Oxford University Press. <https://www.worldcat.org/oclc/1137109648>.
+
+</div>
+
+<div id="ref-laland2015" class="csl-entry">
+
+Laland, Kevin N., Tobias Uller, Marcus W. Feldman, Kim Sterelny, Gerd B. Müller, Armin Moczek, Eva Jablonka, and John Odling-Smee. 2015. “The Extended Evolutionary Synthesis: Its Structure, Assumptions and Predictions.” *Proceedings of the Royal Society B: Biological Sciences* 282 (1813): 20151019. <https://doi.org/10.1098/rspb.2015.1019>.
+
+</div>
+
+<div id="ref-lapsley2005" class="csl-entry">
+
+Lapsley, Daniel K., and F. Clark Power, eds. 2005. *Character Psychology and Character Education*. Notre Dame, Ind: University of Notre Dame Press. <https://www.worldcat.org/oclc/954129900>.
+
+</div>
+
+<div id="ref-lewis1950" class="csl-entry">
+
+Lewis, C. S. 1950. *The Lion, the Witch and the Wardrobe*. New York: Harper Collins. <https://www.worldcat.org/oclc/884598888>.
+
+</div>
+
+<div id="ref-linebarger2005" class="csl-entry">
+
+Linebarger, D. L., and Dale Walker. 2005. “Infants’ and Toddlers’ Television Viewing and Language Outcomes.” *American Behavioral Scientist* 48 (5): 624–45. <https://doi.org/10.1177/0002764204271505>.
+
+</div>
+
+<div id="ref-macintyre1990" class="csl-entry">
+
+MacIntyre, Alasdair. 1990. *Three Rival Versions of Moral Enquiry*. London: Duckworth. <https://www.worldcat.org/oclc/1130885667>.
+
+</div>
+
+<div id="ref-mcdowell1995" class="csl-entry">
+
+McDowell, John. 1995. “Two Sorts of Naturalism.” In *Virtues and Reasons: Philippa Foot and Moral Theory ; Essays in Honour of Philippa Foot*, edited by Rosalind Hursthouse, Gavin Lawrence, and Warren Quinn, 149–79. Oxford: Clarendon Press. <https://www.worldcat.org/oclc/31708896>.
+
+</div>
+
+<div id="ref-medina1990" class="csl-entry">
+
+Medina, Suzanne L. 1990. “The Effects of Music on Second Language Vocabulary Acquisition.” In, 4–26. San Francisco: Educational Resources Information Center. <https://eric.ed.gov/?id=ED352834>.
+
+</div>
+
+<div id="ref-narvaez2002" class="csl-entry">
+
+Narvaez, Darcia. 2002. “Does Reading Moral Stories Build Character?” *Educational Psychology Review* 14 (2): 155–71. <https://doi.org/10.1023/A:1014674621501>.
+
+</div>
+
+<div id="ref-nussbaum1990" class="csl-entry">
+
+Nussbaum, Martha C. 1990. “Form and Content, Philosophy and Literature.” In *Love’s Knowledge*, edited by Martha C. Nussbaum, 3–53. Oxford: Oxford University Press. <https://www.worldcat.org/oclc/438712793>.
+
+</div>
+
+<div id="ref-sabini2005" class="csl-entry">
+
+Sabini, John, and Maury Silver. 2005. “Lack of Character? Situationism Critiqued.” *Ethics* 115 (3): 535–62. <https://doi.org/10.1086/428459>.
+
+</div>
+
+<div id="ref-stevenson2006" class="csl-entry">
+
+Stevenson, Robert Louis, and Roger Luckhurst. 2006. *The Strange Case of Dr Jekyll and Mr Hyde and Other Tales*. Oxford World’s Classics. Oxford: Oxford University Press. <https://www.worldcat.org/oclc/494618570>.
+
+</div>
+
+<div id="ref-stump2010" class="csl-entry">
+
+Stump, Eleonore. 2010. *Wandering in Darkness: Narrative and the Problem of Suffering*. Oxford : Oxford ; New York: Clarendon Press ; Oxford University Press. <https://doi.org/10.1093/acprof:oso/9780199277421.001.0001>.
+
+</div>
+
+<div id="ref-swanton2001" class="csl-entry">
+
+Swanton, Christine. 2001. “A Virtue Ethical Account of Right Action.” *Ethics* 112 (1): 32–52. <https://doi.org/10.1086/322742>.
+
+</div>
+
+<div id="ref-taylor2016" class="csl-entry">
+
+Taylor, Charles. 2016. *The Language Animal: The Full Shape of the Human Linguistic Capacity*. Cambridge, MA: Harvard University Press. <https://doi.org/10.4159/9780674970250>.
+
+</div>
+
+<div id="ref-tremearne1910" class="csl-entry">
+
+Tremearne, A. J. N. 1910. “Fifty Hausa Folk-Tales.” *Folklore* 21 (2): 199–215. <https://doi.org/10.1080/0015587X.1910.9719929>.
+
+</div>
+
+<div id="ref-thenationalliteracytrust2016" class="csl-entry">
+
+Trust, The National Literacy. 2016. “State of the Nation and Impact Report 2015-16.” London: The National Literacy Trust. <https://web.archive.org/web/20220602145235/https://cdn.literacytrust.org.uk/media/documents/Impact_report_2015-16_low_res_FINAL.pdf>.
+
+</div>
+
+<div id="ref-vayrynen2013" class="csl-entry">
+
+Väyrynen, Pekka. 2013. *The Lewd, the Rude and the Nasty: A Study of Thick Concepts in Ethics*. Oxford: Oxford University Press. <https://doi.org/10.1093/acprof:oso/9780199314751.001.0001>.
+
+</div>
+
+<div id="ref-williams1985" class="csl-entry">
+
+Williams, Bernard. 1985. *Ethics and the Limits of Philosophy*. Cambridge, MA: Harvard University Press. <https://worldcat.org/oclc/924964453>.
+
+</div>
+
+<div id="ref-zagzebski2010" class="csl-entry">
+
+Zagzebski, Linda Trinkaus. 2010. “Exemplarist Virtue Theory.” *Metaphilosophy* 41 (1-2): 41–57. <https://doi.org/10.1111/j.1467-9973.2009.01627.x>.
+
+</div>
+
+</div>
+
+------------------------------------------------------------------------
+
+<!--The section below is for acknowledgements or copyright notices-->
+
+<span style="font-size:x-small">This is an Accepted Manuscript of an article published by Taylor & Francis in Ethics and Education on 28/07/2017, available at: <https://doi.org/10.1080/17449642.2017.1356664>.</span>

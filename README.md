@@ -1,2 +1,2 @@
 # academic-profile
-Academic profile sire using Github, Hugo, Rstudio and Netlify
+Academic profile site using Github, Hugo, Rstudio and Netlify

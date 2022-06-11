@@ -1,0 +1,432 @@
+---
+# Publication details
+# Comment out and use the author fields as necessary. author, first_author_surname and first_author_names are set by default in /content/_index.md, so only use these fields here if the first author differs from the default.
+# author:
+# first_author_surname:
+# first_author_names:
+author_institution: University of Notre Dame
+# second_author:
+# third_author:
+# other_authors:
+
+pubtype: journal # Enter publication type - journal, chapter, book, presentation, website.
+title: "Natural Love: Aquinas, Evolution and Charity"
+date_published: 2021-05-01 # Field for citation details and publication metadata.
+
+date: 2021-05-01 # Posting date of the page
+description: Article on love’s role in human nature and development, considering evolution, communal care and the virtue of charity.
+subtitle: ''
+excerpt: ''
+date_accessed: # Date online publication was accessed.
+draft: no
+url: ''
+doi: 10.1111/heyj.12665
+journal_title: The Heythrop Journal
+volume: '62'
+issue: '3'
+issn: '1468-2265'
+abstract: This paper offers an analysis of work on human development in evolutionary
+  anthropology from a Thomist perspective. I show that both fields view care for others
+  as fundamental to human nature and interpret cooperative breeding as an expression
+  of the virtue of charity. I begin with an analysis of different approaches to the
+  relationship between evolutionary anthropology and moral theory. I argue that ethical
+  naturalism is the approach best suited to interdisciplinary dialogue, since it holds
+  that natural facts are useful for moral theory but do not encompass it. This forms
+  the basis for a Thomist analysis of some key features of human evolution including
+  bipedalism, higher encephalisation and extended childhood. In each case I explain
+  how these parts of our nature contributed to the evolution of modern humans, and
+  how each is reliant upon communal care. Finally, I offer three observations on these
+  facts from a Thomist perspective. Firstly, that a good human life necessarily involves
+  caring for others and being cared for ourselves. Secondly, that this is exemplified
+  in the virtue of charity, which is the ground of all virtue. Finally, that the need
+  for such care shows that human flourishing cannot be attained without divine aid.
+firstpage: '535'
+lastpage: '545'
+book_title: ''
+editor: ''
+address: ''
+publisher: ''
+translator: ''
+isbn: ''
+event: ''
+website_title: ''
+bibliography: 2021-natural-love-aquinas-evolution.bib # .bib file in page folder
+pdf: willows-2021-natural-love-aquinas-evolution.pdf #.pdf file in page folder
+language: 'en'
+
+# Page details
+sidebar: 
+  description:
+  author: 
+  text_link_label:
+  text_link_url:
+  show_sidebar_adunit: false # show ad container
+  image_alt_text: 'Hands placed together, family cooperating'
+citation_panel: true # Displays citation panel in sidebar; true or false
+link-citations: true
+include_citation_metadata: true
+tags:
+  - Charity
+  - Aquinas
+  - Evolution
+  - Love
+  - Virtue
+  - Care
+  - Ethical Naturalism
+  - Interdisciplinary
+categories:
+  - Science-engaged Theology
+  - Moral Character
+layout: single-sidebar
+links: # These links will appear on this page
+- icon: doi
+  icon_pack: ai
+  color: null
+  name: version of record
+  url: https://doi.org/10.1111/heyj.12665 # Complete link to doi
+- icon: file-pdf
+  color: red
+  icon_pack: fas
+  name: download
+  url: /publications/natural-love-aquinas-evolution/willows-2021-natural-love-aquinas-evolution.pdf #Complete link to pdf in page folder
+list_links: #These links will appear under the title of this page on the main publications section page
+- icon: doi
+  icon_pack: ai
+  color: null
+  name: version of record
+  url: https://doi.org/10.1111/heyj.12665 # Complete link to doi
+- icon: file-pdf
+  color: red
+  icon_pack: fas
+  name: download
+  url: /publications/natural-love-aquinas-evolution/willows-2021-natural-love-aquinas-evolution.pdf #Complete link to pdf in page folder
+- icon: book
+  icon_pack: fas
+  name: read online
+  url: /publications/natural-love-aquinas-evolution/ # Complete link to page folder
+
+---
+
+## 1. Morality and evolution
+
+Humans are moral creatures; we live in a realm of right and wrong, just and unjust, cruel and kind. Disagreement over our moral nature is rife, ranging from questions about the nature of morality – is it the same for everyone? Is it somehow dependent on us? – to debate over what it requires and how best to follow those requirements. But morality, whatever it is, is an important part of human nature and we are open to assessment by moral standards.
+
+Humans are also evolved creatures. We trace our origins from our mammalian ancestors (and before), via bipedal *Australopithecines*, growth in brain size over the 2-million-year history of the genus *Homo* and increasing technological, linguistic and cultural complexity to our modern selves ([Anton, Potts, and Aiello 2014](#ref-anton2014)). We are beholden to evolutionary pressures for our nature; but we have also affected those pressures ourselves by shaping our environment, affecting the species around us and creating new culturally-embedded influences on our development ([Kendal, Tehrani, and Odling-Smee 2011](#ref-kendal2011)).
+
+Given their significant impact on our nature, it is important to ask how these two aspects of being human relate to one another. Since it touches very obviously on both scientific and philosophical topics, this question is something of an interdisciplinary meeting point. Answers are forthcoming both from fields in which morality is the primary or initial object of interest, such as philosophy and theology, and from fields in which evolution takes this place, such as biology and anthropology. In what follows I elaborate three different perspectives on the relationship between morality and evolution. I believe that the general tendency of two of these approaches is to alienate either scientists or philosophers and theologians committed to rationalism. I suggest that the third approach – ethical naturalism – has a greater chance of holding together central commitments of each field and enabling interdisciplinary dialogue. In the rest of the paper, I relate our evolutionary history of communal care to Aquinas’ work on charity to offer an example – from a theological perspective – of how such dialogue might take place.
+
+## 2. Rational and evolved: Three perspectives
+
+In this section I look at three different approaches to the relationship between morality and evolution. How are these two areas of study to be understood and how do they affect each other? The first approach is to subordinate morality to evolution. Call this the ‘Subordinating View’ (SV). The SV holds that morality can be entirely explained by understanding evolutionary processes. So, for example, we are altruistic because altruism is adaptive (or a result of a feature that is itself adaptive): ‘Natural selection… has made us sociable, able to enter into cooperative exchanges, capable of love, empathy and altruism… simply because being nice helped our ancestors make more babies’ ([Joyce 2006, 222](#ref-joyce2006)). Note that to explain morality in evolutionary terms is not necessarily to explain *away* morality. Some supporters of the SV do subscribe to a form of ‘Evolutionary Debunking Thesis,’ which holds that evolutionary explanations of morality render moral beliefs unjustified or false: ‘If S’s moral belief that P can be given an evolutionary explanation, then S’s moral belief that P is not knowledge’ ([Wielenberg 2010, 441](#ref-wielenberg2010)). Others, though, may hold that morality has its roots in our evolutionary past while maintaining that moral knowledge exists ([Bekoff and Pierce 2009, 22](#ref-bekoff2009)).
+
+Perhaps because it often makes more scientific than philosophical commitments, the SV is quite metaethically diverse[^1]. Sentimentalism (emotions are the ground of moral claims) of some kind is the most consistent feature of the SV. It is typically non-cognitivist (moral statements do not report facts), although it may count among its ranks error theorists such as Richard Joyce (moral statements erroneously report facts) or certain realist sentimentalists (moral statements report facts about emotions). Typically – but not necessarily – supporters are also normative relativists, holding that the truth value of moral statements is relative to a particular group. They may also be metaethical relativists, denying that moral statements have absolute truth value. Supporters of the SV disagree over what exactly evolution means for our understanding of morality; but they are united in the view that ‘to deny the evolutionary roots of human morality, would be like arriving at the top of a tower to declare that the rest of the building is irrelevant’ ([de Waal 2006, 181](#ref-dewaal2006)). The crucial distinguishing point is that the SV holds that, whatever its exact nature, morality finds its ultimate ground in the evolutionary process.
+
+This starting point may explain why the SV tends to find support among evolutionary anthropologists. Some of this support has been rather combative - take E. O. Wilson’s claim that ‘the time has come for ethics to be removed temporarily from the hands of the philosophers and biologicized’ ([Wilson 1975, 562](#ref-wilson1975)). However, much of the work is more considered. Take Mark Bekoff and Jessica Pierce: ‘Does morality have a biological basis? The answer is most certainly yes. This doesn’t mean, however, that biology is all there is to say about morality’ ([Bekoff and Pierce 2009, 22](#ref-bekoff2009)). There is no necessary opposition from proponents of the SV to engagement with philosophy or theology; Hume’s sentimentalism receives particular approval from Frans de Waal ([de Waal 2006, 18, 55, 66](#ref-dewaal2006)). The identifying mark is simply that these views all ground morality in our evolved nature.
+
+The second approach is to keep evolution and morality at arm’s length. Call this the ‘Detached View’ (DV). The DV holds that morality is part of rationality and independent of any particular feature of human nature. Certainly, we evolved to be rational beings; but the morally pertinent fact is that we *are* rational beings, not how we got there or in what state we arrived. Had we appeared one day out of thin air, or if we were some other creature with a rational mind then the moral circumstances we found ourselves in might be different but the nature of morality would not be. All things being equal, a rational alien and a human would face the same moral requirements. Kant is the most significant thinker to take this position:
+
+> Empirical principles are not at all fit to be the ground of moral laws. For, the universality with which these are to hold for all rational beings… comes to nothing if their ground is taken from the special constitution of human nature or the contingent circumstances in which it is placed ([Kant 1997, 4:442](#ref-kant1997)).
+
+The DV is firmly based in moral rationalism (reason is the ground of moral claims) and objectivism (morality is mind-independent). Motivation for this perspective also has roots in the Kantian opposition to heteronomy. Heteronomy means that ‘the will in that case does not give itself the law’ ([Kant 1997, 4:441](#ref-kant1997)). It is the opposite of autonomy, in which the moral law which directs us to act is imposed by the agent upon themselves. Heteronomy results when the law is instead received from some external object – in this case natural selection and fitness. Heteronomy of the will damages the agent’s freedom; I am not setting my own law but having it set for me by something else. This position is not shared with Aquinas, who holds that the will may receive the law from God without restricting its freedom ([Insole 2015](#ref-insole2015)). To supporters of the DV, the claim that evolutionary accounts of morality do not result in genetic determinism rings hollow. If evolutionary pressures are what determines the object of the will, there can be no true freedom; hence the desire to keep the two realms separate. This separation means that the DV is largely confined to theologians and philosophers; evolutionary science may perhaps contribute to applied ethics but not to moral theory. This is obviously a barrier to interdisciplinary discussion: any evolutionary scientist holding the DV is not likely to become involved in moral theorising.
+
+When it comes to understanding our status as both evolved and moral creatures, the SV and DV each prioritise one aspect of our nature over the other. The SV takes evolution to be the means of understanding the fundaments of morality. The DV does not deny our evolved nature but to the extent that it holds that our good is related to our rational nature, morality will take ontological priority. These positions may be more or less rigid and there have been attempts to bring them closer ([Rauscher 1997](#ref-rauscher1997)). Nevertheless, there is certainly a gap between them.
+
+In this gap lies the third position, that of the ethical naturalist. Ethical naturalism has been used to mean an extension of naturalism more broadly. Naturalism is the rejection of supernatural explanations of reality; thus, ethical naturalism would be the rejection of supernatural explanations in ethics, ruling out, for instance, divine command theory or most theological metaethics ([Flanagan, Sarkissian, and Wong 2008](#ref-flanagan2008)). This is an unusually restrictive definition and is most likely to be found in more extreme versions of the SV. It is clearly not a position for the Thomist. Instead, by ethical naturalism I mean the view that moral facts are natural facts ([Lenman 2006](#ref-lenman2006)). This ethical naturalism stems from the Aristotelian tradition, and is often defended by neo-Aristotelians - notably Philippa Foot who argues for ethical naturalism in her opposition to moral subjectivism ([Foot 2001](#ref-foot2001)). Aquinas’ moral theory is in this vein. It is rooted in the common observation that we always aim at our (perceived) good when we act[^2]. One of the distinctive features of his (and Aristotle’s) thought is that the nature of this good depends upon facts about the creature ([Ashmore Jr. 1975](#ref-ashmorejr.1975)). The good life for a bird is not a good life for a fish and neither are good lives for me, because of certain natural facts about each of our species. Obviously this is so; I do not take so well to flight or the sea bed. The reason Aquinas’ position is *ethical* naturalism is that he thinks the good life for humans includes moral activity, and this is so because we are – naturally – rational beings who can consider our good ([Aquinas 2012, 1a2ae 18:5](#ref-aquinas2012)).
+
+This means that ethical naturalism offers a much more integrated account of the relationship between evolution and morality. The moral life involves deliberating about and acting in accordance with our good, which is dependent on certain natural facts. Therefore, knowing about the kind of creature humans are is highly relevant to being able to act well. Understanding our evolutionary history helps us to understand our current nature; so, it is highly relevant in understanding our good. Unlike in the SV morality is not subordinated to or explained in terms of evolutionary pressures. It is not evolutionary pressures that make the good inherently desirable. Thomas Nagel’s *Mind and Cosmos* is a good example of a non-theistic approach to this position. Nagel argues that while informative, empirical facts cannot constitute a complete account of the world. Value (as well as consciousness and cognition) is not reducible to the material and does not gain its appeal from it: ‘since moral realism is true, a Darwinian account of the motives underlying moral judgement must be false’ ([Nagel 2012, 105](#ref-nagel2012)). Likewise, for the theologian the desirability of the good is not anything to do with the fact that we are evolved but simply that we are created beings. All things, Aquinas thinks, have their ultimate end in the good that is God ([Aquinas 1975, 3.17](#ref-aquinas1975)). Unlike the DV morality cannot be understood separately from our creaturely and evolved nature. In his explanation of natural law, our innate tendency towards the good, Aquinas explains the goods that we share with other creatures and those that are ours alone, divided on the basis of the natural capacities of each creature ([Aquinas 2012, 1a2ae 94:2.](#ref-aquinas2012)). So the Thomist position is this: our evolved and moral natures are intertwined. Understanding evolution is a part of understanding morality, but only because understanding evolution is part of understanding our nature as created beings whose ultimate end is in God. Understanding the evolution of morality is important, but without this wider context such an investigation will mislead.
+
+It is with ethical naturalism, and Aquinas in particular, that I place myself for the remainder of this paper. I believe the central attraction for interdisciplinary discussion to be that this position holds together two views. First, the observation of the SV that we cannot understand our nature as moral beings apart from understanding our nature more generally. Second, the rationalist and objectivist commitments of the DV. This was its attraction for Foot, who grounds her opposition to subjectivism in her ethical naturalism ([Foot 2001, 5–24](#ref-foot2001)). My goal in what follows is to look at certain evolutionary facts from this vantage point. Arguing at length for Aquinas’ ethical naturalism is beyond my remit here. Nor do I pretend that this account will be immediately convincing to the scientist, involving as it does theological commitments and terms such as ‘virtue,’ ‘charity’ and ‘the good life’ which are particular to philosophy and theology. What I hope to show is that ethical naturalism treats scientific claims as valuable and enlightening for moral theory while remaining sensitive to theological concerns. In this sense, I hope the view will be informative for the theologian and evolutionary theorist alike.
+
+## 3. Birth and childcare: Why we needed to work together
+
+So far I have laid out three different approaches to the relationship between evolution and morality, and positioned myself with Aquinas’ ethical naturalism. This view holds that natural facts about human nature are important in understanding our good. In this section I discuss two noteworthy features of early human development: the relationship between higher encephalisation and bipedalism, and our extended childhood and adolescence. I show that both of these are crucial factors in our development and that both depend on care for one another and social cooperation to be sustainable.
+
+Humans have a complicated and difficult birthing process. Other primates have drastically shorter labours and tend to give birth quietly, suggesting that ‘most primates experience parturition as a simpler, shorter and very likely less painful process’ ([Rosenberg 1992, 100](#ref-rosenberg1992)). This is largely due to the fact that the infant head is an unusually tight fit compared to other primates. In fact, the neonatal cranium is larger in one dimension than the pelvic opening; meaning that the baby has to rotate in order to fit through ([Rosenberg and Trevathan 2002](#ref-rosenberg2002)). Alongside this, we also have large neonatal bodies, and position of the infant during birth also means that the mother cannot easily assist them manually or reach the umbilical cord in case of difficulty ([Wells, DeSilva, and Stock 2012](#ref-wells2012); [Rosenberg and Trevathan 2002](#ref-rosenberg2002)). The conflict between the fetal head/body and the maternal pelvis is known as the ‘obstetric dilemma’ ([Wells 2015](#ref-wells2015)).
+
+What is the reason for the first horn of the dilemma, our large heads? In the past 2 million years, our lineage has undergone a significant increase both in brain size and in its encephalisation quotient (EQ): the measure of brain size relative to body mass. Specimens of the early *Homo habilis* have a cranial capacity in cm3 between 503 and 661cc, still notably larger than the Austrolopithecene averages in the low to mid 400cc’s ([McHenry and Coffing 2000](#ref-mchenry2000)). *Homo erectus* ranges from 775cc to 1,251cc with an increase of about 165cc per million years ([Rightmire 2004](#ref-rightmire2004)). Modern humans average at 1,349cc and have reduced body mass compared to our Pleistocene and Paleolithic relatives, meaning that we have a slightly higher EQ than Neandertals but smaller brain size ([Ruff, Trinkaus, and Holliday 1997](#ref-ruff1997)). These increases in brain size and EQ led to our distinctive intelligence, including our particular capacities for sociality, understanding other minds, language, use of symbol and analogy and our unusual cognitive flexibility and efficiency ([Sherwood, Subiaul, and Zawidzki 2008](#ref-sherwood2008)). This higher encephalisation is a likely candidate for the size of our heads at birth. Looking beyond head size, our large neonatal body size may be related to the fact that higher birthweight is a strong predictor of survival ([Wells, DeSilva, and Stock 2012](#ref-wells2012)).
+
+The size and shape of the maternal pelvis, the other horn of the dilemma, has typically been blamed on locomotion. Unlike our nearest primate relatives, humans are bipedal. This is strikingly unusual. We are the only bipedal primate and in fact the only mammal to be fully bipedal when walking. Compared to a chimpanzee our centre of gravity is different, allowing us to balance easily on two legs. Our pelvis is broader and rotated in a way that provides stability while upright. Not used for knuckle-walking, our arms are shorter and our fingers are flatter and more dextrous. Beginning in our lineage with Australopithecus, bipedalism is the earliest distinctive adaption of the genus *Homo*. Exactly what advantage or advantages bipedalism conferred that made it adaptive is uncertain; possibilities include our aptitude for endurance running and better feeding posture. As humans developed more complex tool use, the advantages of bipedalism combined with opposable thumbs became increasingly significant. It was not a dramatic change, but a series of progressive adaptions in response to various pressures.
+
+Although most of the focus has been on bipedalism, more recently other explanations for pelvic size have been offered. A narrower pelvis and therefore torso may aid in thermoregulation in hot climates such as those experienced by early *Homo* ([Gruss and Schmitt 2015](#ref-gruss2015)). The impact of nutrition on body size may also be important, suggesting that the challenge of the obstetric dilemma may have varied over time ([Wells, DeSilva, and Stock 2012](#ref-wells2012)). Whether the principal responsibility is borne by encephalisation and bipedalism or by other factors, though, it is the case that human birth is especially difficult. Competing features of our nature, without which we would not be as we are, appear to make a significant contribution to this difficulty. Fortunately, we do have one thing going for us when it comes to giving birth: each other. Humans are distinctive in the amount of support they give the mother during pregnancy, labour and after birth. Without this ‘obligate midwifery’ it is quite possible that we could not have developed the features of our nature that led to the obstetric dilemma: ‘human rotational birth may not have been able to evolve outside a social context in which women had physical as well as emotional assistance during birth’ ([Calcagno and Fuentes 2012](#ref-calcagno2012)). Assistance at birth reduces infant mortality and confers a strong evolutionary benefit on those who work together and look for help and companionship. ‘The roots of this support are as ancient as human lineage itself’ ([Rosenberg and Trevathan 2002, 1206](#ref-rosenberg2002)).
+
+Human birth is distinctive, both in the challenges it poses and in its social nature. But our uniqueness does not stop there. The way we develop after birth is quite different. Primates in general take quite a long time to mature compared to other mammals. Although this comes with higher predation risk, it allows time to develop a large brain size. Slower development of the brain, as well as ultimate size, is important ([Konner 2010, 94–95](#ref-konner2010)). In humans this is much more pronounced. We continue rapid brain growth for some time after birth ([Konner 2010, 126–27](#ref-konner2010)). We take much longer than other primates to reach adulthood or sexual maturity. From around nine years old, chimpanzees enter adolescence and become sexually mature and largely independent ([Pusey 1990](#ref-pusey1990)). Whether we developed long childhoods because they allow for brain development, or whether brain development is not the cause but simply a happy outcome of a long lifespan, there is little doubt that this extended childhood is significant in the development of our cognitive and social skills: ‘Hominins were at some point selected for longer childhoods in part so that they could play, observe, learn more, grow larger brains, and turn those brains to cultural purposes’ ([Konner 2010, 132](#ref-konner2010)). In particular, slow development of the prefrontal cortex appears to assist in social learning and creativity ([Thompson-Schill, Ramscar, and Chrysikou 2009](#ref-thompson-schill2009)). However, this does not come without cost. We need a lot of help to bring us to maturity. Human children need more support to obtain basic needs like food, shelter and protection, and the caloric demands to grow an infant to maturity are massive – approximately 13 million calories ([Hrdy 2009, 31](#ref-hrdy2009)). Despite this, humans have shorter intervals between births compared to chimpanzees ([Sterelny 2012, 83](#ref-sterelny2012)). It is quite possible for a human mother to have several very dependent children all at once, resulting in demands ‘far in excess of what a foraging mother by herself could regularly supply’ ([Hrdy 2009, 31](#ref-hrdy2009)).
+
+Humans have been able to bear the extraordinary cost of raising significantly more demanding offspring and reproducing at a faster rate because, just as with birth, we do not go it alone. We recruit family and non-family to act as ‘alloparents,’ non-parents who take part in the child’s care: ‘human animals have an internalized emotional calculus predisposing them to protect, care for, and allocate resources to… those they think of as kin’ ([Hrdy 1999, 271](#ref-hrdy1999)). This tendency to rely on and partake in communal care runs right through our lives. The well-known ‘Grandmother Hypothesis’ explains our postmenopausal longevity by arguing that instead of actively breeding, grandmothers can care for their daughter’s offspring and so indirectly improve their fitness ([Sterelny 2012, 80–81](#ref-sterelny2012)). Fathers and older siblings can be useful in various ways, socially, via provisioning and in providing supervision to free the mother to take on other tasks ([Hrdy 2009, 151–52, 268–69](#ref-hrdy2009)). Babies themselves are adapted to ‘attach’ to their mothers, but also form attachments to other carers; and broader socialisation can have significant positive impacts on the child’s emotional development and independence ([Hrdy 2009, 124–32](#ref-hrdy2009)). Communal care is so significant that on a species-wide level, it does not seem to be an optional extra:
+
+> a child’s survival depended not just on staying in contact with his mother or provisioning by his father but also on the availability, competence, and intentions of other caregivers… Without alloparents, there never would have been a human species. ([Hrdy 2009, 109](#ref-hrdy2009)).
+
+## 4. Love and caring in Aquinas
+
+I have discussed the way communal care and cooperative breeding are essential parts of our nature. Without caring for one another, we could not have managed the difficult birthing or extended childhoods that allow for some of our most distinctive physical and cognitive abilities. I now return to Aquinas and ethical naturalism. I have said above that for the Thomist, understanding our good will require that we pay attention to facts about our nature. It also involves understanding those facts themselves as related to our need for God as our ultimate end. In this section I will offer a Thomist perspective on the role of communal care in our history. I will argue that it is best interpreted as an outworking of the virtue of charity. My goal here is not to argue for ethical naturalism but to provide a ‘Thomist’s-eye-view’ of the features of our history discussed above in the hope that it will prove illuminating. Unlike supporters of the DV, Thomists should expect that there will be something to learn from our past about our moral nature; but unlike supporters of the SV, it will seek to place this past in its proper context as an expression of God’s creation. In this spirit, I will make three particular observations which I take to characterise a Thomist view on the facts discussed above.
+
+Without caring we would not be human. To become the rational, social beings that we are we depended upon others and in turn they depended on us. On the Thomist understanding of human nature outlined above, then, caring and being cared for is a human good. It is necessary in order to live a complete life: ‘to the natural law belongs everything to which a man is inclined according to his nature’ ([Aquinas 2012, 1a2ae 94:3](#ref-aquinas2012)). In part our caring behaviour is the kind of good that we share with other animals – Aquinas cites educating offspring as a cross-species good ([Aquinas 2012, 1a2ae 94:2](#ref-aquinas2012)). But it also appears that the particular kind of caring that humans do is something unique to us. Aquinas thinks that the uniqueness in human actions comes not simply from what we do, but how we do it; specifically, we deliberate rationally about what we do. Here, ethical naturalists and supporters of the DV agree. Rationality is something special, allowing us to think about the nature of an act and form intentions that take into account our ultimate end. Its presence is crucial to making actions moral ([Aquinas 2012, 1a2ae 18:5](#ref-aquinas2012)). As rational creatures, the best way to live is to form habits so that both our reason and emotions are aligned towards the good in all areas of our lives; these habits are the virtues. Since communal care is an inescapable part of our lives and our nature, then there will be a virtue related to it. This forms the basis of the first observation.
+
+> O1: Our lives will not be complete without caring and being cared for, and there will be an appropriate virtue which involves this.
+
+The virtue that we are looking for is one that would indicate success in this particular area of human activity. Someone who does well at caring for others, physically and emotionally; who gives of their time and resources in the right way; and who understands their own dependence on the same kind of care. Such a person will exhibit the virtue that is necessary for success in the kind of communal care we see in our history.
+
+I think that the virtue that best meets this description is the virtue of charity. Charity, says Aquinas, is love. Not the love of use, but the love of friendship, which finds its primary expression in ‘the friendship of man for God’ ([Aquinas 2012, 2a2ae 23:1](#ref-aquinas2012)). Although charity is fundamentally directed towards God, it includes within it our love for others, for ourselves, and for the rest of creation. This is because Aquinas holds that all things find their fulfilment in God; to love our neighbour is to desire their good, which is to desire God: ‘it is specifically the same act whereby we love God, and whereby we love our neighbour. Consequently the habit of charity extends not only to the love of God, but also to the love of our neighbour’ ([Aquinas 2012, 2a2ae 25:1](#ref-aquinas2012)). In fact, love for our neighbour is so central that Aquinas thinks without it we do not truly love God, either ([Clark 2011](#ref-clark2011)). Out of this love for others come several subordinate virtues ([Aquinas 2012, 2a2ae 28–33](#ref-aquinas2012)). In practical terms, charity will include acting for and desiring the good of others, giving to those who are needy, and educating others, directing them towards their good. These are the particular outward effects of charity, and they stem from the interior effects which are joy (in which we are glad for others), peace (which occurs through the unity of our desires with others) and mercy (by which we are moved to care for others). Interestingly, Aquinas thinks that charity demands that we especially love ourselves and those to whom we have a particular connection, such as kin ([Porter 1989](#ref-porter1989)). This is a notable if inexact parallel with the emphasis placed in evolutionary theory on caring for our close relatives; Aquinas also thinks that full charity demands that we especially love the more holy among us.
+
+Aside from its particular outworkings described above, Aquinas thinks that charity has a fundamental role in all other virtues as well. Each virtue aims at a particular good related to its area of activity. Some particular goods and activities are only good because they themselves serve a higher, more general good. So, for example, the virtue of patience has to do with the good of being able to endure through particular evils. The reason it is good to endure through evil is that in more general terms, it is good to follow reason even in the face of difficulty. The virtue that governs this is the virtue of fortitude. So, patience is a subordinate virtue to the cardinal virtue fortitude ([Aquinas 2012, 2a2ae 136:4](#ref-aquinas2012)). Ultimately, all goods are directed to one particular end, which is the true and greatest good. For Aquinas, as has been said, this is God. So the goods of all other virtues are only good because they direct the agent to God. Charity, the love of God and thereby our neighbour, is the virtue which directly points us towards the greatest good. Just as patience comes under fortitude, then, so do all virtues come under charity:
+
+> it is called the form of all the virtues in that every act of all the virtues is ordered to the highest good that is loved… Since all the other virtues are ordered to the end of charity, charity commands the acts of all the virtues’ ([Aquinas 1999, 2.3](#ref-aquinas1999)).
+
+Without charity, there can be no true virtue ([Aquinas 2012, 2a2ae 23:7](#ref-aquinas2012)). This is the ground of the second observation.
+
+> O2: Our evolutionary origins display our need for the greatest virtue of them all. Charity was there from the beginning - in fact, without it there would not have *been* a beginning for humans. Both Aquinas and our evolutionary history are clear: love is essential to being human.
+
+Aquinas says that understanding our nature is necessary to understand our good. However, it is one of the distinctive marks of theology that it requires this understanding be pursued further. Knowledge of created beings is instructive; but it cannot be complete without understanding them in relation to God:
+
+> The philosopher considers such things as belong to them by nature—the upward tendency of fire, for example; the believer, only such things as belong to them according as they are related to God—the fact, for instance, that they are created by God, are subject to Him, and so on’ ([Aquinas 1975, 2.4.4](#ref-aquinas1975)).
+
+This is particularly the case for charity, because while the need for charity is natural, the capacity for it is not. Charity is one of the theological virtues, which direct us to God, our highest good. Complete fulfilment of this good – and complete expression of these virtues - requires taking part in the divine nature ([Aquinas 2012, 1a2ae 62:1](#ref-aquinas2012)). This is not something we can achieve on our own: these virtues exceed our natural abilities. Among the reasons for the impossibility of attaining true charity in this life, Aquinas lists our physical burdens, our divided attention, and our sin ([Aquinas 1999, 2.5.10](#ref-aquinas1999)). This means that charity must be infused by God. We can be disposed to charity, but actually achieving true charity will require divine intervention. This does not mean that every parent who loves or cares for their child must first be infused with charity. Aquinas says that a single act may be the expression of more than one virtue. For example, giving gifts is related to both liberality and virtue ([Aquinas 1975, 3.138.5](#ref-aquinas1975)). Without the infused virtues one may still give gifts; but this act cannot reach its full or greatest good without the presence of charity. Furthermore, it is by its nature aimed at a charitable end, thus revealing the need for charity. In the same way, loving behaviour in our evolutionary history does not require charity to be present. Nevertheless, the behaviour reveals our need for charity and therefore our need for God’s help. Aquinas thinks this assistance comes in two ways: firstly, by divine infusion of charity enabling us to do what we otherwise could not. Secondly, by the possibility of leaving behind the situations which prevent us from exercising perfect charity, which can only be realised by a form of flourishing beyond this life ([Aquinas 2012, 2a2ae 24:9](#ref-aquinas2012)). Here, then, is the third observation.
+
+> O3: Our evolutionary history shows our need for charity. The fact that charity is part of our nature also reveals our dependence upon God for true fulfilment. The care for one another that is essential to our natures is not something we can perfect on our own.
+
+As I said above, it is not the purpose of this paper to argue for ethical naturalism. What I have done is show how this third way of understanding the relationship between humans as moral beings and humans as evolved beings operates and the kind of conclusions it draws, with specific reference to Aquinas. This approach does treat natural facts as important and informative, but it takes those natural facts to be an expression of a broader metaethical and metaphysical reality. My hope is that this reveals something both to the theologian and to the evolutionary biologist or anthropologist. For the theologian it makes apparent that science is not merely theologically neutral, something to be accommodated or explained but otherwise left alone. Rather, it can offer powerful confirmation of the alignment of the natural world – and human nature – with God’s purposes. ‘The world is charged with the grandeur of God’; this is as much true in our evolutionary past as anywhere else ([Hopkins 2003](#ref-hopkins2003)). Aquinas’ perspective suggests that the most important thing about our evolutionary past is that it reveals to us our need for God. It is only in this context that other truths about our dependence on one another can be fully understood.
+
+I do not expect to convince evolutionary anthropologists of this perspective; indeed, I have merely presented rather than argued for it here. What I do take this to show is that they have their moral and metaethical options open. The SV does accord with the desire to involve evolutionary theory in accounts of morality, but so does ethical naturalism. Moreover, the decision between the SV and ethical naturalism is not a scientific but philosophical and theological one. Cognitivism or non-cognitivism, objectivism or subjectivism, sentimentalism or rationalism – these are all live options for those wishing to resist the DV and give evolutionary theory a role in our understanding of morality. Nor is this only available to the theist, although theirs is the perspective I have presented here. The neo-Aristotelian ethical naturalism present in thinkers like Foot and Nagel ground value beyond the material without making theistic commitments. Given the understandably widespread commitment to the SV, I hope that this perspective gives a sense of expanded horizons. Whether it is a specific virtue such as charity or more generalised traits like empathy and altruism, it is possible to provide a complete developmental evolutionary account of the behaviour *and* hold that it is grounded in human purpose and an ultimate good. For evolutionary theorists inclined to a more metaphysically expansive view of morality, it is possible to have their (rationalist) cake and eat it too.
+
+## 5. Conclusion
+
+I began this paper by describing three possible approaches to the relationship between our moral and evolved natures. The first, the ‘Subordinating View,’ seeks to explain morality simply as an outworking of the evolutionary process. The second, the ‘Detached View,’ holds that morality is independent from natural facts and keeps moral and evolutionary theory separate. The third, ethical naturalism, is Aquinas’ view. This position accepts that moral facts are natural facts but says that they need to be understood in relation to a universal good – in this case, God. I then looked at some interesting features of our evolutionary past, including the development of bipedalism, higher encephalisation, and our extended childhoods. I showed the importance of communal care to the development of these parts of our nature. In the final section of the paper, I commented on these features from the perspective of Aquinas’ ethical naturalism. From this viewpoint I identified three notable things about our past: That it shows that a virtue pertaining to mutual care will be crucial to human flourishing; that that virtue is charity, which grounds all other virtues; and that the need for charity also demonstrates a need for God. As far as Aquinas’ moral thought is concerned, looking at our history reveals that we have always been creatures that depend upon love – and God – for our flourishing. By pointing to the presence of God in creation and allowing alternative metaethical positions consistent with evolutionary science, a Thomist perspective on our past can be valuable for both evolutionary theorists and theologians.
+
+<!--The references section can be set anywhere in the document with this heading and div tag. If it is not set the references list will be located at the very bottom of the page. -->
+
+## References
+
+<div id="refs" class="references csl-bib-body hanging-indent" style="line-height:150%">
+
+<div id="ref-anton2014" class="csl-entry">
+
+Anton, S. C., R. Potts, and L. C. Aiello. 2014. “Evolution of Early Homo: An Integrated Biological Perspective.” *Science* 345 (6192): 1236828-1 -1236828-13. <https://doi.org/10.1126/science.1236828>.
+
+</div>
+
+<div id="ref-aquinas1975" class="csl-entry">
+
+Aquinas, Thomas. 1975. *Summa Contra Gentiles*. Translated by Charles J. O’Neil, Anton C. Pegis, James F. Anderson, and Vernon J. Bourke. Notre Dame, IN: University of Notre Dame Press. <https://www.worldcat.org/oclc/464143827>.
+
+</div>
+
+<div id="ref-aquinas1999" class="csl-entry">
+
+———. 1999. *Disputed Questions on the Virtues*. Edited by Joseph Kenny O. P. Translated by Ralph McInerny. South Bend, IN: St. Augustine’s Press. <https://isidore.co/aquinas/english/QDdeVirtutibus.htm>.
+
+</div>
+
+<div id="ref-aquinas2012" class="csl-entry">
+
+———. 2012. *Summa Theologiae*. Edited by John Mortensen and Enrique Alarcón. Translated by Fathers of the English Dominican Province. 8 vols. Latin/English edition of the works of St. Thomas Aquinas, Volume 13-20. Lander, WY: The Aquinas Institute for the Study of Sacred Doctrine. <https://www.worldcat.org/oclc/823602978>.
+
+</div>
+
+<div id="ref-ashmorejr.1975" class="csl-entry">
+
+Ashmore Jr., Robert B. 1975. “Aquinas and Ethical Naturalism.” *New Scholasticism* 49 (1): 76–86. <https://doi.org/10.5840/newscholas197549153>.
+
+</div>
+
+<div id="ref-bekoff2009" class="csl-entry">
+
+Bekoff, Marc, and Jessica Pierce. 2009. *Wild Justice: The Moral Lives of Animals*. Chicago: University of Chicago Press. <https://doi.org/10.7208/chicago/9780226041667.001.0001>.
+
+</div>
+
+<div id="ref-calcagno2012" class="csl-entry">
+
+Calcagno, James M., and Agustín Fuentes. 2012. “What Makes Us Human? Answers from Evolutionary Anthropology.” *Evolutionary Anthropology: Issues, News, and Reviews* 21 (5): 182–94. <https://doi.org/10.1002/evan.21328>.
+
+</div>
+
+<div id="ref-clark2011" class="csl-entry">
+
+Clark, Meghan J. 2011. “Love of God and Neighbor: Living Charity in Aquinas’ Ethics.” *New Blackfriars* 92 (1040): 415–30. <https://doi.org/10.1111/j.1741-2005.2010.01363.x>.
+
+</div>
+
+<div id="ref-flanagan2008" class="csl-entry">
+
+Flanagan, Owen, Hagop Sarkissian, and David Wong. 2008. “Naturalizing Ethics.” In *The Evolution of Morality: Adaptions and Innateness*, edited by Walter Sinnott-Armstrong, 1:1–25. Moral Psychology 1. Cambridge, MA: MIT Press. <https://www.worldcat.org/oclc/74492122>.
+
+</div>
+
+<div id="ref-foot2001" class="csl-entry">
+
+Foot, Philippa. 2001. *Natural Goodness*. Oxford: Clarendon Press. <https://doi.org/10.1093/0198235089.001.0001>.
+
+</div>
+
+<div id="ref-gruss2015" class="csl-entry">
+
+Gruss, L. T., and D. Schmitt. 2015. “The Evolution of the Human Pelvis: Changing Adaptations to Bipedalism, Obstetrics and Thermoregulation.” *Philosophical Transactions of the Royal Society B: Biological Sciences* 370 (1663): 20140063–63. <https://doi.org/10.1098/rstb.2014.0063>.
+
+</div>
+
+<div id="ref-hopkins2003" class="csl-entry">
+
+Hopkins, Gerard Manley. 2003. “God’s Grandeur.” In *Mortal Beauty, God’s Grace: Major Poems and Spiritual Writings of Gerard Manley Hopkins*, edited by John F. Thomton and Susan B. Varenne, 21. New York: Vintage Spiritual Classics. <https://www.worldcat.org/oclc/52471222>.
+
+</div>
+
+<div id="ref-hrdy1999" class="csl-entry">
+
+Hrdy, Sarah Blaffer. 1999. *Mother Nature: A History of Mothers, Infants, and Natural Selection*. 1st ed. New York: Pantheon Books. <https://www.worldcat.org/oclc/901657367>.
+
+</div>
+
+<div id="ref-hrdy2009" class="csl-entry">
+
+———. 2009. *Mothers and Others: The Evolutionary Origins of Mutual Understanding*. Cambridge, Mass.: Belknap Press of Harvard University Press. <https://www.worldcat.org/oclc/940575388>.
+
+</div>
+
+<div id="ref-insole2015" class="csl-entry">
+
+Insole, Christopher J. 2015. “A Thomistic Reading of Kant’s Groundwork of the Metaphysics of Morals: Searching for the Unconditioned.” *Modern Theology* 31 (2): 284–311. <https://doi.org/10.1111/moth.12145>.
+
+</div>
+
+<div id="ref-joyce2006" class="csl-entry">
+
+Joyce, Richard. 2006. *The Evolution of Morality*. Life and Mind. Cambridge, Mass: MIT Press. <https://www.worldcat.org/oclc/60835553>.
+
+</div>
+
+<div id="ref-kant1997" class="csl-entry">
+
+Kant, Immanuel. 1997. *Groundwork of the Metaphysics of Morals*. Edited and translated by Mary J. Gregor. Cambridge Texts in the History of Philosophy. Cambridge: Cambridge University Press. <https://doi.org/10.1017/CBO9780511809590.004>.
+
+</div>
+
+<div id="ref-kendal2011" class="csl-entry">
+
+Kendal, J., J. J. Tehrani, and J. Odling-Smee. 2011. “Human Niche Construction in Interdisciplinary Focus.” *Philosophical Transactions of the Royal Society B: Biological Sciences* 366 (1566): 785–92. <https://doi.org/10.1098/rstb.2010.0306>.
+
+</div>
+
+<div id="ref-konner2010" class="csl-entry">
+
+Konner, Melvin. 2010. *The Evolution of Childhood: Relationships, Emotion, Mind*. Cambridge, MA: Belknap Press of Harvard University Press. <https://doi.org/10.2307/j.ctv1p6hnrx>.
+
+</div>
+
+<div id="ref-lenman2006" class="csl-entry">
+
+Lenman, James. 2006. “Moral Naturalism.” In *The Stanford Encyclopedia of Philosophy*, edited by Edward N. Zalta. <https://plato.stanford.edu/archives/spr2014/entries/naturalism-moral/>.
+
+</div>
+
+<div id="ref-mchenry2000" class="csl-entry">
+
+McHenry, Henry M., and Katherine Coffing. 2000. “Australopithecus to Homo: Transformations in Body and Mind.” *Annual Review of Anthropology*, 125–46. <https://doi.org/10.1146/annurev.anthro.29.1.125>.
+
+</div>
+
+<div id="ref-nagel2012" class="csl-entry">
+
+Nagel, Thomas. 2012. *Mind and Cosmos: Why the Materialist Neo-Darwinian Conception of Nature Is Almost Certainly False*. New York: Oxford University Press. <https://doi.org/10.1093/acprof:oso/9780199919758.001.0001>.
+
+</div>
+
+<div id="ref-porter1989" class="csl-entry">
+
+Porter, Jean. 1989. “De Ordine Caritatis: Charity, Friendship, and Justice in Thomas Aquinas’ Summa Theologiae.” *The Thomist* 59 (2): 197–213. <https://doi.org/10.1353/tho.1989.0035>.
+
+</div>
+
+<div id="ref-pusey1990" class="csl-entry">
+
+Pusey, Anne E. 1990. “Behavioural Changes at Adolescence in Chimpanzees.” *Behaviour* 115 (3): 203–46. <https://doi.org/10.1163/156853990X00581>.
+
+</div>
+
+<div id="ref-rauscher1997" class="csl-entry">
+
+Rauscher, Frederick. 1997. “How a Kantian Can Accept Evolutionary Metaethics.” *Biology and Philosophy* 12 (3): 303–26. <https://doi.org/10.1023/A:1006521907071>.
+
+</div>
+
+<div id="ref-rightmire2004" class="csl-entry">
+
+Rightmire, G. Philip. 2004. “Brain Size and Encephalization in Early to Mid-Pleistocene Homo.” *American Journal of Physical Anthropology* 124 (2): 109–23. <https://doi.org/10.1002/ajpa.10346>.
+
+</div>
+
+<div id="ref-rosenberg1992" class="csl-entry">
+
+Rosenberg, Karen R. 1992. “The Evolution of Modern Human Childbirth.” *American Journal of Physical Anthropology* 35 (S15): 89–124. <https://doi.org/10.1002/ajpa.1330350605>.
+
+</div>
+
+<div id="ref-rosenberg2002" class="csl-entry">
+
+Rosenberg, Karen R., and Wenda Trevathan. 2002. “Birth, Obstetrics and Human Evolution.” *BJOG: An International Journal of Obstetrics & Gynaecology* 109 (11): 1199–1206. <https://doi.org/10.1046/j.1471-0528.2002.00010.x>.
+
+</div>
+
+<div id="ref-ruff1997" class="csl-entry">
+
+Ruff, Christopher B., Erik Trinkaus, and Trenton W. Holliday. 1997. “Body Mass and Encephalization in Pleistocene Homo.” *Nature* 387 (May): 173–76. <https://doi.org/10.1038/387173a0>.
+
+</div>
+
+<div id="ref-sherwood2008" class="csl-entry">
+
+Sherwood, Chet C., Francys Subiaul, and Tadeusz W. Zawidzki. 2008. “A Natural History of the Human Mind: Tracing Evolutionary Changes in Brain and Cognition.” *Journal of Anatomy* 212 (4): 426–54. <https://doi.org/10.1111/j.1469-7580.2008.00868.x>.
+
+</div>
+
+<div id="ref-sterelny2012" class="csl-entry">
+
+Sterelny, Kim. 2012. *The Evolved Apprentice: How Evolution Made Humans Unique*. Cambridge, MA: MIT Press. <https://doi.org/10.7551/mitpress/9780262016797.001.0001>.
+
+</div>
+
+<div id="ref-thompson-schill2009" class="csl-entry">
+
+Thompson-Schill, Sharon L., Michael Ramscar, and Evangelia G. Chrysikou. 2009. “Cognition Without Control: When a Little Frontal Lobe Goes a Long Way.” *Current Directions in Psychological Science* 18 (5): 259–63. <https://doi.org/10.1111/j.1467-8721.2009.01648.x>.
+
+</div>
+
+<div id="ref-dewaal2006" class="csl-entry">
+
+Waal, Frans de. 2006. *Primates and Philosophers: How Morality Evolved*. Edited by Stephen Macedo and Josiah Ober. 5th ed. Princeton, NJ: Princeton University Press. <https://doi.org/10.1515/9781400830336>.
+
+</div>
+
+<div id="ref-wells2015" class="csl-entry">
+
+Wells, Jonathan C. K. 2015. “Between Scylla and Charybdis: Renegotiating Resolution of the ’Obstetric Dilemma’ in Response to Ecological Change.” *Philosophical Transactions of the Royal Society B: Biological Sciences* 370 (1663): 20140067–67. <https://doi.org/10.1098/rstb.2014.0067>.
+
+</div>
+
+<div id="ref-wells2012" class="csl-entry">
+
+Wells, Jonathan C. K., Jeremy M. DeSilva, and Jay T. Stock. 2012. “The Obstetric Dilemma: An Ancient Game of Russian Roulette, or a Variable Dilemma Sensitive to Ecology?” *American Journal of Physical Anthropology* 149 (S55): 40–71. <https://doi.org/10.1002/ajpa.22160>.
+
+</div>
+
+<div id="ref-wielenberg2010" class="csl-entry">
+
+Wielenberg, Erik J. 2010. “On the Evolutionary Debunking of Morality.” *Ethics* 120 (3): 441–64. <https://doi.org/10.1086/652292>.
+
+</div>
+
+<div id="ref-wilson1975" class="csl-entry">
+
+Wilson, Edward O. 1975. *Sociobiology: The New Synthesis*. Cambridge, MA: Harvard University Press. <https://www.worldcat.org/oclc/186433721>.
+
+</div>
+
+</div>
+
+------------------------------------------------------------------------
+
+<!--The section below is for acknowledgements or copyright notices-->
+
+<span style="font-size:x-small">This is the peer reviewed version of the following article: Willows, A.M. (2021), Natural Love: Aquinas, Evolution and Charity. Hey. J., 62: 535-545, which has been published in final form at <https://doi.org/10.1111/heyj.12665>. This article may be used for non-commercial purposes in accordance with Wiley Terms and Conditions for Use of Self-Archived Versions. This article may not be enhanced, enriched or otherwise transformed into a derivative work, without express permission from Wiley or by statutory rights under applicable legislation. Copyright notices must not be removed, obscured or modified. The article must be linked to Wiley’s version of record on Wiley Online Library and any embedding, framing or otherwise making available the article or pages thereof by third parties from platforms, services and websites other than Wiley Online Library must be prohibited.</span>
+
+[^1]: I would argue that the SV involves as many metaphysical and metaethical commitments as any other similar theory; but these are often implicit.
+
+[^2]: Else we could not act at all; since without a perceived good, we have no motivation. See ([Aquinas 1975, 3.3](#ref-aquinas1975))
