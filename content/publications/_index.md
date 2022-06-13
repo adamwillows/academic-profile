@@ -4,7 +4,7 @@ type: project
   
 title: Publications
 description: "This is a home for my research publications. Click on the title to read or download a copy."
-show_post_thumbnail: false
+show_post_thumbnail: true
 show_author_byline: false
 show_citation_details: true
 show_post_date: false

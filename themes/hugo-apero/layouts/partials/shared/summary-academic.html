@@ -11,17 +11,17 @@
   {{- $hex := $images.GetMatch "*hex*" -}}
   {{- $thumbnail := cond (ne $hex nil) $hex $leaf -}}
   <!--sidebar image for the branch bundle-->
-  {{ $branch := ($section.Resources.ByType "image").GetMatch "*feature*" }}
+  {{ $branch := ($page.Resources.ByType "image").GetMatch "*hex*" }}
   {{- $thumbnail := cond (ne $thumbnail nil) $thumbnail $branch -}}
   <div class="flex flex-column mb4 mb5-l {{ if (ne $hex nil) }}items-center{{ end }} {{ if $root.Params.thumbnail_left }}flex-row-ns{{ else }}flex-row-reverse-ns{{ end }}">
-    <figure class="{{ if $root.Params.thumbnail_left }}mr4-ns{{ else }}ml4-ns{{ end }} ma0 mb2 mb0-l w-100 w-40-ns">
+    <figure class="{{ if $root.Params.thumbnail_left }}mr4-ns{{ else }}ml4-ns{{ end }} ma0 mb2 mb0-l w-100 w-20-ns">
       <a href="{{ .RelPermalink }}" class="db">
         {{ with $thumbnail }}
-          <img src="{{ .RelPermalink | absURL }}" class="db ma0 dim" alt="">
+          <img src="{{ .RelPermalink | absURL }}" class="db ma0 dim" alt="thumbnail of {{ with $page.Params.sidebar }}{{ .image_alt_text }}{{ end }}">
         {{ end }}
       </a>
     </figure>
-    <div class="flex flex-column w-100 w-60-ns {{ if $root.Params.thumbnail_left }}pr3-ns{{ else }}pl3-ns{{ end }}">
+    <div class="flex flex-column w-100 w-80-ns {{ if $root.Params.thumbnail_left }}pr3-ns{{ else }}pl3-ns{{ end }}">
       <header class="w-100">
         <h1 class="f3 mv2 lh-title underline"><a href="{{ .RelPermalink }}" class="db">{{ .Title | markdownify }}</a></h1>
         {{ range first 1 (.GetTerms "series") }}
@@ -39,6 +39,15 @@
         <p class="db pt1">
         {{ partial "shared/btn-links-list.html" . }}
         </p>
+        {{ if .Params.abstract }}
+<details>
+  <summary class="mr2 dib mb1 f6 ttu tracked pointer">Abstract<i class="fas fa-angle-down ml2"></i>
+    </summary>
+        <p>
+        {{ .Params.abstract }}<br></br>
+        {{ .Params.abstract_para2 }} {{ end }}
+        </p>
+</details>
       {{ end }}
     </footer>
     </div>

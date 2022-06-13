@@ -1,0 +1,11 @@
+--2022-05-24 12:10:51--  https://www.google.com/url?sa=t
+Resolving www.google.com (www.google.com)... 142.250.178.4, 2a00:1450:4009:815::2004
+Connecting to www.google.com (www.google.com)|142.250.178.4|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘url?sa=t’
+
+url?sa=t                [<=>                 ]       0  --.-KB/s               url?sa=t                [ <=>                ]   1.42K  --.-KB/s    in 0s      
+
+2022-05-24 12:10:51 (3.67 MB/s) - ‘url?sa=t’ saved [1449]
+
