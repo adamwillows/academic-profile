@@ -9,6 +9,8 @@ show_author_byline: false
 show_citation_details: true
 show_post_date: false
 show_button_links: true
+sitemap:
+  priority: 1.0
 
 # for listing page layout
 layout: list-academic # list, list-sidebar, list-grid, list-academic
@@ -34,6 +36,8 @@ cascade:
     text_link_label:
     text_link_url: 
     show_sidebar_adunit: false # show ad container
+  sitemap:
+    priority: 0.7
     
 ---
 

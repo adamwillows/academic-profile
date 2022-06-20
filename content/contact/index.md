@@ -11,6 +11,8 @@ submit_button_label: Send Message
 title: Get in touch
 type: form
 url: contact
+sitemap:
+  priority: 0.4
 
 ---
 

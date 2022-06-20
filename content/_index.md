@@ -17,6 +17,8 @@ cascade:
     first_author_surname: Willows
     first_author_names: Adam M.
     orcid: https://orcid.org/0000-0002-5108-7842
+sitemap:
+  priority: 1.0
 ---
 
 ** index doesn't contain a body, just front matter above.

@@ -9,6 +9,8 @@ show_author_byline: false
 show_citation_details: false
 show_post_date: true
 show_button_links: false
+sitemap:
+  priority: 0.8
 
 # for listing page layout
 layout: list-grid # list, list-sidebar, list-grid, list-academic
@@ -34,7 +36,7 @@ cascade:
     text_link_label:
     text_link_url: 
     show_sidebar_adunit: false # show ad container
-    
+
 ---
 
 ** No content for the project index. This file provides front matter for the blog including the layout and boolean options. **

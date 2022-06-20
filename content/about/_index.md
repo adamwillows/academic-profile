@@ -6,6 +6,8 @@ description: |
 show_header: false
 sidebar_left: true
 title: About me
+sitemap:
+  priority: 0.9
 ---
 
 ** index doesn't contain a body, just front matter above.

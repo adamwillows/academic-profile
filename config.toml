@@ -157,6 +157,11 @@ enableEmoji = true
     title = "Contact form"
     url = "/contact/"
     weight = 2
+  [[menu.footer]]
+    name = "Sitemap"
+    title = "Sitemap"
+    url = "/sitemap.xml/"
+    weight = 3
 
 # see https://gohugo.io/about/hugo-and-gdpr/    
 [privacy]
