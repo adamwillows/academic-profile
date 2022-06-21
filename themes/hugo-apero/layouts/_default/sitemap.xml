@@ -1,6 +1,7 @@
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
       {{ $exclude := slice "tags" "categories" "series" }}
   {{ range .Data.Pages }}
     {{ if not (in $exclude .Data.Plural) }}
@@ -19,6 +20,11 @@
                 hreflang="{{ .Language.Lang }}"
                 href="{{ .Permalink }}"
                 />{{ end }}
+  {{ range $i := .Resources.ByType "image" }}
+  <image:image>
+    <image:loc>{{ $i.Permalink }}</image:loc>
+  </image:image>
+  {{ end }}
   </url>
     {{ if (.Resources.Match "*.pdf")}}
   <url>

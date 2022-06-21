@@ -6,6 +6,7 @@ date: 2022-06-20
 featured: true
 draft: false
 tags:
+
 - 
 categories:
 - 
@@ -41,7 +42,7 @@ are asked to, don’t just write generally on what you have learned about a topi
 
 Here are a few examples of questions about the same topic - the execution of [Thomas More](https://en.wikipedia.org/wiki/Thomas_More) - with comments on how you might approach answering them. Note that the questions all have quite similar wording but invite different answers.
 
-{{< figure src="thomas-more.jpg" alt="Painting of Thomas More meeting his daughter after his sentence of death." caption="In 1535, Sir Thomas More was executed for refusing to swear allegiance to Henry VIII above the Pope.">}}
+{{< figure src="/img/fantastic-essays-and-how-to-write-them/thomas-more.jpg" alt="Painting of Thomas More meeting his daughter after his sentence of death." caption="In 1535, Sir Thomas More was executed for refusing to swear allegiance to Henry VIII above the Pope.">}}
 
 ---
 
@@ -119,7 +120,7 @@ Providing evidence is not as simple as just using a quote; while they are import
 
 <div class="flex-l items-center-l">
   <span class="w-30-l pr4-l">
-<img src="red-riding-hood-meets-wolf.png" alt="Red Riding Hood meeting the wolf" style="height:10em">
+<img src="/img/fantastic-essays-and-how-to-write-them/red-riding-hood-meets-wolf.png" alt="Red Riding Hood meeting the wolf" style="height:10em">
 </span>
 <span class="w-70-l pr4-l">
 
@@ -149,7 +150,7 @@ This point uses a direct quote to provide evidence for the point that is being m
 No quote here, but it still uses the story as evidence by referencing it to justify the point being made. A summary of the relevant part works well when you would need a very long quote or lots of separate ones to make the same point.
 </span>
   <span class="w-30-l pr4-l">
-<img src="red-riding-hood-knocking.png" alt="Red Riding Hood knowking on her grandmother's door" style="height:10em">
+<img src="/img/fantastic-essays-and-how-to-write-them/red-riding-hood-knocking.png" alt="Red Riding Hood knowking on her grandmother's door" style="height:10em">
 </span>
 </div>
 
@@ -157,7 +158,7 @@ No quote here, but it still uses the story as evidence by referencing it to just
 
 <div class="flex-l items-center-l">
   <span class="w-30-l pr4-l">
-<img src="red-riding-hood-at-bedside.png" alt="Red Riding Hood at her grandmother's bedside" style="height:10em">
+<img src="/img/fantastic-essays-and-how-to-write-them/red-riding-hood-at-bedside.png" alt="Red Riding Hood at her grandmother's bedside" style="height:10em">
 </span>
 <span class="w-70-l pr4-l">
 
@@ -189,7 +190,7 @@ This references the text, but it tries to make it do too much by using it as evi
 
 </span>
   <span class="w-30-l pr4-l">
-<img src="red-riding-hood-praying.png" alt="Red Riding Hood Praying" style="height:10em">
+<img src="/img/fantastic-essays-and-how-to-write-them/red-riding-hood-praying.png" alt="Red Riding Hood Praying" style="height:10em">
 </span>
 </div>
 
@@ -221,7 +222,7 @@ If you want to attack someone else’s argument, you should try to show that the
 
 <div class="flex-l">
   <span class="w-30-l pr4-l">
-{{< figure src="king-of-hearts.png" alt="the king of hearts from alice in wonderland" caption="The King of Hearts" >}}
+{{< figure src="/img/fantastic-essays-and-how-to-write-them/king-of-hearts.png" alt="the king of hearts from alice in wonderland" caption="The King of Hearts" >}}
 </span>
 <span class="w-70-l">
 <span class="f4 serif">
@@ -267,7 +268,7 @@ Here is a failure of step 1. One of the premises (A) is disputed – the Knave d
 
 </span>
 <div class="w-30-l">
-{{< figure src="cheshire-cat.png" alt="cheshire cat from alice in wonderland" caption="The Cheshire Cat" >}}
+{{< figure src="/img/fantastic-essays-and-how-to-write-them/cheshire-cat.png" alt="cheshire cat from alice in wonderland" caption="The Cheshire Cat" >}}
 </div>
 </div>
 
@@ -291,7 +292,7 @@ Here is a better argument. See if you can identify the key premises and how they
 
 <div class="flex-l">
 <span class="w-30-l pr4-l">
-{{< figure src="alice.png" alt="alice in wonderland" caption="Alice in Wonderland" >}}
+{{< figure src="/img/fantastic-essays-and-how-to-write-them/alice.png" alt="alice in wonderland" caption="Alice in Wonderland" >}}
 </span>
   <span class="w-70-l">
   <span class="f4 serif">
@@ -346,7 +347,7 @@ Here are some very short examples of possible responses to a question, going fro
 
 ---
 
-##### Answer 1
+#### Answer 1
 <div class="flex-l items-center-l">
   <div class="w-70-l">
 'Some might say that Goldilocks was mistaken and deserved what she got. It could be argued that she was not so bad, however. Ultimately we must understand that this cautionary tale shows that interspecies relationships are very difficult to manage fairly and we should leave bears in their natural habitat.' 
@@ -356,13 +357,13 @@ Terrible. There is no justification for either position, the writer gives absolu
 
 </div>
 <div class="w-30-l pl4-l">
-{{< figure src="goldilocks-bears-making-porridge.jpg" alt="the three bears making porridge" >}}
+{{< figure src="/img/fantastic-essays-and-how-to-write-them/goldilocks-bears-making-porridge.jpg" alt="the three bears making porridge" >}}
 </div>
 </div>
 
 ---
 
-##### Answer 2
+#### Answer 2
 <div class="flex-l items-center-l">
   <div class="w-70-l">
 'In my view, Goldilocks was wrong. She ate the bear's porridge and slept in their beds, and it is not surprising that they chased her.' 
@@ -372,13 +373,13 @@ Slightly better, since we know what the writer thinks. But there isn't really an
 
 </div>
 <div class="w-30-l pl4-l">
-{{< figure src="goldilocks-eating-porridge.jpg" alt="goldilocks eating the three bear's porridge" >}}
+{{< figure src="/img/fantastic-essays-and-how-to-write-them/goldilocks-eating-porridge.jpg" alt="goldilocks eating the three bear's porridge" >}}
 </div>
 </div>
 
 ---
 
-##### Answer 3
+#### Answer 3
 <div class="flex-l items-center-l">
   <div class="w-70-l">
 'I think Goldilocks did not do anything wrong. Who would not do the same in her situation? She had a very hard time, as no-one wants to be chased by bears, so we can see that she deserves sympathy.' 
@@ -388,13 +389,13 @@ Here we have both claim and an attempt at argument. The argument is bad, however
 
 </div>
 <div class="w-30-l pl4-l">
-{{< figure src="goldilocks-sleeping.jpg" alt="goldilocks asleep in little bear's bed" >}}
+{{< figure src="/img/fantastic-essays-and-how-to-write-them/goldilocks-sleeping.jpg" alt="goldilocks asleep in little bear's bed" >}}
 </div>
 </div>
 
 ---
 
-##### Answer 4
+#### Answer 4
 <div class="flex-l items-center-l">
   <div class="w-70-l">
 'I think Goldilocks should not have done what she did. We can see this from the tone of the story, which clearly sides with the sympathetic 'Little Bear'. Her role as villain shows her to be in the wrong.' 
@@ -404,13 +405,13 @@ Marginally better, but the argument is more about the intention of the storytell
 
 </div>
 <div class="w-30-l pl4-l">
-{{< figure src="goldilocks-bears-coming-home.jpg" alt="the three bears returning home" >}}
+{{< figure src="/img/fantastic-essays-and-how-to-write-them/goldilocks-bears-coming-home.jpg" alt="the three bears returning home" >}}
 </div>
 </div>
 
 ---
 
-##### Answer 5
+#### Answer 5
 <div class="flex-l items-center-l">
   <div class="w-70-l">
 'Goldilocks is totally blameless here. Human beings engage in moral activity by deliberating rationally about what we should do - something which other animals cannot do. The Three Bears are non-rational animals, meaning they have no moral responsibilities and therefore no direct rights either. Goldilocks is not guilty as the bears have no moral rights to be breached.' 
@@ -420,13 +421,13 @@ Something approaching decent argument, at last. The writer makes a reasonably pl
 
 </div>
 <div class="w-30-l pl4-l">
-{{< figure src="goldilocks-bears-finding-chairs.jpg" alt="the three bears finding their damaged chairs" >}}
+{{< figure src="/img/fantastic-essays-and-how-to-write-them/goldilocks-bears-finding-chairs.jpg" alt="the three bears finding their damaged chairs" >}}
 </div>
 </div>
 
 ---
 
-##### Answer 6
+#### Answer 6
 
 <div class="flex-l items-center-l">
   <div class="w-70-l">
@@ -437,7 +438,7 @@ This is good. Clear explanation of the view and a consistent argument - Goldiloc
 
 </div>
 <div class="w-30-l pl4-l">
-{{< figure src="goldilocks-bears-finding-beds.jpg" alt="the three bears finding goldilocks in little bear's bed" >}}
+{{< figure src="/img/fantastic-essays-and-how-to-write-them/goldilocks-bears-finding-beds.jpg" alt="the three bears finding goldilocks in little bear's bed" >}}
 </div>
 </div>
 

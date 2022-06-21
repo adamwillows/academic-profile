@@ -40,6 +40,7 @@ enableEmoji = true
   description = "Personal academic profile of Adam M. Willows"
   favicon = "/img/favicon.ico"
   logo = "/img/amwlogo.png"
+  avatar = "/img/avatar.jpg"
   mainSections = ["blog", "project", "talk", "publications", "resources"]
   navallcaps = true
   # show/hide social icons in site header & footer

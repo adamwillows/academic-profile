@@ -1,8 +1,7 @@
 ---
 cascade:
   headless: true
-description: |
-  About page for Adam M. Willows.
+description: About page for Adam M. Willows.
 show_header: false
 sidebar_left: true
 title: About me

@@ -4,7 +4,6 @@
 # author:
 # first_author_surname:
 # first_author_names:
-author_institution: University of Winchester
 # second_author:
 # third_author:
 # other_authors:
@@ -42,6 +41,7 @@ pdf: willows-2022-aristotelian-metaphysics-guise-of-the-good.pdf #.pdf file in p
 language: 'en'
 
 # Page details
+image: sailboat-towards-lighthouse-sidebar.png
 sidebar: 
   description:
   author: 

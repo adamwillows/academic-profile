@@ -1,0 +1,133 @@
+{{ if and (eq .Kind "page") (eq .Section "publications") }}
+{{ $author :=  or (.Params.author) (.Site.Author.name) }}
+{{ $org_name :=  .Site.Title }}
+{{ $page := . }}
+{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+{{ $.Scratch.Add "path" .Site.BaseURL }}
+
+{{ $.Scratch.Add "breadcrumb" (slice (dict "url" .Site.BaseURL "name" "home" "position" 1 )) }}
+{{ range $index, $element := split $url "/" }}
+{{ $.Scratch.Add "path" $element }}
+{{ $.Scratch.Add "path" "/" }}
+{{ if ne $element "" }}
+{{ $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 2))) }}
+{{ end }}
+{{ end }}
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "ScholarlyArticle",
+    "name": "{{ .Title | safeJS }}",
+    "headline": "{{ .Title | safeJS }}",
+    "description": "{{ if .Description }}{{ .Description | safeJS }}{{ else }}{{if .IsPage}}{{ .Summary  }}{{ end }}{{ end }}",
+    "inLanguage": {{ .Site.LanguageCode | default "en" }},
+    "mainEntityOfPage": {{ .Permalink }},
+    "author" : {
+        "@type": "Person",
+        "name": "{{ $author }}",
+        "worksFor": {
+              "@type": "Organization",
+              "name": {{ .Params.author_institution }},
+              "address": {{ .Params.author_institution_address }},
+              "url": {{ .Params.author_institution_url }}
+              },
+        "honorificPrefix": "Dr",
+        "jobTitle": "Senior Lecturer",
+        "sameas": [
+                 {{ .Params.orcid }},
+                 {{ .Params.google_scholar }},
+                 {{ .Params.author_institution_profile }},
+                 {{ .Params.author_philpeople }},
+                 {{ .Params.author_academia }},
+                 {{ .Params.author_researchgate }}
+                  ]
+    },
+    "dateCreated": "{{ .Date.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
+    "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
+    "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
+    "publisher":{
+        "@type":"Organization",
+        "name": {{ if .Params.publisher }}{{ .Params.publisher | safeJS }}{{ else }}{{ if .Params.journal_title }}{{ .Params.journal_title  }}{{ end }}{{ end }},
+        "url": {{ .Params.publisher_url }},
+        "issn": {{ .Params.issn }},
+        "isbn": {{ .Params.isbn }}
+        },
+    "pageStart": {{ .Params.firstpage }},
+    "pageEnd": {{ .Params.lastpage }},
+    "abstract": {{ .Params.abstract }},
+    "image": {{ if .Params.sidebar }}{{ with ($page.Resources.ByType "image").GetMatch "*sidebar*" }}{{ .Permalink }}{{ end }}{{ else}}{{.Site.Params.sharing_image | absURL }}{{ end }},
+    "url" : {{ .Permalink }},
+    "identifier": {{ print "https://doi.org/" (.Params.doi) }},
+    "wordCount" : "{{ .WordCount }}",
+    "keywords" : [ {{ range $index, $keyword := .Params.tags }}{{ if $index }}, {{ end }}"{{ $keyword }}" {{ end }}],
+    "breadcrumb":{
+       "@type": "BreadcrumbList",
+       "itemListElement": [{{ range $.Scratch.Get "breadcrumb" }}{{ if ne .position 1 }},{{ end }}{
+            "@type": "ListItem",
+            "position": {{ .position }},
+            "item": {
+                 "@id": {{ .url }},
+                 "name": {{ replace (.name | title) "-" " " }}
+        }
+    }{{ end }}]
+}
+}
+</script>
+{{ else }}
+{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+{{ $.Scratch.Add "path" .Site.BaseURL }}
+
+{{ $.Scratch.Add "breadcrumb" (slice (dict "url" .Site.BaseURL "name" "home" "position" 1 )) }}
+{{ range $index, $element := split $url "/" }}
+{{ $.Scratch.Add "path" $element }}
+{{ $.Scratch.Add "path" "/" }}
+{{ if ne $element "" }}
+{{ $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 2))) }}
+{{ end }}
+{{ end }}
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": {{ .Title }},
+    "url": {{ .Permalink }},
+    "image": {{ .Site.Params.avatar | absURL }},
+    "description": {{ .Params.description }},
+    "thumbnailUrl": {{ .Site.Params.sharing_image | absURL }},
+    "license": "{{ .Site.Params.Copyright }}",
+    "logo": {{ .Site.Params.logo | absURL }},
+    "author" : {
+        "@type": "Person",
+        "name": "{{ .Params.author }}",
+        {{ if or (.IsHome) (eq .Section "about") -}}"mainEntityOfPage": {{ .Permalink }},{{ end }}
+        "worksFor": {
+              "@type": "Organization",
+              "name": {{ .Params.author_institution }},
+              "address": {{ .Params.author_institution_address }},
+              "url": {{ .Params.author_institution_url }}
+              },
+        "honorificPrefix": "Dr",
+        "jobTitle": "Senior Lecturer",
+        "sameas": [
+                 {{ .Params.orcid }},
+                 {{ .Params.google_scholar }},
+                 {{ .Params.author_institution_profile }},
+                 {{ .Params.author_philpeople }},
+                 {{ .Params.author_academia }},
+                 {{ .Params.author_researchgate }}
+                  ]
+    },
+    "breadcrumb":{
+       "@type": "BreadcrumbList",
+       "itemListElement": [{{ range $.Scratch.Get "breadcrumb" }}{{ if ne .position 1 }},{{ end }}{
+            "@type": "ListItem",
+            "position": {{ .position }},
+            "item": {
+                 "@id": {{ .url }},
+                 "name": {{ replace (.name | title) "-" " " }}
+        }
+    }{{ end }}]
+}
+}
+</script>
+{{ end }}

@@ -25,7 +25,7 @@ sidebar:
   text_link_url:
   show_sidebar_adunit: false # show ad container
 
-# set up common front matter for all individual pages inside publications/
+# set up common front matter for all individual pages inside resources/
 cascade:  
   type: project
   show_author_byline: true
