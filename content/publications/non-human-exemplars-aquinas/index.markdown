@@ -98,7 +98,7 @@ The importance of exemplars and exemplarity to Aquinas and other medieval thinke
 
 Before I do, though, there are problems that I need to address. It is fair to say that this position may appear *prima facie* problematic to those familiar with Aquinas. I think there are two main objections here which are somewhat related. Firstly, Aquinas does not think that the whole natural world operates (morally) in the same way we do. Secondly, he thinks that human flourishing is specific to our species and is not shared with other created beings. Both of these observations pose obstacles to my claim that non-humans can function as a guide to human moral development. In the next section I explore these two problems in more detail. In the section after I will offer a resolution.
 
-## Human goods, human lives?
+## 2. Human goods, human lives?
 
 Firstly, take the complaint that humans act in a morally different way to non-humans. Call an objection like this O1:
 
