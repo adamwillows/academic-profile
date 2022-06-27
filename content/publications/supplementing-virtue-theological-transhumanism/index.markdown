@@ -46,7 +46,7 @@ sidebar:
   text_link_label:
   text_link_url:
   show_sidebar_adunit: false # show ad container
-  image_alt_text: ''
+  image_alt_text: 'enhancement pills in cup'
 citation_panel: true # Displays citation panel in sidebar; true or false
 link-citations: true
 include_citation_metadata: true

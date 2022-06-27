@@ -34,6 +34,11 @@ enableEmoji = true
     # one of: https://xyproto.github.io/splash/docs/ 
     style = "github"
     
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = ["lastmod", ":fileModTime", "date", "publishDate"]
+publishDate = ["publishDate", "date"]
+    
 [params]
   orgName = "Adam M. Willows"
   orgLocal = ""

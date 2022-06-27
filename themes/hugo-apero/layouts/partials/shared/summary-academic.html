@@ -8,17 +8,24 @@
   <!--featured image for the leaf bundle-->
   {{- $images := $page.Resources.ByType "image" -}}
   {{ $leaf := $images.GetMatch "*feature*" }}
-  {{- $hex := $images.GetMatch "*hex*" -}}
+  {{- $hex := $images.GetMatch "*hex-450*" -}}
+  {{ $1000 := ($page.Resources.ByType "image").GetMatch "*hex-1000*" }}
+{{ $800 := ($page.Resources.ByType "image").GetMatch "*hex-800*" }}
+{{ $600 := ($page.Resources.ByType "image").GetMatch "*hex-600*" }}
+{{ $450 := ($page.Resources.ByType "image").GetMatch "*hex-450*" }}
+{{ $300 := ($page.Resources.ByType "image").GetMatch "*hex-300*" }}
+{{ $200 := ($page.Resources.ByType "image").GetMatch "*hex-200*" }}
+{{ $150 := ($page.Resources.ByType "image").GetMatch "*hex-150*" }}
   {{- $thumbnail := cond (ne $hex nil) $hex $leaf -}}
   <!--sidebar image for the branch bundle-->
-  {{ $branch := ($page.Resources.ByType "image").GetMatch "*hex*" }}
+  {{ $branch := ($page.Resources.ByType "image").GetMatch "*hex-450*" }}
   {{- $thumbnail := cond (ne $thumbnail nil) $thumbnail $branch -}}
   <div class="flex flex-column mb4 mb5-l {{ if (ne $hex nil) }}items-center{{ end }} {{ if $root.Params.thumbnail_left }}flex-row-ns{{ else }}flex-row-reverse-ns{{ end }}">
     <figure class="{{ if $root.Params.thumbnail_left }}mr4-ns{{ else }}ml4-ns{{ end }} ma0 mb2 mb0-l w-100 w-20-ns">
       <a href="{{ .RelPermalink }}" class="db">
-        {{ with $thumbnail }}
-          <img src="{{ .RelPermalink | absURL }}" class="db ma0 dim" alt="thumbnail of {{ with $page.Params.sidebar }}{{ .image_alt_text }}{{ end }}">
-        {{ end }}
+        
+          <img src="{{ with $thumbnail }}{{ .RelPermalink | absURL }}{{ end }}" srcset="{{ with $150 }}{{ .RelPermalink | absURL }}{{ end }} 150w, {{ with $200 }}{{ .RelPermalink | absURL }}{{ end }} 200w, {{ with $300 }}{{ .RelPermalink | absURL }}{{ end }} 300w, {{ with $450 }}{{ .RelPermalink | absURL }}{{ end }} 450w, {{ with $600 }}{{ .RelPermalink | absURL }}{{ end }} 600w, {{ with $600 }}{{ .RelPermalink | absURL }}{{ end }} 800w, {{ with $1000 }}{{ .RelPermalink | absURL }}{{ end }} 1000w" sizes="(min-width: 480px) calc(12.4rem), calc(100vw)" class="db ma0 dim" alt="thumbnail of {{ with $page.Params.sidebar }}{{ .image_alt_text }}{{ end }}">
+        
       </a>
     </figure>
     <div class="flex flex-column w-100 w-80-ns {{ if $root.Params.thumbnail_left }}pr3-ns{{ else }}pl3-ns{{ end }}">
