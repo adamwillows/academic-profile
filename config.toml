@@ -44,8 +44,8 @@ publishDate = ["publishDate", "date"]
   orgLocal = ""
   description = "Personal academic profile of Adam M. Willows"
   favicon = "/img/favicon.ico"
-  logo = "/img/amwlogo.png"
-  avatar = "/img/avatar.jpg"
+  logo = "/img/amwlogo-200.webp"
+  avatar = "/img/avatar-300.webp"
   mainSections = ["blog", "project", "talk", "publications", "resources"]
   navallcaps = true
   # show/hide social icons in site header & footer
@@ -54,7 +54,7 @@ publishDate = ["publishDate", "date"]
   socialInFooter = true
   # Default image for social sharing and search engines. 
   # Place image file in `static` folder and specify image name here.
-  sharing_image = "/img/amwsharingimage.png"
+  sharing_image = "/img/amwsharingimage-960.webp"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
   twitter = ""
   
