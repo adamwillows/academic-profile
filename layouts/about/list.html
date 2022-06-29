@@ -51,12 +51,12 @@
     <!--begin sidebar-->
     {{ $sidebar := printf "/%s/%s" .Section "sidebar/index.md" }}
     {{ $sidebar_pg := site.GetPage $sidebar }}
-    {{ $100 := ($page.Resources.ByType "image").GetMatch "*avatar-100*" }}
-    {{ $150 := ($page.Resources.ByType "image").GetMatch "*avatar-150*" }}
-    {{ $200 := ($page.Resources.ByType "image").GetMatch "*avatar-200*" }}
-    {{ $300 := ($page.Resources.ByType "image").GetMatch "*avatar-300*" }}
-    {{ $450 := ($page.Resources.ByType "image").GetMatch "*avatar-450*" }}
-    {{ $600 := ($page.Resources.ByType "image").GetMatch "*avatar-600*" }}
+    {{ $100 := ($sidebar_pg.Resources.ByType "image").GetMatch "*avatar-100*" }}
+    {{ $150 := ($sidebar_pg.Resources.ByType "image").GetMatch "*avatar-150*" }}
+    {{ $200 := ($sidebar_pg.Resources.ByType "image").GetMatch "*avatar-200*" }}
+    {{ $300 := ($sidebar_pg.Resources.ByType "image").GetMatch "*avatar-300*" }}
+    {{ $450 := ($sidebar_pg.Resources.ByType "image").GetMatch "*avatar-450*" }}
+    {{ $600 := ($sidebar_pg.Resources.ByType "image").GetMatch "*avatar-600*" }}
 
     {{ with $sidebar_pg }}
         <sidebar class="about-sidebar order-1 {{ if $page.Params.sidebar_left }}order-1-l{{ else }}mr4-l order-2-l{{ end }} mh0 w-third-l w-100-ns" id="profile">
@@ -64,9 +64,9 @@
             {{ if .Params.avatar_shape }}
               {{- $avatar := ($sidebar_pg.Resources.ByType "image").GetMatch "*avatar-300*" -}}
               {{ $avatar_shape := .Params.avatar_shape | default "circle" }}
-              {{ with $avatar }}
-                <img src="{{ .RelPermalink }}" srcset="{{ $100 }} 100w, {{ $150 }} 150w, {{ $200 }} 200w, {{ $300 }} 300w, {{ $450 }} 450w, {{ $600 }} 600w" class="h4 w4 dib {{if eq $avatar_shape "rounded"}}br3{{end}}{{if eq $avatar_shape "circle"}}br-100{{end}}" alt="avatar">
-              {{ end }}
+              
+                <img src="{{ with $avatar }}{{ .RelPermalink }}{{ end }}" srcset="{{ with $100 }}{{ .RelPermalink }}{{ end }} 100w, {{ with $150 }}{{ .RelPermalink }}{{ end }} 150w, {{ with $200 }}{{ .RelPermalink }}{{ end }} 200w, {{ with $300 }}{{ .RelPermalink }}{{ end }} 300w, {{ with $450 }}{{ .RelPermalink }}{{ end }} 450w, {{ with $600 }}{{ .RelPermalink }}{{ end }} 600w" sizes="(min-width: 450px) calc(8rem), calc(100vw)" class="h4 w4 dib {{if eq $avatar_shape "rounded"}}br3{{end}}{{if eq $avatar_shape "circle"}}br-100{{end}}" alt="avatar">
+              
             {{ end }}
             <h2 class="f-subheadline f4-ns fw6">{{ .Params.author }}</h2>
             <h5 class="f-subheadline f4 fw2 ttu tracked">{{ .Params.role | markdownify }}</h5>
