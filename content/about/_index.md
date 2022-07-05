@@ -1,10 +1,12 @@
 ---
 cascade:
   headless: true
+  date: 2022-06-11
 description: About page for Adam M. Willows.
 show_header: false
 sidebar_left: true
 title: About me
+contenttype: about
 sitemap:
   priority: 0.9
 ---

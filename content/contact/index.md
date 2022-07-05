@@ -1,5 +1,5 @@
 ---
-date: "2019-02-25T13:38:41-06:00"
+date: 2022-06-11
 description: If you want to contact me about events, collaborations or anything else, you can use this form or e-mail me directly at [adam.willows@winchester.ac.uk](mailto:adam.willows@winchester.ac.uk).
 draft: false
 formspree_form_id: https://formspree.io/f/xyyovpgn

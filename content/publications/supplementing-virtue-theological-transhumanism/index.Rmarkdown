@@ -3,34 +3,50 @@
 # author:
 # first_author_surname:
 # first_author_names:
-author_institution: 'University of Notre Dame'
+author_institution: University of Notre Dame
+author_institution_street_address: University of Notre Dame
+author_institution_address_locality: Notre Dame
+author_institution_address_region: Indiana
+author_institution_address_country: USA
+author_institution_address_postcode: 46556
+author_institution_url: https://www.nd.edu/
+author_institution_wikipedia: https://en.wikipedia.org/wiki/University_of_Notre_Dame
+author_institution_twitter: https://twitter.com/NotreDame
+author_institution_wikidata: https://www.wikidata.org/wiki/Q178848
 # second_author:
 # third_author:
 # other_authors:
 
+contenttype: publication # Enter page content type - publication, blog, biography, talk.
 pubtype: journal # Enter publication type - journal, chapter, book, presentation, website.
 title: "Supplementing Virtue: The Case for a Limited Theological Transhumanism"
-date_published: 2017-04-03  # Field for citation details and publication metadata.
+publishdate: 2017-04-03  # Field for citation details and publication metadata.
 
-date: 2017-04-03 # Posting date of the page
+date: 2022-06-11 # Posting date of the page
 description: "Argument for 'moral supplementation'. Transhumanist moral enhancement is desirable in principle but necessarily limited."
 subtitle: ''
 excerpt: ''
 date_accessed: # Date online publication was accessed.
 draft: no
 url: ''
+corpusID: 152151008
 doi: 10.1080/14746700.2017.1299375
 journal_title: Theology and Science
+journal_url: https://www.tandfonline.com/toc/rtas20/current
+journal_wikipedia: https://en.wikipedia.org/wiki/Theology_and_Science
+journal_wikidata: http://www.wikidata.org/entity/Q7782240
 volume: '15'
 issue: '2'
-issn: '1474-6719'
+print_issn: '1474-6719'
+online_issn: '1474-6719'
 abstract: "This paper considers the prospect of moral transhumanism from the perspective of theological virtue ethics. I argue that the pursuit of goodness inherent to moral transhumanism means that there is a compelling prima facie case for moral enhancement. However, I also show that the proposed enhancements would not by themselves allow us to achieve a life of virtue, as they appear unable to create or enhance prudence, the situational judgement essential for acting in accordance with virtue. I therefore argue that moral enhancement technologies should take a limited or supporting role in moral development, which I call ‘moral supplementation’."
 firstpage: '177'
 lastpage: '187'
 book_title: ''
 editor: ''
 address: ''
-publisher: ''
+publisher: Taylor and Francis
+publisher_logo: /img/logos/taylor-and-francis.webp
 translator: ''
 isbn: ''
 event: ''

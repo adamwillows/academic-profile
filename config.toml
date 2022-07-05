@@ -43,9 +43,11 @@ publishDate = ["publishDate", "date"]
   orgName = "Adam M. Willows"
   orgLocal = ""
   description = "Personal academic profile of Adam M. Willows"
+  bio = "Adam Willows is a theologian specialising in philosophical theology and ethics, with further expertise in the relationship between theology and the sciences. His work explores the nature of moral character and agency and emphasizes the potential for philosophical and theological traditions to interact, often to mutual benefit."
   favicon = "/img/favicon.ico"
   logo = "/img/amwlogo-200.webp"
-  avatar = "/img/avatar-300.webp"
+  widelogo = "/img/amwwidelogo.webp"
+  avatar = "/img/avatar-600.webp"
   mainSections = ["blog", "project", "talk", "publications", "resources"]
   navallcaps = true
   # show/hide social icons in site header & footer
@@ -56,7 +58,7 @@ publishDate = ["publishDate", "date"]
   # Place image file in `static` folder and specify image name here.
   sharing_image = "/img/amwsharingimage-960.webp"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
-  twitter = ""
+  twitter = "adam_willows"
   
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
@@ -123,6 +125,11 @@ publishDate = ["publishDate", "date"]
       icon_pack = "ai"
       color     = "#00cbba"
       url       = "https://www.researchgate.net/profile/Adam-Willows"
+                [[params.social]]
+      icon      = "semantic-scholar" # icon name without the 'fa-'
+      icon_pack = "ai"
+      color     = "#1857b6"
+      url       = "https://www.semanticscholar.org/author/Adam-M.-Willows/117380825"
           [[params.social]]
       name = "university"
       image = "/img/university.svg"

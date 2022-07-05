@@ -5,15 +5,25 @@
 # first_author_surname:
 # first_author_names:
 author_institution: University of Notre Dame
+author_institution_street_address: University of Notre Dame
+author_institution_address_locality: Notre Dame
+author_institution_address_region: Indiana
+author_institution_address_country: USA
+author_institution_address_postcode: 46556
+author_institution_url: https://www.nd.edu/
+author_institution_wikipedia: https://en.wikipedia.org/wiki/University_of_Notre_Dame
+author_institution_twitter: https://twitter.com/NotreDame
+author_institution_wikidata: https://www.wikidata.org/wiki/Q178848
 # second_author:
 # third_author:
 # other_authors:
 
+contenttype: publication # Enter page content type - publication, blog, biography, talk.
 pubtype: journal # Enter publication type - journal, chapter, book, presentation, website.
 title: "The Role of Non-Human Exemplars in Aquinas"
-date_published: 2018-05-01 # Field for citation details and publication metadata.
+publishdate: 2018-05-01 # Field for citation details and publication metadata.
 
-date: 2018-05-01 # Posting date of the page
+date: 2022-06-11 # Posting date of the page
 description: I argue that Aquinas’ account of moral development includes non-humans as exemplars, with benefits for moral learners.
 subtitle: ''
 excerpt: ''
@@ -21,17 +31,23 @@ date_accessed: # Date online publication was accessed.
 draft: no
 url: ''
 doi: 10.1111/nbfr.12274
+corpusID: 151466824
 journal_title: New Blackfriars
+journal_url: https://onlinelibrary.wiley.com/journal/17412005
+journal_wikipedia: https://en.wikipedia.org/wiki/New_Blackfriars
+journal_wikidata: http://www.wikidata.org/entity/Q15745414
 volume: '99'
 issue: '1081'
-issn: '1741-2005'
+print_issn: '0028-4289'
+online_issn: '1741-2005'
 abstract: 'In this paper I discuss the role of non-humans in Aquinas’ account of moral learning. I intend to show that the entire created order can play an important role in demonstrating to us the life of virtue, and argue that non-human exemplars offer important advantages to the moral learner. I begin by addressing apparent problems with this approach, founded on the observation that human virtue, for Aquinas, is unique to humans. I resolve these by showing that Aquinas’ approach to exemplars is fundamentally analogical, meaning that exemplars point beyond themselves and need not necessarily live the good life to which they direct learners. I show that this means that Aquinas can use non-humans as moral exemplars and offer examples of him doing just that. Finally, I offer an assessment of the benefits of this approach. Among other things, it offers ethicists new ways to focus on particular virtues and provides a plausible way to include non-humans in the moral realm.'
 firstpage: '332'
 lastpage: '345'
 book_title: ''
 editor: ''
 address: ''
-publisher: ''
+publisher: Wiley-Blackwell
+publisher_logo: /img/logos/wiley-blackwell.webp
 translator: ''
 isbn: ''
 event: ''

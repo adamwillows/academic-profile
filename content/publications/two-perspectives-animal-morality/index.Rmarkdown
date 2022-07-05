@@ -4,13 +4,43 @@
 # first_author_surname:
 # first_author_names:
 author_institution: University of Notre Dame
+author_institution_street_address: University of Notre Dame
+author_institution_address_locality: Notre Dame
+author_institution_address_region: Indiana
+author_institution_address_country: USA
+author_institution_address_postcode: 46556
+author_institution_url: https://www.nd.edu/
+author_institution_wikipedia: https://en.wikipedia.org/wiki/University_of_Notre_Dame
+author_institution_twitter: https://twitter.com/NotreDame
+author_institution_wikidata: https://www.wikidata.org/wiki/Q178848
 second_author: 'Marcus Baynes-Rock'
+second_author_surname: Baynes-Rock
+second_author_first_name: Marcus
+second_author_institution: University of Notre Dame
+second_author_institution_street_address: University of Notre Dame
+second_author_institution_address_locality: Notre Dame
+second_author_institution_address_region: Indiana
+second_author_institution_address_country: USA
+second_author_institution_address_postcode: 46556
+second_author_institution_url: https://www.nd.edu/
+second_author_institution_wikipedia: https://en.wikipedia.org/wiki/University_of_Notre_Dame
+second_author_institution_twitter: https://twitter.com/NotreDame
+second_author_institution_wikidata: https://www.wikidata.org/wiki/Q178848
+second_author_title: Dr
+second_author_orcid: https://orcid.org/0000-0002-4476-8455
+second_author_google_scholar: https://scholar.google.com/citations?user=AL7mWI0AAAAJ
+second_author_institution_profile: ''
+second_author_philpeople: ''
+second_author_twitter: ''
+second_author_academia: https://independent.academia.edu/MarcusBaynesRock
+second_author_researchgate: https://www.researchgate.net/profile/Marcus-Baynes-Rock
 # third_author:
 # other_authors:
 
+contenttype: publication # Enter page content type - publication, blog, biography, talk.
 pubtype: journal # Enter publication type - journal, chapter, book, presentation, website.
 title: Two Perspectives on Animal Morality
-date_published: 2018-12-01
+publishdate: 2018-12-01
 
 date: 2018-12-01
 description: "Are animals moral agents? A theologian and an anthropologist consider the significance of rationality, symbolic language and relationality for animal morality."
@@ -20,10 +50,15 @@ date_accessed:
 draft: no
 url: ''
 doi: 10.1111/zygo.12464
+corpusID: 150204045
 journal_title: Zygon
+journal_url: http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1467-9744
+journal_wikipedia: https://en.wikipedia.org/wiki/Zygon_(journal)
+journal_wikidata: https://www.wikidata.org/wiki/Q8075881
 volume: '53'
 issue: '4'
-issn: '0591-2385'
+print_issn: '0591-2385'
+online_issn: '1467-9744'
 abstract: 'Are animals moral agents? In this paper, a theologian and an anthropologist unite to bring the resources of each field to bear on this question. Alas, not all interdisciplinary conversations end harmoniously, and after much discussion the two authors find themselves in substantial disagreement over the answer. The paper is therefore presented in two halves, one for each side of the argument. As well as presenting two different positions, our hope is that this paper clarifies the different understandings of morality in our respective fields and will help to offset confusion in interdisciplinary dialogue.'
 abstract_para2: 'In what follows, we each present our case. In the first section, Adam Willows argues that moral activity necessarily involves the use of reason, symbolic thought and language and is on that basis an exclusively human affair. In the second, Marcus Baynes-Rock discusses his experience of relationality with other creatures; a relationality which, he argues, creates a shared understanding of obligations which are characteristically moral.'
 firstpage: '953'
@@ -31,7 +66,8 @@ lastpage: '970'
 book_title: ''
 editor: ''
 address: ''
-publisher: ''
+publisher: Wiley-Blackwell
+publisher_logo: /img/logos/wiley-blackwell.webp
 translator: ''
 isbn: ''
 event: ''

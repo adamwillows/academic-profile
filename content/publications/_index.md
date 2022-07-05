@@ -9,6 +9,7 @@ show_author_byline: false
 show_citation_details: true
 show_post_date: false
 show_button_links: true
+date: 2022-06-11
 sitemap:
   priority: 1.0
 

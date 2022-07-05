@@ -4,16 +4,26 @@
 # author:
 # first_author_surname:
 # first_author_names:
-author_institution: University of Durham
+author_institution: Durham University
+author_institution_street_address: Durham University, Stockton Road
+author_institution_address_locality: Durham
+author_institution_address_region: County Durham
+author_institution_address_country: United Kingdom
+author_institution_address_postcode: DH1 3LE
+author_institution_url: https://www.durham.ac.uk/
+author_institution_wikipedia: https://en.wikipedia.org/wiki/Durham_University
+author_institution_twitter: https://twitter.com/durham_uni
+author_institution_wikidata: https://www.wikidata.org/wiki/Q458393
 # second_author:
 # third_author:
 # other_authors:
 
+contenttype: publication # Enter page content type - publication, article, blog, about, contact.
 pubtype: journal # Enter publication type - journal, chapter, book, presentation, website.
 title: "Augustine, the origin of evil, and the mystery of free will"
-date_published: 2014-06-01 # Field for citation details and publication metadata.
+publishdate: 2014-06-01 # Field for citation details and publication metadata.
 
-date: 2014-06-01 # Posting date of the page
+date: 2022-06-11 # Posting date of the page
 description: Argument that the origin of evil is inexplicable not as an instance of evil, but because free will is a mystery.
 subtitle: ''
 excerpt: ''
@@ -21,17 +31,23 @@ date_accessed: # Date online publication was accessed.
 draft: no
 url: ''
 doi: 10.1017/S0034412513000401
+corpusID: 170619332
 journal_title: Religious Studies
+journal_url: http://journals.cambridge.org/action/displayJournal?jid=RES
+journal_wikipedia: https://en.wikipedia.org/wiki/Religious_Studies_(journal)
+journal_wikidata: http://www.wikidata.org/entity/Q7311311
 volume: '50'
 issue: '2'
-issn: '1469-901X'
+print_issn: '0034-4125'
+online_issn: '1469-901X'
 abstract: The question of why humanity ﬁrst chose to sin is an extension to the problem of evil to which the free-will defence does not easily apply. In De libero arbitrio and elsewhere Augustine argues that as an instance of evil, the fall is necessarily inexplicable. In this article, I identify the problems with this response and attempt to construct an alternative based on Peter van Inwagen’s free will ‘mysterianism’. I will argue that the origin of evil is inexplicable not because it is an instance of evil, but because it is an instance of free will.
 firstpage: '255'
 lastpage: '269'
 book_title: ''
 editor: ''
 address: ''
-publisher: ''
+publisher: Cambridge University Press
+publisher_logo: /img/logos/cambridge-university-press.webp
 translator: ''
 isbn: ''
 event: ''

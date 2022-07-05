@@ -5,33 +5,49 @@
 # first_author_surname:
 # first_author_names:
 author_institution: University of Notre Dame
+author_institution_street_address: University of Notre Dame
+author_institution_address_locality: Notre Dame
+author_institution_address_region: Indiana
+author_institution_address_country: USA
+author_institution_address_postcode: 46556
+author_institution_url: https://www.nd.edu/
+author_institution_wikipedia: https://en.wikipedia.org/wiki/University_of_Notre_Dame
+author_institution_twitter: https://twitter.com/NotreDame
+author_institution_wikidata: https://www.wikidata.org/wiki/Q178848
 # second_author:
 # third_author:
 # other_authors:
 
+contenttype: publication # Enter page content type - publication, blog, biography, talk.
 pubtype: journal # Enter publication type - journal, chapter, book, presentation, website.
 title: "Stories and the development of virtue"
-date_published: 2017-09-01 # Field for citation details and publication metadata.
+publishdate: 2017-09-01 # Field for citation details and publication metadata.
 
-date: 2017-09-01 # Posting date of the page
+date: 2022-06-11 # Posting date of the page
 description: Stories can aid moral development and education by providing moral exemplars and giving content to thick moral concepts.
 subtitle: ''
 excerpt: ''
 date_accessed: # Date online publication was accessed.
 draft: no
 url: ''
+corpusID: 149289791
 doi: 10.1080/17449642.2017.1356664
 journal_title: Ethics and Education
+journal_url: http://www.tandfonline.com/toc/ceae20/current
+journal_wikipedia: ''
+journal_wikidata: http://www.wikidata.org/entity/Q15760169
 volume: '12'
 issue: '3'
-issn: '1744-9650'
+print_issn: '1744-9642'
+online_issn: '1744-9650'
 abstract: From folk tales to movies, stories possess features which naturally suit them to contribute to the growth of virtue. In this article I show that the fictional exemplars help the learner to grasp the moral importance of internal states and resolves a tension between existing kinds of exemplars discussed by virtue ethicists. Stories also increase the information conveyed by virtue terms and aid the growth of prudence. Stories can provide virtuous exemplars, inform learners as to the nature of the virtues and offer practice in developing situational judgement. As such they are a significant resource for virtue ethics and moral education.
 firstpage: '337'
 lastpage: '350'
 book_title: ''
 editor: ''
 address: ''
-publisher: ''
+publisher: Taylor and Francis
+publisher_logo: /img/logos/taylor-and-francis.webp
 translator: ''
 isbn: ''
 event: ''

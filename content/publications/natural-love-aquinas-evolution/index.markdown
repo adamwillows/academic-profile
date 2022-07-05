@@ -5,15 +5,25 @@
 # first_author_surname:
 # first_author_names:
 author_institution: University of Notre Dame
+author_institution_street_address: University of Notre Dame
+author_institution_address_locality: Notre Dame
+author_institution_address_region: Indiana
+author_institution_address_country: USA
+author_institution_address_postcode: 46556
+author_institution_url: https://www.nd.edu/
+author_institution_wikipedia: https://en.wikipedia.org/wiki/University_of_Notre_Dame
+author_institution_twitter: https://twitter.com/NotreDame
+author_institution_wikidata: https://www.wikidata.org/wiki/Q178848
 # second_author:
 # third_author:
 # other_authors:
 
+contenttype: publication # Enter page content type - publication, blog, biography, talk.
 pubtype: journal # Enter publication type - journal, chapter, book, presentation, website.
 title: "Natural Love: Aquinas, Evolution and Charity"
-date_published: 2021-05-01 # Field for citation details and publication metadata.
+publishdate: 2021-05-01 # Field for citation details and publication metadata.
 
-date: 2021-05-01 # Posting date of the page
+date: 2022-06-11 # Posting date of the page
 description: Article on love’s role in human nature and development, considering evolution, communal care and the virtue of charity.
 subtitle: ''
 excerpt: ''
@@ -21,10 +31,15 @@ date_accessed: # Date online publication was accessed.
 draft: no
 url: ''
 doi: 10.1111/heyj.12665
+corpusID: 171562427
 journal_title: The Heythrop Journal
+journal_url: http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1468-2265
+journal_wikipedia: https://en.wikipedia.org/wiki/The_Heythrop_Journal
+journal_wikidata: http://www.wikidata.org/entity/Q15734649
 volume: '62'
 issue: '3'
-issn: '1468-2265'
+print_issn: '0018-1196'
+online_issn: '1468-2265'
 abstract: This paper offers an analysis of work on human development in evolutionary
   anthropology from a Thomist perspective. I show that both fields view care for others
   as fundamental to human nature and interpret cooperative breeding as an expression
@@ -45,7 +60,8 @@ lastpage: '545'
 book_title: ''
 editor: ''
 address: ''
-publisher: ''
+publisher: Wiley-Blackwell
+publisher_logo: /img/logos/wiley-blackwell.webp
 translator: ''
 isbn: ''
 event: ''

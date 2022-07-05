@@ -3,14 +3,25 @@
 # Comment out and use the author fields as necessary. author, first_author_surname and first_author_names are set by default in /content/_index.md, so only use these fields here if the first author differs from the default.
 # author:
 # first_author_surname:
+author_institution: University of Winchester
+author_institution_street_address: University of Winchester, Sparkford Road
+author_institution_address_locality: Winchester
+author_institution_address_region: Hampshire
+author_institution_address_country: United Kingdom
+author_institution_address_postcode: SO22 4NR
+author_institution_url: https://winchester.ac.uk/
+author_institution_wikipedia: https://en.wikipedia.org/wiki/University_of_Winchester
+author_institution_twitter: https://twitter.com/_UoW
+author_institution_wikidata: https://www.wikidata.org/wiki/Q3551690
 # first_author_names:
 # second_author:
 # third_author:
 # other_authors:
 
+contenttype: publication # Enter page content type - publication, article, blog, about, contact.
 pubtype: journal # Enter publication type - journal, chapter, book, presentation, website.
 title: 'Good, Actually: Aristotelian Metaphysics and the Guise of the Good'
-date_published: 2022-04-01 # Field for citation details and publication metadata.
+publishdate: 2022-04-01 # Field for citation details and publication metadata.
 
 date: 2022-04-01 # Posting date of the page
 description: "Argument that the modern 'Guise of the Good' debate about intention and action neglects the theory’s metaphysical roots."
@@ -20,10 +31,15 @@ date_accessed: # Date online publication was accessed.
 draft: no
 url: ''
 doi: '10.1017/S0031819121000425'
+corpusID: 246525266
 journal_title: 'Philosophy'
+journal_url: http://journals.cambridge.org/action/displayJournal?jid=PHI
+journal_wikipedia: https://en.wikipedia.org/wiki/Philosophy_(journal)
+journal_wikidata: https://www.wikidata.org/wiki/Q7186208
 volume: '97'
 issue: '2'
-issn: '1469-817X'
+print_issn: '0031-8191'
+online_issn: '1469-817X'
 abstract: In this paper I argue that both defence and criticism of the claim that humans act ‘under the guise of the good’ neglects the metaphysical roots of the theory. I begin with an overview of the theory and its modern commentators, with critics noting the apparent possibility of acting against the good, and supporters claiming that such actions are instances of error.
 abstract_para2: These debates reduce the ‘guise of the good’ to a claim about intention and moral action, and in so doing have become divorced from the theory's roots in classical and medieval philosophy. Aristotle and Aquinas’ ‘guise of the good’ is primarily a metaphysical claim resting on the equivalence between actuality and goodness, from which conclusions about moral action are derived. I show the reasoning behind their theory and how it forms the basis for the claims about intention and action at the centre of the modern debate. Finally, I argue that the absence of its original foundation is apparent in recent attacks on the ‘guise of the good’. It is unsurprising that modern action theory and ethics have not always been able to comfortably accommodate the ‘guise of the good’; they are only telling half of the story.
 firstpage: '187'
@@ -31,7 +47,8 @@ lastpage: '205'
 book_title: ''
 editor: ''
 address: ''
-publisher: ''
+publisher: Cambridge University Press
+publisher_logo: /img/logos/cambridge-university-press.webp
 translator: ''
 isbn: ''
 event: ''

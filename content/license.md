@@ -2,6 +2,7 @@
 description: Licensing information for the content on this website.
 draft: false
 layout: standard
+date: 2022-06-11
 show_title_as_headline: true
 title: Licensing information
 sitemap:
