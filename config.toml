@@ -106,15 +106,20 @@ publishDate = ["publishDate", "date"]
       color     = "#a6ce39"
       url       = "http://orcid.org/0000-0002-5108-7842"
           [[params.social]]
-      icon      = "philpapers" # icon name without the 'fa-'
-      icon_pack = "ai"
-      color     = "#074ba9"
-      url       = "https://philpeople.org/profiles/adam-m-willows"
+      icon      = "twitter" # icon name without the 'fa-'
+      icon_pack = "fab"
+      color     = "#1d9bf0"
+      url       = "https://twitter.com/adam_willows"
           [[params.social]]
       icon      = "google-scholar" # icon name without the 'fa-'
       icon_pack = "ai"
       color     = "#4285f4"
       url       = "https://scholar.google.com/citations?user=SI09iIwAAAAJ"
+          [[params.social]]
+      icon      = "philpapers" # icon name without the 'fa-'
+      icon_pack = "ai"
+      color     = "#074ba9"
+      url       = "https://philpeople.org/profiles/adam-m-willows"
           [[params.social]]
       icon      = "academia" # icon name without the 'fa-'
       icon_pack = "ai"
