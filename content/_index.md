@@ -40,6 +40,7 @@ cascade:
     author_researchgate: https://www.researchgate.net/profile/Adam-Willows
     author_humanities_commons: https://hcommons.org/members/adamwillows/
     author_semantic_scholar: https://www.semanticscholar.org/author/Adam-M.-Willows/117380825
+    author_wikidata: https://www.wikidata.org/wiki/Q112914463
     twitter: https://twitter.com/adam_willows
 sitemap:
   priority: 1.0
