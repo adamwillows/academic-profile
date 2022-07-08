@@ -56,8 +56,8 @@
 	    {{ with ($page.Resources.ByType "image").GetMatch "*4x3*" }}{{ .Permalink }}{{ end }},
 	    {{ with ($page.Resources.ByType "image").GetMatch "*1920*" }}{{ .Permalink }}{{ end }}
 	 ],
-	 "license": "https://example.com/license",
-    "acquireLicensePage": "https://example.com/how-to-use-my-images",
+	 "license": "",
+    "acquireLicensePage": "",
     "@type": "ImageObject"
 	},
 	{{ if .Params.journal_title }}
