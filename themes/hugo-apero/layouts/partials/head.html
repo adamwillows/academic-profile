@@ -1,8 +1,5 @@
 <head>
   {{ partial "meta.html" . }}
-  {{ if .Params.include_citation_metadata }}
-  {{ partial "meta-citations.html" . }}
-  {{ end }}
   {{ template "_internal/schema.html" . }}
   {{ template "_internal/google_analytics.html" . }}
   {{ template "_internal/google_analytics_async.html" . }}
@@ -20,7 +17,4 @@
   <!-- headroom.js -->
   {{ $mainJs := resources.Get "js/main.js" | js.Build "main.js" | minify | fingerprint }}
   <script src="{{ $mainJs.RelPermalink }}" type="text/javascript"></script>
-    <!-- toc.js -->
-  {{ $tocJs := resources.Get "js/toc.js" | js.Build "toc.js" | minify | fingerprint }}
-  <script src="{{ $tocJs.RelPermalink }}" type="text/javascript"></script>
 </head>

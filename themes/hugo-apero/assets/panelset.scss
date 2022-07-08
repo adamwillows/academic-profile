@@ -1,9 +1,8 @@
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
 
-.post-body, 
-.page-sidebar {
+.post-body {
     .panelset {
-      @extend .mw-100, .relative, .pv0;
+      @extend .mw-100, .relative, .pv3;
       --panel-tabs-border-bottom: currentColor;
       --panel-tab-foreground: currentColor;
       --panel-tab-background: unset;

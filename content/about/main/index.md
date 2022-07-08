@@ -1,6 +1,7 @@
 ---
 ## Configure page content in wide column
 title: "Biography" # leave blank to exclude
+description: Find out about me and my research - What I've done, the different projects I've been involved in, and what I'm working on now.
 number_featured: 1 # pulling from mainSections in config.toml
 use_featured: false # if false, use most recent by date
 number_categories: 0 # set to zero to exclude

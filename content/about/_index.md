@@ -1,8 +1,8 @@
 ---
 cascade:
-  headless: true
+  headless: false
   date: 2022-06-11
-description: About page for Adam M. Willows.
+description: Find out about me and my research - What I've done, the different projects I've been involved in, and what I'm working on now.
 show_header: false
 sidebar_left: true
 title: About me

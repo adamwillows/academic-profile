@@ -58,14 +58,15 @@ pdf: willows-2022-aristotelian-metaphysics-guise-of-the-good.pdf #.pdf file in p
 language: 'en'
 
 # Page details
-image: sailboat-towards-lighthouse-sidebar.png
-sidebar: 
+image:
+sidebar:
+  image:
   description:
   author: 
   text_link_label:
   text_link_url:
   show_sidebar_adunit: false # show ad container
-  image_alt_text: sailboat heading for lighthouse
+  image_alt_text: abstract rock art of sailboat heading for lighthouse
 citation_panel: true # Displays citation panel in sidebar; true or false
 link-citations: true
 include_citation_metadata: true

@@ -1,0 +1,51 @@
+{{ define "main" }}
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 pr3-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">{{ .Title }}</h1>
+        {{ if .Params.subtitle }}<h4 class="f4 mt0 mb4 lh-title measure">{{ .Params.subtitle }}</h4>{{ end }}
+        {{ if .Params.show_author_byline }}<p class="f6 measure lh-copy mv1">{{ if .Params.author }}By {{ .Params.author }}
+  {{ if.Params.other_authors }} and others
+  {{ else }}
+    {{ if.Params.second_author }}
+      {{ if.Params.third_author }}, {{ .Params.second_author }} and {{ .Params.third_author }}
+      {{ else }}
+       and {{ .Params.second_author }}{{ end }}{{ end }}{{ end }}
+        {{ end }}</p>{{ end }}
+        {{ if .Params.show_post_date }}<p class="f7 db mv0 ttu">{{ .PublishDate.Format "January 2, 2006" }}</p>{{ end }}
+      <p>{{ partial "shared/summary-academic-citation.html" . }}</p>
+      {{ partial "shared/btn-links.html" . }}
+{{ if .Params.abstract }}
+<details open>
+  <summary class="dib tracked pointer"><h3>Abstract<i class="fas fa-angle-down ml2"></i></h3>
+    </summary>
+        <p class="lh-copy">
+        {{ .Params.abstract }}<br></br>
+        {{ .Params.abstract_para2 }} {{ end }}
+        </p>
+</details>
+            </header>
+      <section class="post-body pt1 pb4 lh">
+        {{ .Content }}
+      </section>
+      <footer class="post-footer">
+        {{ partial "shared/post-pagination.html" . }}
+      </footer>
+    </article>
+    {{ if .Params.show_comments }}
+      {{ partial "shared/comments.html" . }}
+    {{ end }}
+  </section>
+</main>
+<aside class="page-sidebar" role="complementary">
+ {{ partial "shared/sidebar/sidebar-image.html" . }} <div class="sticky">
+{{ partial "shared/post-toc.html" . }}
+    {{ partial "shared/citation-panelset.html" . }}
+    <div class="f6 fw5 ph4 pt4 pb4 pb3-l tc">
+    {{ partial "shared/social-links.html" . }}
+    </div>
+    </div>
+    
+  </aside>
+{{ end }}

@@ -3,9 +3,8 @@ contenttype: article # Enter page content type - publication, article, blog, abo
 title: "Fantastic Essays and How to Write Them"
 subtitle: ""
 excerpt: "In this post I'm going to tell you about some of the skills that are vital for good academic essay writing: why they matter, how to develop them for yourself and how to avoid common mistakes."
-description: An article about the skills needed for good academic essay writing, why they matter and how to develop them yourself.
+description: Find out about the skills needed for good academic essay writing, why they matter and how to develop them yourself.
 date: 2022-06-20
-contenttype: article # Enter page content type - publication, blog, biography, talk.
 featured: true
 draft: false
 tags:

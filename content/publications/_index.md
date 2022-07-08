@@ -3,7 +3,7 @@ type: project
 
   
 title: Publications
-description: "This is a home for my research publications. Click on the title to read or download a copy."
+description: "Here you can explore open-access versions of my publications  - just click on the title to read here, or download your own copy. For a full list of publications and research activity, check out my CV."
 show_post_thumbnail: true
 show_author_byline: false
 show_citation_details: true

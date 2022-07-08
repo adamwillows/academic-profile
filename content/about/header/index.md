@@ -1,7 +1,7 @@
 ---
 ## Configure header of page
-text_align_right: false
-show_title_as_headline: false
+text_align_right: true
+show_title_as_headline: true
 headline: |
   Hi, I'm Adam.
 ---

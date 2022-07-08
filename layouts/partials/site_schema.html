@@ -50,11 +50,16 @@
 	             {{ print "https://doi.org/" (.Params.doi) }}
 	          ],
 	"keywords": [ {{ range $index, $keyword := .Params.tags }}{{ if $index }}, {{ end }}"{{ $keyword }}" {{ end }} ],
-	"image": [ 
-	    {{ with ($page.Resources.ByType "image").GetMatch "*1x1*" }}{{ .Permalink }}{{ end }},
+	"image":{
+	  "contentURL": [ 
+	    {{ with ($page.Resources.ByType "image").GetMatch "*1x1*" }}{{ .Permalink | absURL }}{{ end }},
 	    {{ with ($page.Resources.ByType "image").GetMatch "*4x3*" }}{{ .Permalink }}{{ end }},
 	    {{ with ($page.Resources.ByType "image").GetMatch "*1920*" }}{{ .Permalink }}{{ end }}
 	 ],
+	 "license": "https://example.com/license",
+    "acquireLicensePage": "https://example.com/how-to-use-my-images",
+    "@type": "ImageObject"
+	},
 	{{ if .Params.journal_title }}
 	"isPartOf": {
 	      "issueNumber": {{ .Params.issue }},
