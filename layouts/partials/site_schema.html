@@ -323,7 +323,7 @@
             "contentUrl":{{ .Site.Params.avatar | absURL }},
             "caption":"{{ $author }}",
             "license": {{ .Site.Params.sharing_license }},
-            "acquireLicensePage": {{ print (.Site.BaseURL) "license/" }},
+            "acquireLicensePage": {{ print (.Site.BaseURL) "/license/" }},
             "@type":"ImageObject"
 		  
 			},
@@ -377,7 +377,7 @@
             "contentUrl":{{ .Site.Params.avatar | absURL }},
             "caption":"{{ $author }}",
             "license": {{ .Site.Params.sharing_license }},
-            "acquireLicensePage": {{ print (.Site.BaseURL) "license/" }},
+            "acquireLicensePage": {{ print (.Site.BaseURL) "/license/" }},
             "@type":"ImageObject"
 		},
 "description":{{ .Site.Params.bio }},
@@ -395,7 +395,7 @@
             "contentUrl":{{ .Site.Params.avatar | absURL }},
             "caption":"{{ $author }}",
             "license": {{ .Site.Params.sharing_license }},
-            "acquireLicensePage": {{ print (.Site.BaseURL) "license/" }},
+            "acquireLicensePage": {{ print (.Site.BaseURL) "/license/" }},
             "@type":"ImageObject"
 },
 "speakable":
@@ -437,7 +437,7 @@
             "contentUrl": {{ .Site.Params.avatar | absURL }},
             "caption":"{{ $author }}",
             "license": {{ .Site.Params.sharing_license }},
-            "acquireLicensePage": {{ print (.Site.BaseURL) "license/" }},
+            "acquireLicensePage": {{ print (.Site.BaseURL) "/license/" }},
             "@type":"ImageObject"
 		  
 		},
@@ -466,7 +466,7 @@
 	"contentUrl": {{ .Site.Params.sharing_image | absURL }},
 	"caption":{{ .Site.Params.description }},
 	"license": {{ .Site.Params.sharing_license }},
-  "acquireLicensePage": {{ print (.Site.BaseURL) "license/" }},
+  "acquireLicensePage": {{ print (.Site.BaseURL) "/license/" }},
   "@type":"ImageObject"
 }, 
 "@type":"WebSite"}
