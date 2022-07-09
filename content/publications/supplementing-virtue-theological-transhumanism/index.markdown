@@ -63,6 +63,8 @@ sidebar:
   text_link_url:
   show_sidebar_adunit: false # show ad container
   image_alt_text: 'enhancement pills in cup'
+  image_license: https://creativecommons.org/publicdomain/zero/1.0/
+  image_license_page: https://creativecommons.org/publicdomain/zero/1.0/
 citation_panel: true # Displays citation panel in sidebar; true or false
 link-citations: true
 include_citation_metadata: true

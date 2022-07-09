@@ -2,7 +2,7 @@
 action_label: Find out more &rarr;
 action_link: /about
 action_type: text
-description: Hi, I'm Adam. I'm a theologian specialising in ethics and philosophical theology. I've worked in the USA and UK, and am currently a lecturer at the University of Winchester. Here you can read a bit more about me and my research interests, access my publications and make use of some of my teaching resources.
+description: I am a researcher and lecturer specialising in ethics, philosophical theology and science-engaged theology. I work on the nature of moral character and agency. My goal is to improve our understanding of ourselves as moral creatures – who we are, what we do and why.
 image_left: false
 images:
 - img/profile-500.webp

@@ -85,6 +85,8 @@ sidebar:
   show_sidebar_adunit: false # show ad container
   image:
   image_alt_text: one monkey helping another by grooming
+  image_license: https://creativecommons.org/publicdomain/zero/1.0/
+  image_license_page: https://creativecommons.org/publicdomain/zero/1.0/
 citation_panel: true # Displays citation panel in sidebar; true or false
 link-citations: true
 include_citation_metadata: true

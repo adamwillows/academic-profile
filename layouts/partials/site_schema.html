@@ -56,8 +56,8 @@
 	    {{ with ($page.Resources.ByType "image").GetMatch "*4x3*" }}{{ .Permalink }}{{ end }},
 	    {{ with ($page.Resources.ByType "image").GetMatch "*1920*" }}{{ .Permalink }}{{ end }}
 	 ],
-	 "license": "",
-    "acquireLicensePage": "",
+	 "license": {{ .Params.sidebar.image_license }},
+    "acquireLicensePage": {{ .Params.sidebar.image_license_page }},
     "@type": "ImageObject"
 	},
 	{{ if .Params.journal_title }}
@@ -269,11 +269,16 @@
 	"datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
 	"dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
 	"keywords": [ {{ range $index, $keyword := .Params.tags }}{{ if $index }}, {{ end }}"{{ $keyword }}" {{ end }} ],
-	"image": [ 
-	    {{ with ($page.Resources.ByType "image").GetMatch "*1x1*" }}{{ .Permalink }}{{ end }},
+	"image":{
+	  "contentURL": [ 
+	    {{ with ($page.Resources.ByType "image").GetMatch "*1x1*" }}{{ .Permalink | absURL }}{{ end }},
 	    {{ with ($page.Resources.ByType "image").GetMatch "*4x3*" }}{{ .Permalink }}{{ end }},
 	    {{ with ($page.Resources.ByType "image").GetMatch "*1920*" }}{{ .Permalink }}{{ end }}
 	 ],
+	 "license": {{ .Params.sidebar.image_license }},
+    "acquireLicensePage": {{ .Params.sidebar.image_license_page }},
+    "@type": "ImageObject"
+	},
 	"author":{
 		"name":"{{ $author }}",
 		"@id":{{ $authorID }},
@@ -314,10 +319,12 @@
 				  	},
       "email":{{ .Params.author_email }},
       "image":{
-		        "@type":"ImageObject",
             "@id": {{ $authorImageID }},
-            "url":{{ .Site.Params.avatar | absURL }},
-            "caption":"{{ $author }}"
+            "contentUrl":{{ .Site.Params.avatar | absURL }},
+            "caption":"{{ $author }}",
+            "license": {{ .Site.Params.sharing_license }},
+            "acquireLicensePage": {{ print (.Site.BaseURL) "license/" }},
+            "@type":"ImageObject"
 		  
 			},
 	  	"description":{{ .Site.Params.bio }},
@@ -366,10 +373,12 @@
                  		],
     "email":{{ .Params.author_email }},
 		"image":{
-		        "@type":"ImageObject",
             "@id": {{ $authorImageID }},
-            "url":{{ .Site.Params.avatar | absURL }},
-            "caption":"{{ $author }}"
+            "contentUrl":{{ .Site.Params.avatar | absURL }},
+            "caption":"{{ $author }}",
+            "license": {{ .Site.Params.sharing_license }},
+            "acquireLicensePage": {{ print (.Site.BaseURL) "license/" }},
+            "@type":"ImageObject"
 		},
 "description":{{ .Site.Params.bio }},
 "@type":"Person"},
@@ -382,10 +391,12 @@
 	"@id":{{ $websiteID }}
 	},
 "image":{
-		        "@type":"ImageObject",
             "@id": {{ $authorImageID }},
-            "url":{{ .Site.Params.avatar | absURL }},
-            "caption":"{{ $author }}"
+            "contentUrl":{{ .Site.Params.avatar | absURL }},
+            "caption":"{{ $author }}",
+            "license": {{ .Site.Params.sharing_license }},
+            "acquireLicensePage": {{ print (.Site.BaseURL) "license/" }},
+            "@type":"ImageObject"
 },
 "speakable":
   {
@@ -422,10 +433,12 @@
                  		],
     "email":{{ .Params.author_email }},
 		"image":{
-		        "@type":"ImageObject",
             "@id": {{ $authorImageID }},
-            "url":{{ .Site.Params.avatar | absURL }},
-            "caption":"{{ $author }}"
+            "contentUrl": {{ .Site.Params.avatar | absURL }},
+            "caption":"{{ $author }}",
+            "license": {{ .Site.Params.sharing_license }},
+            "acquireLicensePage": {{ print (.Site.BaseURL) "license/" }},
+            "@type":"ImageObject"
 		  
 		},
 "description":{{ .Site.Params.bio }},
@@ -450,9 +463,11 @@
 "name": {{ .Site.Params.description }},
 "image":{
 	"@id": {{ $websiteImageID }},
-	"url": {{ .Site.Params.sharing_image | absURL }},
+	"contentUrl": {{ .Site.Params.sharing_image | absURL }},
 	"caption":{{ .Site.Params.description }},
-"@type":"ImageObject"
+	"license": {{ .Site.Params.sharing_license }},
+  "acquireLicensePage": {{ print (.Site.BaseURL) "license/" }},
+  "@type":"ImageObject"
 }, 
 "@type":"WebSite"}
 	],

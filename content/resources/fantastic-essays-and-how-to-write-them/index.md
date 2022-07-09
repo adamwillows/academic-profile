@@ -14,6 +14,10 @@ categories:
 - 
 # layout options: single or single-sidebar
 layout: single-sidebar
+sidebar: 
+  image_alt_text: 'notebook on table with pen in hand ready to write essay'
+  image_license: https://creativecommons.org/publicdomain/zero/1.0/
+  image_license_page: https://creativecommons.org/publicdomain/zero/1.0/
 
 ---
 
