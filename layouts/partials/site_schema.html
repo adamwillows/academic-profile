@@ -1,5 +1,6 @@
 {{ $author :=  or (.Params.author) (.Site.Author.name) }}
-{{ $abstract := print (.Params.abstract) " " (.Params.abstract_para2) }}
+{{ $abstract := print (.Params.abstract) }}
+{{ $abstract2 := print (.Params.abstract) " " (.Params.abstract_para2) }}
 {{ $org_name :=  .Site.Title }}
 {{ $page := . }}
 {{ $websiteID := print (.Site.BaseURL) "#website" }}
@@ -14,6 +15,8 @@
 {{ $periodicalID := print (.Params.journal_title) "#periodical" }}
 {{ $issueID := print (.Params.journal_title) "#issue_" (.Params.issue) }}
 {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+{{ $semanticscholar := print "https://api.semanticscholar.org/CorpusID:" (.Params.corpusID) }}
+{{ $doi := print "https://doi.org/" (.Params.doi) }}
 
 {{ $.Scratch.Add "path" .Site.BaseURL }}
 
@@ -44,10 +47,9 @@
 	"dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
 	"pageStart": {{ .Params.firstpage }},
 	"pageEnd": {{ .Params.lastpage }},
-	"abstract": {{ $abstract }},
+	"abstract": {{ if .Params.abstract_para2 }}{{ $abstract2 }}{{ else }}{{ $abstract }}{{ end }},
 	"sameAs": [
-	             {{ print "https://api.semanticscholar.org/CorpusID:" (.Params.corpusID) }},
-	             {{ print "https://doi.org/" (.Params.doi) }}
+	             {{ with .Params.doi }}{{ $doi }}{{ end }}
 	          ],
 	"keywords": [ {{ range $index, $keyword := .Params.tags }}{{ if $index }}, {{ end }}"{{ $keyword }}" {{ end }} ],
 	"image":{
@@ -68,12 +70,12 @@
         		"name":{{ .Params.journal_title  }},
         		"url":{{ .Params.journal_url  }},
         		"sameas": [
-					            {{ .Params.journal_wikipedia }},
-					            {{ .Params.journal_wikidata }},
+					            {{ if .Params.journal_wikipedia }}{{ .Params.journal_wikipedia }},{{ end }}
+					            {{ if .Params.journal_wikidata }}{{ .Params.journal_wikidata }},{{ end }}
 					            {{ .Params.journal_url }}
 					           ],
             "issn": [
-                    {{ .Params.print_issn }},
+                    {{ if eq .Params.print_issn .Params.online_issn }}{{else}}{{ .Params.print_issn }},{{ end }}
                     {{ .Params.online_issn }}
                   ],
 	          "volumeNumber":{{ .Params.volume }},
@@ -86,10 +88,10 @@
   {{ end }}
 	"publisher":{
 		"name":"{{ .Params.publisher | safeJS }}",
-		"logo":{
+		{{ if .Params.publisher_logo }}"logo":{
 			"url":{{ .Params.publisher_logo | absURL }},
 			"@type":"ImageObject"
-			},
+			},{{ end }}
 		"@type":"Organization"},
 	"author":[
 	  {{ if .Params.second_author }}
