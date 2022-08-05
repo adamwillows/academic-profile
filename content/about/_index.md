@@ -3,8 +3,8 @@ cascade:
   headless: false
   date: 2022-06-11
 description: Find out about me and my research - What I've done, the different projects I've been involved in, and what I'm working on now.
-show_header: false
-sidebar_left: true
+show_header: true
+sidebar_left: false
 title: About me
 contenttype: about
 sitemap:
