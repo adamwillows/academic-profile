@@ -31,6 +31,11 @@ date_accessed: # Date online publication was accessed.
 draft: no
 url: ''
 corpusID: 149289791
+publication_wikidata: Q112915652
+publication_mendeley: 0230c432-ed15-3554-8c94-8891ff600c11
+publication_scopusEID: 2-s2.0-85026400685
+publication_philpapers: WILSAT-29
+publication_google_scholar: 2236375806503632931
 doi: 10.1080/17449642.2017.1356664
 journal_title: Ethics and Education
 journal_url: http://www.tandfonline.com/toc/ceae20/current

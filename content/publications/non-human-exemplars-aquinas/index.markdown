@@ -31,6 +31,11 @@ date_accessed: # Date online publication was accessed.
 draft: no
 url: ''
 doi: 10.1111/nbfr.12274
+publication_wikidata: Q112915657
+publication_mendeley: b1355afa-5ba3-3230-b93c-6b3a3b5341e2
+publication_scopusEID:
+publication_philpapers: WILTRO-61
+publication_google_scholar: 4148660592821675679
 corpusID: 151466824
 journal_title: New Blackfriars
 journal_url: https://onlinelibrary.wiley.com/journal/17412005

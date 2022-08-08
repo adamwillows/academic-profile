@@ -31,6 +31,11 @@ date_accessed: # Date online publication was accessed.
 draft: no
 url: ''
 doi: 10.1111/heyj.12665
+publication_wikidata: Q112915654
+publication_mendeley: f6cbadab-979a-3dec-a953-4885e7956142
+publication_scopusEID: 2-s2.0-85021249966
+publication_philpapers: WILNLA-3
+publication_google_scholar: 12479407507909995876
 corpusID: 171562427
 journal_title: The Heythrop Journal
 journal_url: http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1468-2265

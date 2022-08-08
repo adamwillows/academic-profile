@@ -50,6 +50,11 @@ date_accessed:
 draft: no
 url: ''
 doi: 10.1111/zygo.12464
+publication_wikidata: Q112915647
+publication_mendeley: b75f856b-b201-311d-8189-b450996c1e2b
+publication_scopusEID: 2-s2.0-85057018728
+publication_philpapers: WILTPO-158
+publication_google_scholar: 8769904496268728265
 corpusID: 150204045
 journal_title: Zygon
 journal_url: http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1467-9744

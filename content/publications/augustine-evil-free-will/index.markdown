@@ -31,6 +31,11 @@ date_accessed: # Date online publication was accessed.
 draft: no
 url: ''
 doi: 10.1017/S0034412513000401
+publication_wikidata: Q112915659
+publication_mendeley: e4b1c86f-32a3-34df-872c-ff8b895b76f1
+publication_scopusEID: 2-s2.0-84899759310
+publication_philpapers: WILATO-19
+publication_google_scholar: 15705745179941204217
 corpusID: 170619332
 journal_title: Religious Studies
 journal_url: http://journals.cambridge.org/action/displayJournal?jid=RES

@@ -32,6 +32,11 @@ draft: no
 url: ''
 doi: ''
 corpusID:
+publication_wikidata: Q113459209
+publication_mendeley:
+publication_scopusEID:
+publication_philpapers:
+publication_google_scholar:
 journal_title: 'Challenging Religious Issues'
 journal_url: http://www.st-marys-centre.org.uk/resources/Aleveljournal.html
 journal_wikipedia:

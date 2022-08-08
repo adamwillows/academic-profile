@@ -24,13 +24,18 @@ title: 'Good, Actually: Aristotelian Metaphysics and the Guise of the Good'
 publishdate: 2022-04-01 # Field for citation details and publication metadata.
 
 date: 2022-04-01 # Posting date of the page
-description: "Argument that the modern 'Guise of the Good' debate about intention and action neglects the theory’s metaphysical roots."
+description: "Argument that the modern Guise of the Good debate about intention and action neglects the theory’s metaphysical roots."
 subtitle: ''
 excerpt: ''
 date_accessed: # Date online publication was accessed.
 draft: no
 url: ''
 doi: '10.1017/S0031819121000425'
+publication_wikidata: Q112915645
+publication_mendeley: '20d3718f-7a9e-3b5c-a692-cd03488f221e'
+publication_scopusEID: 2-s2.0-85124660858
+publication_philpapers: 'WILGAA-7'
+publication_google_scholar: '7251087365322508648'
 corpusID: 246525266
 journal_title: 'Philosophy'
 journal_url: http://journals.cambridge.org/action/displayJournal?jid=PHI

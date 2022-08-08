@@ -30,6 +30,11 @@ date_accessed: # Date online publication was accessed.
 draft: no
 url: ''
 corpusID: 152151008
+publication_wikidata: Q112915656
+publication_mendeley: d66774db-46f1-322c-a8ac-effb92e40605
+publication_scopusEID: 2-s2.0-85016490814
+publication_philpapers: WILSVT
+publication_google_scholar: 17778959799213639399
 doi: 10.1080/14746700.2017.1299375
 journal_title: Theology and Science
 journal_url: https://www.tandfonline.com/toc/rtas20/current
