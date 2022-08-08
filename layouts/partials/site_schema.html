@@ -132,6 +132,7 @@
                 			{{ .Params.author_academia }},
                  			{{ .Params.author_researchgate }},
                  			{{ .Params.author_humanities_commons }},
+                 			{{ .Params.author_linkedin }},
                  			{{ .Params.twitter }}
                  		],
                  	"worksFor": {
@@ -152,7 +153,25 @@
 					           ],
 					"@type":"EducationalOrganization"
 					},
-                 	"email":{{ .Params.author_email }},
+					  "alumniOf": {
+                 			"name":{{ .Params.author_alma_mater }},
+					"address":{
+						"streetAddress":{{ .Params.author_alma_mater_street_address }},
+						"addressLocality":{{ .Params.author_alma_mater_address_locality }},
+						"addressRegion":{{ .Params.author_alma_mater_address_region }},
+						"addressCountry":{{ .Params.author_alma_mater_address_country }},
+						"postalCode":{{ .Params.author_alma_mater_address_postcode }},
+						"@type":"PostalAddress"},
+					"url": {{ .Params.author_alma_mater_url }},
+					"sameas": [
+					            {{ .Params.author_alma_mater_wikipedia }},
+					            {{ .Params.author_alma_mater_wikidata }},
+					            {{ .Params.author_alma_mater_twitter }},
+					            {{ .Params.author_alma_mater_url }}
+					           ],
+					"@type":"EducationalOrganization"
+					},
+       "email":{{ .Params.author_email }},
 			"@type":"Person"},
 			{
 			"name":"{{ .Params.second_author }}",
@@ -226,6 +245,7 @@
                 			{{ .Params.author_academia }},
                  			{{ .Params.author_researchgate }},
                  			{{ .Params.author_humanities_commons }},
+                 			{{ .Params.author_linkedin }},
                  			{{ .Params.twitter }}
                  		],
                  	"worksFor": {
@@ -243,6 +263,24 @@
 					            {{ .Params.author_employer_wikidata }},
 					            {{ .Params.author_employer_twitter }},
 					            {{ .Params.author_employer_url }}
+					           ],
+					"@type":"EducationalOrganization"
+					},
+					  "alumniOf": {
+                 			"name":{{ .Params.author_alma_mater }},
+					"address":{
+						"streetAddress":{{ .Params.author_alma_mater_street_address }},
+						"addressLocality":{{ .Params.author_alma_mater_address_locality }},
+						"addressRegion":{{ .Params.author_alma_mater_address_region }},
+						"addressCountry":{{ .Params.author_alma_mater_address_country }},
+						"postalCode":{{ .Params.author_alma_mater_address_postcode }},
+						"@type":"PostalAddress"},
+					"url": {{ .Params.author_alma_mater_url }},
+					"sameas": [
+					            {{ .Params.author_alma_mater_wikipedia }},
+					            {{ .Params.author_alma_mater_wikidata }},
+					            {{ .Params.author_alma_mater_twitter }},
+					            {{ .Params.author_alma_mater_url }}
 					           ],
 					"@type":"EducationalOrganization"
 					},
@@ -299,6 +337,7 @@
                 			{{ .Params.author_academia }},
                  			{{ .Params.author_researchgate }},
                  			{{ .Params.author_humanities_commons }},
+                 			{{ .Params.author_linkedin }},
                  			{{ .Params.twitter }}
                  		],
       "worksFor": {
@@ -319,6 +358,24 @@
 				           ],
 				        "@type":"EducationalOrganization"
 				  	},
+				  	  "alumniOf": {
+                 			"name":{{ .Params.author_alma_mater }},
+					"address":{
+						"streetAddress":{{ .Params.author_alma_mater_street_address }},
+						"addressLocality":{{ .Params.author_alma_mater_address_locality }},
+						"addressRegion":{{ .Params.author_alma_mater_address_region }},
+						"addressCountry":{{ .Params.author_alma_mater_address_country }},
+						"postalCode":{{ .Params.author_alma_mater_address_postcode }},
+						"@type":"PostalAddress"},
+					"url": {{ .Params.author_alma_mater_url }},
+					"sameas": [
+					            {{ .Params.author_alma_mater_wikipedia }},
+					            {{ .Params.author_alma_mater_wikidata }},
+					            {{ .Params.author_alma_mater_twitter }},
+					            {{ .Params.author_alma_mater_url }}
+					           ],
+					"@type":"EducationalOrganization"
+					},
       "email":{{ .Params.author_email }},
       "image":{
             "@id": {{ $authorImageID }},
@@ -371,9 +428,46 @@
                 			{{ .Params.author_academia }},
                  			{{ .Params.author_researchgate }},
                  			{{ .Params.author_humanities_commons }},
+                 			{{ .Params.author_linkedin }},
                  			{{ .Params.twitter }}
                  		],
     "email":{{ .Params.author_email }},
+          "worksFor": {
+                 "name":{{ .Params.author_employer }},
+			           "address":{
+			                	"streetAddress":{{ .Params.author_employer_street_address }},
+				                "addressLocality":{{ .Params.author_employer_address_locality }},
+				                "addressRegion":{{ .Params.author_employer_address_region }},
+				                "addressCountry":{{ .Params.author_employer_address_country }},
+				                "postalCode":{{ .Params.author_employer_address_postcode }},
+					              "@type":"PostalAddress"},
+					      "url": {{ .Params.author_employer_url }},
+			        	"sameas": [
+				            {{ .Params.author_employer_wikipedia }},
+				            {{ .Params.author_employer_wikidata }},
+				            {{ .Params.author_employer_twitter }},
+				            {{ .Params.author_employer_url }}
+				           ],
+				        "@type":"EducationalOrganization"
+				  	},
+      "alumniOf": {
+                 			"name":{{ .Params.author_alma_mater }},
+					"address":{
+						"streetAddress":{{ .Params.author_alma_mater_street_address }},
+						"addressLocality":{{ .Params.author_alma_mater_address_locality }},
+						"addressRegion":{{ .Params.author_alma_mater_address_region }},
+						"addressCountry":{{ .Params.author_alma_mater_address_country }},
+						"postalCode":{{ .Params.author_alma_mater_address_postcode }},
+						"@type":"PostalAddress"},
+					"url": {{ .Params.author_alma_mater_url }},
+					"sameas": [
+					            {{ .Params.author_alma_mater_wikipedia }},
+					            {{ .Params.author_alma_mater_wikidata }},
+					            {{ .Params.author_alma_mater_twitter }},
+					            {{ .Params.author_alma_mater_url }}
+					           ],
+					"@type":"EducationalOrganization"
+					},
 		"image":{
             "@id": {{ $authorImageID }},
             "contentUrl":{{ .Site.Params.avatar | absURL }},
@@ -431,6 +525,7 @@
                 			{{ .Params.author_academia }},
                  			{{ .Params.author_researchgate }},
                  			{{ .Params.author_humanities_commons }},
+                 			{{ .Params.author_linkedin }},
                  			{{ .Params.twitter }}
                  		],
     "email":{{ .Params.author_email }},

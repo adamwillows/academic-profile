@@ -32,6 +32,17 @@ cascade:
     author_employer_twitter: https://twitter.com/_UoW
     author_employer_wikipedia: https://en.wikipedia.org/wiki/University_of_Winchester
     author_employer_wikidata: https://www.wikidata.org/wiki/Q3551690
+    author_alma_mater: Durham University
+    author_alma_mater_address: Durham University, Stockton Road, Durham, DH1 3LE
+    author_alma_mater_street_address: Durham University, Stockton Road
+    author_alma_mater_address_locality: Durham
+    author_alma_mater_address_region: County Durham
+    author_alma_mater_address_country: United Kingdom
+    author_alma_mater_address_postcode: DH1 3LE
+    author_alma_mater_url: https://www.durham.ac.uk
+    author_alma_mater_twitter: https://twitter.com/durham_uni
+    author_alma_mater_wikipedia: https://en.wikipedia.org/wiki/Durham_University
+    author_alma_mater_wikidata: https://www.wikidata.org/wiki/Q458393
     orcid: https://orcid.org/0000-0002-5108-7842
     google_scholar: https://scholar.google.com/citations?user=SI09iIwAAAAJ
     author_employer_profile: https://www.winchester.ac.uk/about-us/leadership-and-governance/staff-directory/staff-profiles/willows.php
@@ -42,6 +53,7 @@ cascade:
     author_semantic_scholar: https://www.semanticscholar.org/author/Adam-M.-Willows/117380825
     author_wikidata: https://www.wikidata.org/wiki/Q112914463
     twitter: https://twitter.com/adam_willows
+    author_linkedin: https://www.linkedin.com/in/adam-willows-theology-philosophy
 sitemap:
   priority: 1.0
 ---
