@@ -11,7 +11,16 @@ link_list:
   icon: orcid
   color: "#a6ce39"
   icon_pack: ai
-  url: https://en.wikipedia.org/wiki/Paris
+  url: https://orcid.org/0000-0002-5108-7842
+- name: Departmental Profile
+  icon: university
+  url: https://www.winchester.ac.uk/about-us/leadership-and-governance/staff-directory/staff-profiles/willows.php
+  icon_pack: fa
+- name: Twitter  
+  icon: "twitter"
+  color: "#1d9bf0"
+  url: https://twitter.com/adam_willows
+  icon_pack: fab
 - name: Google Scholar
   color: "#4285f4"
   icon: google-scholar
@@ -32,9 +41,16 @@ link_list:
   color: "#00cbba"
   icon_pack: ai
   url: https://www.researchgate.net/profile/Adam-Willows
-- name: Departmental Profile
-  image: /img/university.svg
-  url: https://www.winchester.ac.uk/about-us/leadership-and-governance/staff-directory/staff-profiles/willows.php
+- name: Semantic Scholar
+  icon: "semantic-scholar"
+  color: "#1857b6"
+  icon_pack: ai
+  url: https://www.semanticscholar.org/author/Adam-M.-Willows/117380825
+- name: Github
+  icon: "github"
+  color: "000000"
+  url: https://github.com/adamwillows
+  icon_pack: fab
 
 ---
 

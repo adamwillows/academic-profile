@@ -105,7 +105,7 @@ publishDate = ["publishDate", "date"]
       icon      = "orcid" # icon name without the 'fa-'
       icon_pack = "ai"
       color     = "#a6ce39"
-      url       = "http://orcid.org/0000-0002-5108-7842"
+      url       = "https://orcid.org/0000-0002-5108-7842"
           [[params.social]]
       icon      = "twitter" # icon name without the 'fa-'
       icon_pack = "fab"
@@ -131,15 +131,20 @@ publishDate = ["publishDate", "date"]
       icon_pack = "ai"
       color     = "#00cbba"
       url       = "https://www.researchgate.net/profile/Adam-Willows"
-                [[params.social]]
+          [[params.social]]
       icon      = "semantic-scholar" # icon name without the 'fa-'
       icon_pack = "ai"
       color     = "#1857b6"
       url       = "https://www.semanticscholar.org/author/Adam-M.-Willows/117380825"
           [[params.social]]
-      name = "university"
-      image = "/img/university.svg"
+      icon      = "university" # icon name without the 'fa-'
+      icon_pack = "fa"
       url = "https://www.winchester.ac.uk/about-us/leadership-and-governance/staff-directory/staff-profiles/willows.php"
+          [[params.social]]
+      icon      = "github" # icon name without the 'fa-'
+      icon_pack = "fab"
+      color     = "#000000"
+      url       = "https://github.com/adamwillows"
 
 [taxonomies]
   category = "categories"
