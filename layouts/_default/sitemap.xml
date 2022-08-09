@@ -2,9 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml"
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-      {{ $exclude := slice "tags" "categories" "series" }}
+  {{ $exclude := slice "tags" "categories" "series" }}
   {{ range .Data.Pages }}
     {{ if not (in $exclude .Data.Plural) }}
+    {{ if ne .Params.sitemap_exclude true }}
   <url>
     <loc>{{ .Permalink }}</loc>{{ if ge .Sitemap.Priority 0.0 }}
     <priority>{{ .Sitemap.Priority }}</priority>{{ end }}{{ if .IsTranslated }}{{ range .Translations }}{{ if not .Lastmod.IsZero }}
@@ -34,5 +35,5 @@
   </url>
     {{ end }}
     {{- end -}}
-  {{ end }}
+  {{ end }}{{ end }}
 </urlset>

@@ -7,6 +7,7 @@ use_featured: false # if false, use most recent by date
 number_categories: 0 # set to zero to exclude
 show_intro: true
 show_research: true
+sitemap_exclude: true
 intro: |
   I was at [Durham University](https://www.durham.ac.uk/departments/academic/theology-religion/) from 2007-2015, where I studied for a BA in Philosophy and Theology followed by an MA and PhD in Theology and Religion. My supervisors were Professors [Chris Insole](https://www.durham.ac.uk/staff/christopher-insole/) and [Mark McIntosh](https://en.wikipedia.org/wiki/Mark_McIntosh). My thesis, 'A Defence of Theological Virtue Ethics', is available via [Durham etheses](http://etheses.dur.ac.uk/10957/). It forms the basis for my book of the same name, forthcoming in Bloomsbury Studies in Philosophy of Religion.
   

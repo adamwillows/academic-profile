@@ -1,6 +1,7 @@
 ---
 ## Configure sidebar content in narrow column
 author: "Adam M. Willows"
+sitemap_exclude: true
 role: "Theologian and Philosopher"
 avatar_shape: rounded # circle, square, rounded, leave blank to exclude
 show_social_links: false # specify social accounts in site config
