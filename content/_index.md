@@ -13,6 +13,7 @@ text_align_left: true
 title: Adam M. Willows
 date: 2022-06-11
 type: home
+contenttype: about
 cascade:
     author: Adam M. Willows
     author_surname: Willows
