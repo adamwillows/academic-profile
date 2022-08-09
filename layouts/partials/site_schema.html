@@ -142,6 +142,7 @@
                  			{{ .Params.author_researchgate }},
                  			{{ .Params.author_humanities_commons }},
                  			{{ .Params.author_linkedin }},
+                 			{{ .Params.author_conversationID }},
                  			{{ .Params.twitter }}
                  		],
                  	"worksFor": {
@@ -180,6 +181,7 @@
 					           ],
 					"@type":"EducationalOrganization"
 					},
+				"knowsAbout": [ {{ range $index, $knowsAbout := .Params.author_knows_about }}{{ if $index }}, {{ end }}"{{ $knowsAbout }}" {{ end }} ],
        "email":{{ .Params.author_email }},
 			"@type":"Person"},
 			{
@@ -255,6 +257,7 @@
                  			{{ .Params.author_researchgate }},
                  			{{ .Params.author_humanities_commons }},
                  			{{ .Params.author_linkedin }},
+                 			{{ .Params.author_conversationID }},
                  			{{ .Params.twitter }}
                  		],
                  	"worksFor": {
@@ -294,6 +297,7 @@
 					"@type":"EducationalOrganization"
 					},
                  	"email":{{ .Params.author_email }},
+                 	"knowsAbout": [ {{ range $index, $knowsAbout := .Params.author_knows_about }}{{ if $index }}, {{ end }}"{{ $knowsAbout }}" {{ end }} ],
 			"@type":"Person"}
 			{{ end }}
 			],
@@ -347,6 +351,7 @@
                  			{{ .Params.author_researchgate }},
                  			{{ .Params.author_humanities_commons }},
                  			{{ .Params.author_linkedin }},
+                 			{{ .Params.author_conversationID }},
                  			{{ .Params.twitter }}
                  		],
       "worksFor": {
@@ -386,6 +391,7 @@
 					"@type":"EducationalOrganization"
 					},
       "email":{{ .Params.author_email }},
+      "knowsAbout": [ {{ range $index, $knowsAbout := .Params.author_knows_about }}{{ if $index }}, {{ end }}"{{ $knowsAbout }}" {{ end }} ],
       "image":{
             "@id": {{ $authorImageID }},
             "contentUrl":{{ .Site.Params.avatar | absURL }},
@@ -438,10 +444,12 @@
                  			{{ .Params.author_researchgate }},
                  			{{ .Params.author_humanities_commons }},
                  			{{ .Params.author_linkedin }},
+                 		  {{ .Params.author_conversationID }},
                  			{{ .Params.twitter }}
                  		],
+    "knowsAbout": [ {{ range $index, $knowsAbout := .Params.author_knows_about }}{{ if $index }}, {{ end }}"{{ $knowsAbout }}" {{ end }} ],
     "email":{{ .Params.author_email }},
-          "worksFor": {
+        "worksFor": {
                  "name":{{ .Params.author_employer }},
 			           "address":{
 			                	"streetAddress":{{ .Params.author_employer_street_address }},
@@ -517,38 +525,6 @@
 "@type":"WebPage"
 },
 {{ else }}
-{
-      "@id":{{ $authorID }},
-      "name":"{{ $author }}",
-			"familyName":{{ .Params.author_surname }},
-			"givenName":{{ .Params.author_first_name }},
-			"honorificPrefix": {{ .Params.author_title }},
-			"jobTitle": {{ .Params.author_job_title }},
-			"sameas": [
-                 			{{ .Params.author_wikidata }},
-                 			{{ .Params.orcid }},
-                 			{{ .Params.google_scholar }},
-                 			{{ .Params.author_semantic_scholar }},
-                			{{ .Params.author_employer_profile }},
-                			{{ .Params.author_philpeople }},
-                			{{ .Params.author_academia }},
-                 			{{ .Params.author_researchgate }},
-                 			{{ .Params.author_humanities_commons }},
-                 			{{ .Params.author_linkedin }},
-                 			{{ .Params.twitter }}
-                 		],
-    "email":{{ .Params.author_email }},
-		"image":{
-            "@id": {{ $authorImageID }},
-            "contentUrl": {{ .Site.Params.avatar | absURL }},
-            "caption":"{{ $author }}",
-            "license": {{ .Site.Params.sharing_license }},
-            "acquireLicensePage": {{ print (.Site.BaseURL) "/license/" }},
-            "@type":"ImageObject"
-		  
-		},
-"description":{{ .Site.Params.bio }},
-"@type":"Person"},
 {
 "@id":{{ $webpageID }},
 "url":{{ .Permalink | absURL }},

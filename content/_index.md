@@ -53,8 +53,19 @@ cascade:
     author_humanities_commons: https://hcommons.org/members/adamwillows/
     author_semantic_scholar: https://www.semanticscholar.org/author/Adam-M.-Willows/117380825
     author_wikidata: https://www.wikidata.org/wiki/Q112914463
+    author_conversationID: https://theconversation.com/profiles/1369129
     twitter: https://twitter.com/adam_willows
     author_linkedin: https://www.linkedin.com/in/adam-willows-theology-philosophy
+    author_knows_about:
+      - Theology
+      - Philosophy
+      - Moral Character
+      - Virtue Ethics
+      - Moral Agency
+      - Relationship between Religion and Science
+      - Science-engaged Theology
+      - Moral Development
+      - Thomas Aquinas
 sitemap:
   priority: 1.0
 ---
