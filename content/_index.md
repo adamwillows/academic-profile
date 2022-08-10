@@ -19,6 +19,13 @@ cascade:
     author_surname: Willows
     author_first_name: Adam
     author_first_names: Adam M.
+    author_alternate_names:
+      - Adam Willows
+      - A. Willows
+      - A. M. Willows
+      - A Willows
+      - A M Willows
+    author_gender: Male
     author_employer: University of Winchester
     author_employer_address: University of Winchester, Sparkford Road, Winchester, Hampshire, UK, SO22 4NR
     author_employer_street_address: University of Winchester, Sparkford Road
@@ -57,8 +64,6 @@ cascade:
     twitter: https://twitter.com/adam_willows
     author_linkedin: https://www.linkedin.com/in/adam-willows-theology-philosophy
     author_knows_about:
-      - Theology
-      - Philosophy
       - Moral Character
       - Virtue Ethics
       - Moral Agency
@@ -66,6 +71,10 @@ cascade:
       - Science-engaged Theology
       - Moral Development
       - Thomas Aquinas
+      - Moral Theology
+      - Moral Philosophy
+      - Theology
+      - Philosophy
 sitemap:
   priority: 1.0
 ---
