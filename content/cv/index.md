@@ -1,5 +1,5 @@
 ---
-description: C.V. for Adam M. Willows
+description: Curriculum Vitae for Adam M. Willows
 draft: false
 contenttype: about
 layout: single-sidebar

@@ -72,7 +72,7 @@ sidebar:
   image_license: https://creativecommons.org/publicdomain/zero/1.0/
   image_license_page: https://creativecommons.org/publicdomain/zero/1.0/
   
-  image_alt_text: 
+  image_alt_text: Robot and human hand touching across a strand of D.N.A.
 citation_panel: true # Displays citation panel in sidebar; true or false
 link-citations: true
 include_citation_metadata: true
