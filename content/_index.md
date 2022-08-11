@@ -63,6 +63,10 @@ cascade:
     author_conversationID: https://theconversation.com/profiles/1369129
     twitter: https://twitter.com/adam_willows
     author_linkedin: https://www.linkedin.com/in/adam-willows-theology-philosophy
+    author_open_library: https://openlibrary.org/works/OL10603168A
+    author_amazon: https://amazon.com/wd/e/B0B9BVWRML
+    author_ixtheo: https://ixtheo.de/Authority/842190279
+    author_isni: https://isni.org/isni/0000000453475368
     author_knows_about:
       - Moral Character
       - Virtue Ethics

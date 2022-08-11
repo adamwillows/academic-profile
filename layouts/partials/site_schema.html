@@ -136,6 +136,7 @@
 			"sameas": [
                  			{{ .Params.author_wikidata }},
                  			{{ .Params.orcid }},
+                 			{{ .Params.author_isni }},
                  			{{ .Params.google_scholar }},
                  			{{ .Params.author_semantic_scholar }},
                 			{{ .Params.author_employer_profile }},
@@ -145,6 +146,9 @@
                  			{{ .Params.author_humanities_commons }},
                  			{{ .Params.author_linkedin }},
                  			{{ .Params.author_conversationID }},
+                 			{{ .Params.author_open_library }},
+                 			{{ .Params.author_amazon }},
+                 			{{ .Params.author_ixtheo }},
                  			{{ .Params.twitter }}
                  		],
                  	"worksFor": {
@@ -253,6 +257,7 @@
 			"sameas": [
                  			{{ .Params.author_wikidata }},
                  			{{ .Params.orcid }},
+                 			{{ .Params.author_isni }},
                  			{{ .Params.google_scholar }},
                  			{{ .Params.author_semantic_scholar }},
                 			{{ .Params.author_employer_profile }},
@@ -262,6 +267,9 @@
                  			{{ .Params.author_humanities_commons }},
                  			{{ .Params.author_linkedin }},
                  			{{ .Params.author_conversationID }},
+                 			{{ .Params.author_open_library }},
+                 			{{ .Params.author_amazon }},
+                 			{{ .Params.author_ixtheo }},
                  			{{ .Params.twitter }}
                  		],
                  	"worksFor": {
@@ -349,6 +357,7 @@
 		"sameas": [
                  			{{ .Params.author_wikidata }},
                  			{{ .Params.orcid }},
+                 			{{ .Params.author_isni }},
                  			{{ .Params.google_scholar }},
                  			{{ .Params.author_semantic_scholar }},
                 			{{ .Params.author_employer_profile }},
@@ -358,6 +367,9 @@
                  			{{ .Params.author_humanities_commons }},
                  			{{ .Params.author_linkedin }},
                  			{{ .Params.author_conversationID }},
+                 			{{ .Params.author_open_library }},
+                 			{{ .Params.author_amazon }},
+                 			{{ .Params.author_ixtheo }},
                  			{{ .Params.twitter }}
                  		],
       "worksFor": {
@@ -444,6 +456,7 @@
 			"sameas": [
                  			{{ .Params.author_wikidata }},
                  			{{ .Params.orcid }},
+                 			{{ .Params.author_isni }},
                  			{{ .Params.google_scholar }},
                  			{{ .Params.author_semantic_scholar }},
                 			{{ .Params.author_employer_profile }},
@@ -453,6 +466,9 @@
                  			{{ .Params.author_humanities_commons }},
                  			{{ .Params.author_linkedin }},
                  		  {{ .Params.author_conversationID }},
+                 		  {{ .Params.author_open_library }},
+                 			{{ .Params.author_amazon }},
+                 			{{ .Params.author_ixtheo }},
                  			{{ .Params.twitter }}
                  		],
     "knowsAbout": [ {{ range $index, $knowsAbout := .Params.author_knows_about }}{{ if $index }}, {{ end }}"{{ $knowsAbout }}" {{ end }} ],
