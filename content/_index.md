@@ -2,7 +2,8 @@
 action_label: Find out more &rarr;
 action_link: /about
 action_type: text
-description: I am an academic specialising in ethics, philosophical theology and science-engaged theology. I work on the nature of moral character and agency. My goal is to improve our understanding of ourselves as moral creatures – who we are, what we do and why.
+description: I am an academic specialising in ethics, philosophical theology and science-engaged theology. I work on the nature of moral character, agency and virtue.
+full_description: I am an academic specialising in ethics, philosophical theology and science-engaged theology. I work on the nature of moral character, agency and virtue. My goal is to improve our understanding of ourselves as moral creatures – who we are, what we do and why.
 image_left: false
 images:
 - img/profile-500.webp
