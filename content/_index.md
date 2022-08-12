@@ -2,8 +2,8 @@
 action_label: Find out more &rarr;
 action_link: /about
 action_type: text
-description: I am an academic specialising in ethics, philosophical theology and science-engaged theology. I work on the nature of moral character, agency and virtue.
-full_description: I am an academic specialising in ethics, philosophical theology and science-engaged theology. I work on the nature of moral character, agency and virtue. My goal is to improve our understanding of ourselves as moral creatures – who we are, what we do and why.
+description: I am a theologian and philosopher specialising in ethics, philosophical theology and science-engaged theology. My work focuses on moral character and agency.
+full_description: I am a theologian and philosopher specialising in ethics, philosophical theology and science-engaged theology. [My work](/publications/) focuses on moral character and agency. My goal is to improve our understanding of ourselves as moral creatures – who we are, what we do and why. <br><br> I am currently a Senior Lecturer at the [University of Winchester](https://www.winchester.ac.uk/about-us/leadership-and-governance/our-faculties/hss/theologyreligionphilosophy/). I received my PhD from [Durham University](https://www.durham.ac.uk/departments/academic/theology-religion/) in 2015 and have also worked at the [University of Notre Dame](https://theology.nd.edu/) and the [University of Leeds](https://ahc.leeds.ac.uk/philosophy).
 image_left: false
 images:
 - img/profile-500.webp
