@@ -139,6 +139,10 @@ Member of an interdisciplinary team of anthropologists and theologians researchi
 
 #### Module leader
 
+- 'Death in the Digital Age', Level 4 (Online MA). University of Winchester. *Upcoming 2022-23
+
+- 'The Brain, Human Nature and Ethics', Levels 2-3. University of Winchester. *Upcoming 2022-23
+
 - ‘Philosophy and Theology in the Media’, Level 1. University of Winchester.
 
 - ‘Great Christian Thinkers’, Level 1. University of Winchester.

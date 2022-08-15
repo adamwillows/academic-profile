@@ -68,6 +68,7 @@ cascade:
     author_amazon: https://amazon.com/wd/e/B0B9BVWRML
     author_ixtheo: https://ixtheo.de/Authority/842190279
     author_isni: https://isni.org/isni/0000000453475368
+    author_goodreads: https://www.goodreads.com/author/show/17945372
     author_knows_about:
       - Moral Character
       - Virtue Ethics
