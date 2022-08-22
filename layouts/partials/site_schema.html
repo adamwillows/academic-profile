@@ -58,7 +58,7 @@
 	             {{ with .Params.publication_wikidata }}{{ $publication_wikidata }},{{ end }}
 	             {{ with .Params.publication_mendeley }}{{ $publication_mendeley }},{{ end }}
 	             {{ with .Params.publication_philpapers }}{{ $publication_philpapers }},{{ end }}
-	             {{ with .Params.doi }}{{ $doi }}{{ end }}
+	             {{ if .Params.doi }}{{ $doi }}{{ else }}{{ .Params.publication_vor }}{{ end }}
 	          ],
 	"keywords": [ {{ range $index, $keyword := .Params.tags }}{{ if $index }}, {{ end }}"{{ $keyword }}" {{ end }} ],
 	"image":{

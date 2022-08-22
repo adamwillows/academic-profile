@@ -15,6 +15,7 @@ link_list:
   url: https://orcid.org/0000-0002-5108-7842
 - name: Departmental Profile
   icon: university
+  color: "#2c2857"
   url: https://www.winchester.ac.uk/about-us/leadership-and-governance/staff-directory/staff-profiles/willows.php
   icon_pack: fa
 - name: Twitter  
@@ -28,9 +29,7 @@ link_list:
   icon_pack: ai
   url: https://scholar.google.com/citations?user=SI09iIwAAAAJ
 - name: PhilPapers
-  icon: philpapers
-  color: "#074ba9"
-  icon_pack: ai
+  image: /img/philpapers.svg
   url: https://philpeople.org/profiles/adam-m-willows
 - name: Academia.edu
   icon: academia
@@ -49,7 +48,7 @@ link_list:
   url: https://www.semanticscholar.org/author/Adam-M.-Willows/117380825
 - name: Github
   icon: "github"
-  color: "000000"
+  color: "black"
   url: https://github.com/adamwillows
   icon_pack: fab
 

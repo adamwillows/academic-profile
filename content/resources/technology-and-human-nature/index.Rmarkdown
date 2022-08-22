@@ -29,14 +29,15 @@ subtitle: ''
 excerpt: 'A short article on contemporary theological discussion about technology and human nature. Originally published in an A-level study journal, it is also suitable for undergraduate introductory reading.'
 date_accessed: # Date online publication was accessed.
 draft: no
-url: ''
-doi: ''
+url:
+doi:
+publication_vor: 'http://www.st-marys-centre.org.uk/resources/challengingreligiousissues/Issue%2015%20Challenging%20Religious%20Issues%20English.pdf#page=3' # use as alternative to link to version of record if publication has no doi.
 corpusID:
 publication_wikidata: Q113459209
 publication_mendeley:
 publication_scopusEID:
 publication_philpapers:
-publication_google_scholar:
+publication_google_scholar: '14497806573182594500' 
 journal_title: 'Challenging Religious Issues'
 journal_url: http://www.st-marys-centre.org.uk/resources/Aleveljournal.html
 journal_wikipedia:

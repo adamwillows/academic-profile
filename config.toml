@@ -117,9 +117,8 @@ publishDate = ["publishDate", "date"]
       color     = "#4285f4"
       url       = "https://scholar.google.com/citations?user=SI09iIwAAAAJ"
           [[params.social]]
-      icon      = "philpapers" # icon name without the 'fa-'
-      icon_pack = "ai"
-      color     = "#074ba9"
+      image     = "/img/philpapers.svg"
+      name      = "PhilPapers"
       url       = "https://philpeople.org/profiles/adam-m-willows"
           [[params.social]]
       icon      = "academia" # icon name without the 'fa-'
@@ -140,6 +139,7 @@ publishDate = ["publishDate", "date"]
       icon      = "university" # icon name without the 'fa-'
       icon_pack = "fa"
       url = "https://www.winchester.ac.uk/about-us/leadership-and-governance/staff-directory/staff-profiles/willows.php"
+      color     = "#2c2857"
           [[params.social]]
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
