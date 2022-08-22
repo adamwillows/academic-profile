@@ -29,7 +29,9 @@ link_list:
   icon_pack: ai
   url: https://scholar.google.com/citations?user=SI09iIwAAAAJ
 - name: PhilPapers
-  image: /img/philpapers.svg
+  icon: philpapers
+  icon_pack: ai
+  color: "#074ba9"
   url: https://philpeople.org/profiles/adam-m-willows
 - name: Academia.edu
   icon: academia

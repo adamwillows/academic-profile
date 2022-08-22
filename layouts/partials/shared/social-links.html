@@ -2,7 +2,7 @@
   <!-- Font awesome icons -->
   {{ range site.Params.social }}
       {{ if .image }}
-            <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="{{ .url | safeURL }}" title="{{ title .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }} {{ if .type }}type="{{ .type }}"{{ end }}><img src="{{ .image }}" class="fa-fw" alt="{{ .name }} icon"></a>{{ else if .icon }}
+            <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="{{ .url | safeURL }}" title="{{ title .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }}{{ if .target }}target="{{ .target }}"{{ end }}{{ if .type }}type="{{ .type }}"{{ end }}><img src="{{ .image }}" class= "dib fa-lg fa-fw" alt="{{ .name }} icon" ></a>{{ else if .icon }}
     {{ $pack := or .icon_pack "fas" }}
     {{ $pack_prefix := $pack }}
     {{ if in (slice "fab" "fas" "far" "fal") $pack }}

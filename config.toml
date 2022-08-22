@@ -117,8 +117,9 @@ publishDate = ["publishDate", "date"]
       color     = "#4285f4"
       url       = "https://scholar.google.com/citations?user=SI09iIwAAAAJ"
           [[params.social]]
-      image     = "/img/philpapers.svg"
-      name      = "PhilPapers"
+      icon      = "philpapers" # icon name without the 'fa-'
+      icon_pack = "ai"
+      color     = "#074ba9"
       url       = "https://philpeople.org/profiles/adam-m-willows"
           [[params.social]]
       icon      = "academia" # icon name without the 'fa-'
