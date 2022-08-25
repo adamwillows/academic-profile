@@ -1,7 +1,8 @@
 ---
 ## Configure sidebar content in narrow column
 author: "Adam M. Willows"
-sitemap_exclude: true
+no_index: true # adds noindex robot meta tag and excludes page from sitemap
+description: Find out about me and my research - What I've done, the different projects I've been involved in, and what I'm working on now.
 role: "Theologian and Philosopher"
 avatar_shape: rounded # circle, square, rounded, leave blank to exclude
 show_social_links: false # specify social accounts in site config

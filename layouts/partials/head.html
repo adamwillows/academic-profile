@@ -3,6 +3,9 @@
   {{ if .Params.include_citation_metadata }}
   {{ partial "meta-citations.html" . }}
   {{ end }}
+  {{ if .Params.no_index }}
+  <meta name = "robots" content = "noindex" />
+  {{ end }}
   {{ template "_internal/schema.html" . }}
   {{ template "_internal/google_analytics.html" . }}
   {{ template "_internal/google_analytics_async.html" . }}

@@ -5,7 +5,7 @@
   {{ $exclude := slice "tags" "categories" "series" }}
   {{ range .Data.Pages }}
     {{ if not (in $exclude .Data.Plural) }}
-    {{ if ne .Params.sitemap_exclude true }}
+    {{ if ne .Params.no_index true }}
   <url>
     <loc>{{ .Permalink }}</loc>{{ if ge .Sitemap.Priority 0.0 }}
     <priority>{{ .Sitemap.Priority }}</priority>{{ end }}{{ if .IsTranslated }}{{ range .Translations }}{{ if not .Lastmod.IsZero }}
