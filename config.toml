@@ -141,6 +141,11 @@ publishDate = ["publishDate", "date"]
       icon_pack = "fa"
       url = "https://www.winchester.ac.uk/about-us/leadership-and-governance/staff-directory/staff-profiles/willows.php"
       color     = "#2c2857"
+                [[params.social]]
+      icon      = "linkedin" # icon name without the 'fa-'
+      icon_pack = "fab"
+      color     = "#0a66c2"
+      url       = "https://www.linkedin.com/in/adam-willows-theology-philosophy"
           [[params.social]]
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"

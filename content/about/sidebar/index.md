@@ -49,6 +49,11 @@ link_list:
   color: "#1857b6"
   icon_pack: ai
   url: https://www.semanticscholar.org/author/Adam-M.-Willows/117380825
+- name: LinkedIn
+  icon: "linkedin"
+  color: "#0a66c2"
+  icon_pack: fab
+  url: https://www.linkedin.com/in/adam-willows-theology-philosophy
 - name: Github
   icon: "github"
   color: "black"
