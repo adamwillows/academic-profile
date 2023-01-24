@@ -41,6 +41,7 @@ cascade:
     author_employer_twitter: https://twitter.com/_UoW
     author_employer_wikipedia: https://en.wikipedia.org/wiki/University_of_Winchester
     author_employer_wikidata: https://www.wikidata.org/wiki/Q3551690
+    author_employer_crunchbase: https://www.crunchbase.com/organization/university-of-winchester
     author_alma_mater: Durham University
     author_alma_mater_address: Durham University, Stockton Road, Durham, DH1 3LE
     author_alma_mater_street_address: Durham University, Stockton Road
@@ -52,6 +53,7 @@ cascade:
     author_alma_mater_twitter: https://twitter.com/durham_uni
     author_alma_mater_wikipedia: https://en.wikipedia.org/wiki/Durham_University
     author_alma_mater_wikidata: https://www.wikidata.org/wiki/Q458393
+    author_alma_mater_crunchbase: https://www.crunchbase.com/organization/durham-university
     orcid: https://orcid.org/0000-0002-5108-7842
     google_scholar: https://scholar.google.com/citations?user=SI09iIwAAAAJ
     author_employer_profile: https://www.winchester.ac.uk/about-us/leadership-and-governance/staff-directory/staff-profiles/willows.php
@@ -69,6 +71,7 @@ cascade:
     author_ixtheo: https://ixtheo.de/Authority/842190279
     author_isni: https://isni.org/isni/0000000453475368
     author_goodreads: https://www.goodreads.com/author/show/17945372
+    author_crunchbase: https://www.crunchbase.com/person/adam-willows
     author_knows_about:
       - Moral Character
       - Virtue Ethics
