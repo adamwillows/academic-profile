@@ -15,12 +15,17 @@ intro: |
   
   In 2017 I joined the St. Andrews [Science-Engaged Theology](https://set.wp.st-andrews.ac.uk/) project as one of a team of postdoctoral scholars located at different universities in Europe and the USA. I was based at the [University of Leeds](https://ahc.leeds.ac.uk/philosophy), where I worked with Professor [Mark Wynn](https://www.theology.ox.ac.uk/people/prof-mark-wynn) on theological and scientific accounts of emotion and rational agency. This is a project which continues in my current research.
   
-  In 2018 I joined the University of Winchester, where I am a Senior Lecturer in the [Department of Philosophy, Religions and Liberal Arts](https://www.winchester.ac.uk/about-us/leadership-and-governance/our-faculties/hss/theologyreligionphilosophy/). I teach in Winchester's Institute for Value Studies and in Theology.
+  In 2018 I joined the University of Winchester, where I am a Senior Lecturer in the [Department of Philosophy, Religions and Liberal Arts](https://www.winchester.ac.uk/about-us/leadership-and-governance/our-faculties/hss/theologyreligionphilosophy/). I teach in Winchester's Institute for Value Studies and in Philosophy and Theology.
 
 research: |
-  A great deal of philosophical and especially theological thought about human nature holds that we are rational creatures. Great thinkers such as Aquinas and Kant treat reason as central not just to our own nature and actions but also to our relationship with God and the rest of creation. Philosophical critiques and recent research in psychology and neuroscience appears to cast doubt on this, suggesting that our apparent rationality is a 'veneer' that hides the unconscious processes and emotional or situational pressures which truly lie behind our judgements and actions.  
+  ### Emotion, Reason and Moral Action 
+  A great deal of philosophical and especially theological thought about human nature holds that we are rational creatures. Great thinkers  such as Aquinas and Kant treat reason as central not just to our own nature and actions but also to our relationship with God and the rest of creation. Philosophical critiques and recent research in psychology and neuroscience appears to cast doubt on this, suggesting that our apparent rationality is a 'veneer' that hides the unconscious processes and emotional or situational pressures which truly lie behind our judgements and actions.  
  
   My work seeks to engage with the philosophy and science of moral action to show that this apparent conflict is nothing of the sort. Philosophical, theological and scientific investigation each provide valuable and often mutually supporting insights into our moral natures. Together they suggest that our rational agency is not at odds with emotion or instinct - in fact it may even depend on them.
+  ### Developing Technologies
+  My ongoing work explores the way developing technologies can impact or provide insight into our moral natures and agency. I'm particularly interested in the way that our brains interact with and are affected by digital technology. At present I am working on a project with my colleague [Dr. Nora Kreft](https://philpeople.org/profiles/nora-kreft) on the ethics of care robots. We are exploring the potential risks of robots that 'mimic' relational behaviour, and whether/how these robots can be used in a way that promotes rather than harms the flourishing of both carers and cared-for.
+
+  I'm also interested in the agency and moral status of Artificial Intelligence and the way this relates to the moral agency of humans responsible for the development of AI.  
 
 show_posts: false  
 show_outro: true

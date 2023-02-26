@@ -11,6 +11,6 @@ headline: |
 <!-- this is a subheadline -->
 I'm a theologian and philosopher in the [Department of Philosophy, Religions and Liberal Arts](https://www.winchester.ac.uk/about-us/leadership-and-governance/our-faculties/hss/theologyreligionphilosophy/) at the [University of Winchester](https://www.winchester.ac.uk/) (UK). I'm especially interested in moral character and agency - I want to understand what acting morally really involves; why we make the choices (and mistakes) we do; and how we become the people we are. 
 
-My expertise is in ethics and philosophical theology, but my work connects with a lot of other fields, especially evolutionary anthropology and pyschology. Often the best and most important questions can't be answered by any one discipline, and in my research so far I've been lucky enough to work on some of those questions with excellent colleagues in my own field and across the sciences.
+My expertise is in ethics and philosophical theology, but my work connects with a lot of other fields, especially developing technologies, evolutionary anthropology and psychology. Often the best and most important questions can't be answered by any one discipline, and in my research so far I've been lucky enough to work on some of those questions with excellent colleagues in my own fields and across the sciences.
 
 You can read more about my history and current research below, or check out my [publications](/publications/).
