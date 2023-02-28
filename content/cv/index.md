@@ -67,7 +67,7 @@ Member of an interdisciplinary team of anthropologists and theologians researchi
 
 #### Monographs
 
-*A Defence of Theological Virtue Ethics*, Bloomsbury Series in Philosophy of Religion (London: Bloomsbury, forthcoming).
+*Defending Virtue Ethics*, Bloomsbury Series in Philosophy of Religion (London: Bloomsbury, forthcoming).
 
 #### Journal Articles and Book Chapters
 
