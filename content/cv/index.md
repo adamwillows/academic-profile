@@ -44,7 +44,7 @@ Awarded with no corrections.
 
 ##### Senior Lecturer in Value Studies, University of Winchester
 
-[Department of Philosophy, Religions and Liberal Arts](https://www.winchester.ac.uk/about-us/leadership-and-governance/our-faculties/hss/theologyreligionphilosophy/), Institute for Value Studies, 09/2018-Present
+[Department of Philosophy, Religions and Liberal Arts](https://www.winchester.ac.uk/About-Us/Leadership-and-governance/Our-faculties/hss/SHAP/philosophy-religion-ethics/), Institute for Value Studies, 09/2018-08/2023
 
 The Institute for Value Studies is a unit founded to promote interdisciplinary conversation across departmental boundaries. Senior Lecturer and current Programme Leader responsible for research, teaching, curricular development and relevant administration.
 
