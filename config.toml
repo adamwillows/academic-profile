@@ -43,7 +43,7 @@ publishDate = ["publishDate", "date"]
   orgName = "Adam M. Willows"
   orgLocal = ""
   description = "Personal academic profile of Adam M. Willows"
-  bio = "Dr. Adam M. Willows is a theologian and philosopher specialising in ethics, philosophical theology and science-engaged theology. His work focuses on moral character, agency and virtue. He is a Senior Lecturer at the University of Winchester, UK."
+  bio = "Dr. Adam M. Willows is a theologian and philosopher specialising in ethics, philosophical theology and science-engaged theology. His work focuses on moral character, agency and virtue. He is a Lecturer in Christianity and Ethics at the University of Bristol, UK."
   favicon = "/img/favicon.ico"
   logo = "/img/amwlogo-200.webp"
   widelogo = "/img/amwwidelogo.webp"
@@ -139,7 +139,7 @@ publishDate = ["publishDate", "date"]
           [[params.social]]
       icon      = "university" # icon name without the 'fa-'
       icon_pack = "fa"
-      url = "https://www.winchester.ac.uk/about-us/leadership-and-governance/staff-directory/staff-profiles/willows.php"
+      url = "https://research-information.bris.ac.uk/en/persons/adam-m-willows"
       color     = "#2c2857"
                 [[params.social]]
       icon      = "linkedin" # icon name without the 'fa-'
