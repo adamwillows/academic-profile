@@ -3,7 +3,7 @@ action_label: Find out more &rarr;
 action_link: /about
 action_type: text
 description: I am a theologian and philosopher specialising in ethics, philosophical theology and interdisciplinary engagement with the sciences. My work focuses on moral character and agency.
-full_description: I am a theologian and philosopher specialising in ethics, philosophical theology and interdisciplinary engagement with the sciences. [My work](/publications/) focuses on moral character and agency. My goal is to improve our understanding of ourselves as moral creatures – who we are, what we do and why. <br><br> I received my PhD from [Durham University](https://www.durham.ac.uk/departments/academic/theology-religion/) in 2015 and have also worked at the [University of Notre Dame](https://theology.nd.edu/), the [University of Leeds](https://ahc.leeds.ac.uk/philosophy) and the [University of Winchester](https://www.winchester.ac.uk/About-Us/Leadership-and-governance/Our-faculties/hss/SHAP/philosophy-religion-ethics/). In August 2024 I will be taking up the post of Lecturer in Christianity and Ethics at the [University of Bristol](https://www.bristol.ac.uk/religion/).
+full_description: I am a theologian and philosopher specialising in ethics, philosophical theology and interdisciplinary engagement with the sciences. [My work](/publications/) focuses on moral character and agency. My goal is to improve our understanding of ourselves as moral creatures – who we are, what we do and why. <br><br> I received my PhD from [Durham University](https://www.durham.ac.uk/departments/academic/theology-religion/) in 2015 and have also worked at the [University of Notre Dame](https://theology.nd.edu/), the [University of Leeds](https://ahc.leeds.ac.uk/philosophy) and the [University of Winchester](https://www.winchester.ac.uk/About-Us/Leadership-and-governance/Our-faculties/hss/SHAP/philosophy-religion-ethics/). I am now a Lecturer in Christianity and Ethics at the [University of Bristol](https://www.bristol.ac.uk/religion/).
 
 image_left: false
 images:
@@ -28,21 +28,21 @@ cascade:
       - A Willows
       - A M Willows
     author_gender: Male
-    author_employer: University of Winchester
-    author_employer_address: University of Winchester, Sparkford Road, Winchester, Hampshire, UK, SO22 4NR
-    author_employer_street_address: University of Winchester, Sparkford Road
-    author_employer_address_locality: Winchester
-    author_employer_address_region: Hampshire
+    author_employer: University of Bristol
+    author_employer_address: University of Bristol, Bristol, UK, BS8 1TB
+    author_employer_street_address: University of Bristol, Bristol
+    author_employer_address_locality: Bristol
+    author_employer_address_region: Bristol
     author_employer_address_country: United Kingdom
-    author_employer_address_postcode: SO22 4NR
-    author_email: adam.willows@winchester.ac.uk
+    author_employer_address_postcode: BS8 1TB
+    author_email: adam.willows@bristol.ac.uk
     author_title: Dr
-    author_job_title: Senior Lecturer
-    author_employer_url: https://winchester.ac.uk/
-    author_employer_twitter: https://twitter.com/_UoW
-    author_employer_wikipedia: https://en.wikipedia.org/wiki/University_of_Winchester
-    author_employer_wikidata: https://www.wikidata.org/wiki/Q3551690
-    author_employer_crunchbase: https://www.crunchbase.com/organization/university-of-winchester
+    author_job_title: Lecturer
+    author_employer_url: https://bristol.ac.uk/
+    author_employer_twitter: https://x.com/bristoluni
+    author_employer_wikipedia: https://en.wikipedia.org/wiki/University_of_Bristol
+    author_employer_wikidata: https://www.wikidata.org/wiki/Q459506
+    author_employer_crunchbase: https://www.crunchbase.com/organization/university-of-bristol
     author_alma_mater: Durham University
     author_alma_mater_address: Durham University, Stockton Road, Durham, DH1 3LE
     author_alma_mater_street_address: Durham University, Stockton Road
@@ -57,7 +57,7 @@ cascade:
     author_alma_mater_crunchbase: https://www.crunchbase.com/organization/durham-university
     orcid: https://orcid.org/0000-0002-5108-7842
     google_scholar: https://scholar.google.com/citations?user=SI09iIwAAAAJ
-    author_employer_profile: https://www.winchester.ac.uk/about-us/leadership-and-governance/staff-directory/staff-profiles/willows.php
+    author_employer_profile: https://research-information.bris.ac.uk/en/persons/adam-m-willows
     author_philpeople: https://philpeople.org/profiles/adam-m-willows
     author_academia: https://winchester.academia.edu/AdamWillows
     author_researchgate: https://www.researchgate.net/profile/Adam-Willows
